@@ -196,66 +196,8 @@
           $("#parent-container").append(block);
 
         });
-        $('.popup-link').magnificPopup({
-          type: 'image',
-          mainClass: 'mfp-fade',
-          removalDelay: 300,
-          gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0, 1] // Preloads the previous and next images
-          },
-          callbacks: {
-            open: function () {
-              console.log('Popup is opened');
-            },
-            close: function () {
-              console.log('Popup is closed');
-            }
-          }
-        });
-          
           
         });
-
-      function imagesAppendGallery(images, currentName) {
-        images.forEach((image, index) => {
-          const block = `
-                <div class="swiper-slide popup-gallery">
-                    <a href="${image}" title="Link 4U Global ${currentName} ${index + 1}" class="popup-link">
-                    <div class="fleets-slider-image">
-                    <figure class="image-anime">
-                        <img src="${image}" alt="Link-4U-Global-${image}-${index + 1}">
-                    </figure>
-                    </div>
-                    </a>
-                </div>
-                `;
-          $("#image-gallery").append(block);
-
-        });
-        $('.popup-link').magnificPopup({
-          type: 'image',
-          mainClass: 'mfp-fade',
-          removalDelay: 300,
-          gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0, 1] // Preloads the previous and next images
-          },
-          callbacks: {
-            open: function () {
-              console.log('Popup is opened');
-            },
-            close: function () {
-              console.log('Popup is closed');
-            }
-          }
-        });
-
-
-
-      }
 
     })
   </script>
