@@ -143,7 +143,7 @@
                 <ul>
                   <li>
                     <i class="fas fa-car"></i>.
-                    <span id="tag-car-name"></span>
+                    <span class="text-uppercase" id="tag-car-name"></span>
                   </li>
                   <li>
                     <i class="fas fa-gas-pump"></i>Fuel<span id="tag-fuel" class=" text-capitalize "></span>
@@ -400,7 +400,7 @@
   <script>
 
     $(document).ready(function () {
-      fetch("/cars/bmw/bmw-x5-xdrive-30d-2017-diesel-tvm/assets/json/full-data.json")
+      fetch("/cars/bmw/bmw-x7-30d-2019-diesel-tvm/assets/json/full-data.json")
         .then((response) => response.json())
         .then((data) => {
           const currentName = `${data.brand} ${data.model} ${data.variant}`
