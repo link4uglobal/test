@@ -691,7 +691,7 @@ header.main-header .header-sticky.active{
 	background-position: center center;
 	background-size: cover;
 	overflow: hidden;
-	padding: 130px 0 350px;
+	padding: 300px 0 200px;
 }
 
 .hero-section.bg-section::before{
