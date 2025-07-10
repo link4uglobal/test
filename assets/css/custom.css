@@ -6528,3 +6528,12 @@ header.main-header .header-sticky.active{
   background: linear-gradient(to top, rgb(0, 0, 0), transparent);
   pointer-events: none; /* Let mouse events pass through */
 }
+.exclusive-card {
+            height: 100vh;
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: sticky;
+            top: 0;
+        }
