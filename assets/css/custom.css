@@ -3488,7 +3488,7 @@ header.main-header .header-sticky.active{
 .fleets-information-list ul li{
     position: relative;
 	font-family: var(--accent-font);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
 	color: var(--white-color);
 	text-transform: capitalize;
