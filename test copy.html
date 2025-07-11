@@ -125,7 +125,7 @@
                             </div>
 
                             <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
-                                <a href="/cars/" class="btn-default">Explore Cars</a>
+                                <a href="#" class="btn-default">Explore Cars</a>
                                 <a href="#" class="btn-default btn-highlighted">WhatsApp Us</a>
                             </div>
                         </div>
@@ -136,11 +136,10 @@
         </div>
 
         <!-- Rent Details Section Start -->
-        <!-- Rent Details Section Start -->
-        <div class="rent-details mt-5 mb-5">
+        <div class="rent-details mb-5">
             <div class="container">
                 <!-- Filter Form Start -->
-                <form id="carFilterForm" method="get">
+                <form action="#" method="get">
                     <div class="row no-gutters align-items-center">
                         <div class="col-md-12">
                             <div class="rent-details-box">
@@ -191,7 +190,7 @@
                                         
                                         <div class="col-lg-3">
                                             <div class="rent-details-item rent-details-search">
-                                                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -205,125 +204,9 @@
             </div>
         </div>
         <!-- Rent Details Section End -->
-        <!-- Rent Details Section End -->
     </div>
     <!-- Hero Video Section End -->
-
-    <!-- Intro Video Section Start -->
-    <div class="intro-video bg-section parallaxie">
-        <div class="container">
-
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Intro Video Box Start -->
-                    <div class="intro-video-box">
-
-                        <!-- Client Slider Start -->
-                        <div class="client-slider">
-                            <div class="swiper client_logo_slider">
-                                <div class="swiper-wrapper">
-                                    <!-- company Logo Start -->
-                                    <div class="swiper-slide">
-                                        <div class="company-logo">
-                                            <img src="assets/images/client-logo-1.svg" alt="">
-                                        </div>
-                                    </div>
-                                    <!-- company Logo End -->
-
-                                    <!-- company Logo Start -->
-                                    <div class="swiper-slide">
-                                        <div class="company-logo">
-                                            <img src="assets/images/client-logo-2.svg" alt="">
-                                        </div>
-                                    </div>
-                                    <!-- company Logo End -->
-
-                                    <!-- company Logo Start -->
-                                    <div class="swiper-slide">
-                                        <div class="company-logo">
-                                            <img src="assets/images/client-logo-3.svg" alt="">
-                                        </div>
-                                    </div>
-                                    <!-- company Logo End -->
-
-                                    <!-- company Logo Start -->
-                                    <div class="swiper-slide">
-                                        <div class="company-logo">
-                                            <img src="assets/images/client-logo-4.svg" alt="">
-                                        </div>
-                                    </div>
-                                    <!-- company Logo End -->
-
-                                    <!-- company Logo Start -->
-                                    <div class="swiper-slide">
-                                        <div class="company-logo">
-                                            <img src="assets/images/client-logo-5.svg" alt="">
-                                        </div>
-                                    </div>
-                                    <!-- company Logo End -->
-
-                                    <!-- company Logo Start -->
-                                    <div class="swiper-slide">
-                                        <div class="company-logo">
-                                            <img src="assets/images/client-logo-6.svg" alt="">
-                                        </div>
-                                    </div>
-                                    <!-- company Logo End -->
-
-                                    <!-- company Logo Start -->
-                                    <div class="swiper-slide">
-                                        <div class="company-logo">
-                                            <img src="assets/images/client-logo-5.svg" alt="">
-                                        </div>
-                                    </div>
-                                    <!-- company Logo End -->
-
-                                    <!-- company Logo Start -->
-                                    <div class="swiper-slide">
-                                        <div class="company-logo">
-                                            <img src="assets/images/client-logo-4.svg" alt="">
-                                        </div>
-                                    </div>
-                                    <!-- company Logo End -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Client Slider End -->
-                    </div>
-                    <!-- Intro Video Box End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Intro Video Section End -->
-
-    <!-- Happy Delivery Start -->
-    <section>
-        <div class="container">
-            <div class="row mt-5 mb-5">
-                    <div class="page-header-box">
-                        <h2 class="text-anime-style-3 uppercase" data-cursor="-opaque" id="car-title">
-                            The Exclusive Deliveries
-                        </h2>
-                        <h3 class="text-anime-style-3 uppercase" data-cursor="-opaque" style=" font-size: larger;">Celebrating our most prestigious handovers to distinguished clients across the country.</h3>
-                        
-                    </div>
-            </div>
-            
-            <div class="hero hero-slider">
-                <div class="hero-section bg-section hero-slider-layout">
-                    <div class="swiper">
-                        <div class="swiper-wrapper" id="slider-exclusive-container">
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- Happy Delivery End -->
-
+    
 
     <!-- Jquery Library File -->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
@@ -358,68 +241,11 @@
     <script src="assets/js/wow.js"></script>
     <!-- Main Custom js file -->
     <script src="assets/js/function.js"></script>
-    
+
     <script src="https:/demo.awaikenthemes.com/assets/js/theme-panel.js"></script>
 
-
-
-
-     <script>
-    $(document).ready(function () {
-      fetch("/exclusive/assets/json/exclusive.json")
-        .then((response) => response.json())
-        .then((data) => {
-          data.forEach((item, index) => {
-          const block = `<div class="swiper-slide">
-                                <div class="our-vision-item tab-pane fade show active" id="vision" role="tabpanel">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6">
-                                            <div class="vision-mission-content">
-                                                <div class="section-title">
-                                                    <h3 class="wow fadeInUp">${item.subHeading}</h3>
-                                                    <h2 class="text-anime-style-3" data-cursor="-opaque">${item.heading}</h2>
-                                                    <p class="wow fadeInUp" data-wow-delay="0.25s">${item.description}</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6">
-                                            <div class="vision-image">
-                                                <figure class="image-anime revel">
-                                                    <img src="${item.image}"
-                                                        alt="${item.alt}">
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                `;
-          $("#slider-exclusive-container").append(block);
-
-        });
-        $('.popup-link').magnificPopup({
-          type: 'image',
-          mainClass: 'mfp-zoom-in',
-          removalDelay: 300,
-          gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0, 1] // Preloads the previous and next images
-          },
-          callbacks: {
-            open: function () {
-              console.log('Popup is opened');
-            },
-            close: function () {
-              console.log('Popup is closed');
-            }
-          }
-        });
-        });
-
-    })
-    $(document).ready(function () {
+    <script>
+        $(document).ready(function () {
             let carData = [];
 
             // Get select elements
@@ -477,25 +303,7 @@
                 this.size = 1;
             });
         });
-  </script>
-  <script>
-    document.getElementById('carFilterForm').addEventListener('submit', function (e) {
-    const brand = document.getElementById('brandSelect').value;
-    const model = document.getElementById('modelSelect').value;
-    const year = document.getElementById('yearSelect').value;
-
-    // Construct query string
-    const query = new URLSearchParams({
-      brand: brand,
-      model: model,
-      year: year
-    }).toString();
-
-    // Set dynamic action
-    this.action = `/cars/index.html?${query}`;
-  });
-  </script>
-
+    </script>
 
 
 </body>

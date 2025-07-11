@@ -12,7 +12,7 @@
     <!-- Page Title -->
     <title>Link 4U Global - Luxury. Trust. Delivered.</title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https:/fonts.googleapis.com">
     <link rel="preconnect" href="https:/fonts.gstatic.com" crossorigin="">
@@ -63,13 +63,13 @@
                     <div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
+                                <li class="nav-item"><a class="nav-link" href="/">Home</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="cars.html">Our Cars</a></li>
-                                <li class="nav-item"><a class="nav-link" href="">Exclusive</a>
+                                <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/cars">Our Cars</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/exclusive">Exclusive</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
                             </ul>
                         </div>
                         <!-- Let’s Start Button Start -->
@@ -94,13 +94,9 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-3" data-cursor="-opaque">Our Cars</h1>
-                        <nav class="wow fadeInUp">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="/">home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Cars</li>
-                            </ol>
-                        </nav>
+                        <h1 class="text-anime-style-3" data-cursor="-opaque" style="font-size: 46px;">Explore Our Luxury Car Collection</h1>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque" style="font-size: 18px; font-weight: 500;">Handpicked premium vehicles that blend performance, comfort, and class.</h2>
+                        
                     </div>
                     <!-- Page Header Box End -->
                 </div>
@@ -120,9 +116,9 @@
                         <div class="fleets-search-box">
                             <form id="fleetsForm" action="#" method="POST">
                                 <div class="form-group">
-                                    <input type="text" name="search" class="form-control" id="search"
+                                    <input  type="text" name="search" class="form-control" id="carSearchInput"
                                         placeholder="Search..." required="">
-                                    <button type="submit" class="section-icon-btn"><i
+                                    <button type="button" class="section-icon-btn"><i
                                             class="fa-solid fa-magnifying-glass"></i></button>
                                 </div>
                             </form>
@@ -133,97 +129,38 @@
                             <!-- Fleets Sidebar List Start -->
                             <div class="fleets-sidebar-list">
                                 <div class="fleets-list-title">
-                                    <h3>categories</h3>
+                                    <h3>Sort Option</h3>
                                 </div>
+                                <select id="sortSelect" class="form-select mb-3">
+  <option value="year-desc">Year: Newest First</option>
+  <option value="year-asc">Year: Oldest First</option>
+  <option value="price-desc">Price: High to Low</option>
+  <option value="price-asc">Price: Low to High</option>
+  <option value="km-asc">KM Driven: Low to High</option>
+  <option value="km-desc">KM Driven: High to Low</option>
+  <option value="date-desc">Posted: Newest First</option>
+  <option value="date-asc">Posted: Oldest First</option>
+</select>
 
-                                <ul>
-                                    <li class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="checkbox1">
-                                        <label class="form-check-label" for="checkbox1">sport cars</label>
-                                    </li>
-
-                                    <li class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="checkbox2">
-                                        <label class="form-check-label" for="checkbox2">electric car</label>
-                                    </li>
-
-                                    <li class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="checkbox3">
-                                        <label class="form-check-label" for="checkbox3">Convertible</label>
-                                    </li>
-
-                                    <li class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="checkbox4">
-                                        <label class="form-check-label" for="checkbox4">luxury cars</label>
-                                    </li>
-
-                                    <li class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="checkbox5">
-                                        <label class="form-check-label" for="checkbox5">sedan</label>
-                                    </li>
-
-                                    <li class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="checkbox6">
-                                        <label class="form-check-label" for="checkbox6">coupe cars</label>
-                                    </li>
-                                </ul>
+                            </div>
+                            <!-- Fleets Sidebar List Start -->
+                            <div class="fleets-sidebar-list">
+                                <div class="fleets-list-title">
+                                    <h3>select Brand</h3>
+                                </div>
+                                <ul id="brandCheckboxContainer"></ul>
                             </div>
                             <!-- Fleets Sidebar List End -->
 
                             <!-- Fleets Sidebar List Start -->
                             <div class="fleets-sidebar-list">
                                 <div class="fleets-list-title">
-                                    <h3>pickup location</h3>
+                                    <h3>select Year</h3>
                                 </div>
-
-                                <ul>
-                                    <li class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="checkbox7">
-                                        <label class="form-check-label" for="checkbox7">abu dhabi</label>
-                                    </li>
-
-                                    <li class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="checkbox8">
-                                        <label class="form-check-label" for="checkbox8">alain</label>
-                                    </li>
-
-                                    <li class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="checkbox9">
-                                        <label class="form-check-label" for="checkbox9">dubai</label>
-                                    </li>
-
-                                    <li class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="checkbox10">
-                                        <label class="form-check-label" for="checkbox10">sharjah</label>
-                                    </li>
-                                </ul>
+                                <ul id="yearCheckboxContainer"></ul>
                             </div>
                             <!-- Fleets Sidebar List End -->
 
-                            <!-- Fleets Sidebar List Start -->
-                            <div class="fleets-sidebar-list">
-                                <div class="fleets-list-title">
-                                    <h3>dropoff location</h3>
-                                </div>
-
-                                <ul>
-                                    <li class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="checkbox11">
-                                        <label class="form-check-label" for="checkbox11">abu dhabi</label>
-                                    </li>
-
-                                    <li class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="checkbox12">
-                                        <label class="form-check-label" for="checkbox12">alain</label>
-                                    </li>
-
-                                    <li class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="checkbox13">
-                                        <label class="form-check-label" for="checkbox13">dubai</label>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- Fleets Sidebar List End -->
                         </div>
                     </div>
                     <!-- Fleets Sidebar End -->
@@ -233,7 +170,6 @@
                     <!-- Fleets Collection Box Start -->
                     <div class="fleets-collection-box">
                         <div class="row" id="cars-parent-container">
-
                         </div>
                     </div>
                     <!-- Fleets Collection Box End -->
@@ -276,98 +212,8 @@
     <script src="../assets/js/wow.js"></script>
     <!-- Main Custom js file -->
     <script src="../assets/js/function.js"></script>
-    <script src="https:/demo.awaikenthemes.com/../assets/js/theme-panel.js"></script>
-    
-
-    <script>
-        $(document).ready(function () {
-            fetch("/cars/assets/json/full-cars.json")
-                .then((response) => response.json())
-                .then((data) => {
-                    console.log(data);
-
-                    data.forEach((item, index) => {
-                        const currentName = `${item.brand} ${item.model} ${item.variant}`
-                        const block = `
-          <div class="col-lg-4 col-md-6">
-                                <!-- Perfect Fleets Item Start -->
-                                <div class="perfect-fleet-item fleets-collection-item wow fadeInUp">
-                                    <!-- Image Box Start -->
-                                    <div class="image-box">
-                                        <a href="${item.image}" class="popup-link" title="${currentName}" >
-                                            <img src="${item.image}" alt="">
-                                        </a>
-                                        
-                                    </div>
-                                    <!-- Image Box End -->
-    
-                                    <!-- Perfect Fleets Content Start -->
-                                    <div class="perfect-fleet-content">
-                                        <!-- Perfect Fleets Title Start -->
-                                        <div class="perfect-fleet-title">
-                                            <h2 class="text-uppercase">${currentName}</h2>
-                                        </div>
-                                        <!-- Perfect Fleets Content End -->
-    
-                                        <!-- Perfect Fleets Body Start -->
-                                        <div class="perfect-fleet-body">
-                                            
-                                        </div>
-                                        <!-- Perfect Fleets Body End -->
-                                        <div class="perfect-fleet-body">
-                                            <ul>
-                                                <li><i class="fa fa-calendar"></i> ${item.year}</li>
-                                                <li><i class="fas fa-tachometer-alt"></i> ${item.kmDriven}</li>
-                                                <li><i class="fa fa-gas-pump"></i> ${item.fuel}</li>
-                                                <li><i class="fas fa-car-side"></i> ${item.bodyType}</li>
-                                            </ul>
-                                        </div>
-    
-                                        <!-- Perfect Fleets Footer Start -->
-                                        <div class="perfect-fleet-footer">
-                                            <!-- Perfect Fleets Pricing Start -->
-                                            <div class="perfect-fleet-pricing">
-                                                <h2>₹ ${item.price}<span></span></h2>
-                                            </div>
-                                            <!-- Perfect Fleets Pricing End -->
-    
-                                            <!-- Perfect Fleets Btn Start -->
-                                            <div class="perfect-fleet-btn">
-                                                <a href="${item.URL}" class="section-icon-btn"><img src="../assets/img/icons/arrow-white.svg" alt=""></a>
-                                            </div>
-                                            <!-- Perfect Fleets Btn End -->
-                                        </div>
-                                        <!-- Perfect Fleets Footer End -->
-                                    </div>
-                                    <!-- Perfect Fleets Content End -->
-                                    
-                                </div>
-                                <!-- Perfect Fleets Item End -->
-                            </div>
-                `;
-                        $("#cars-parent-container").append(block);
-
-                    });
-                    // Initialize Magnific Popup after all images are added
-                    $('.popup-link').magnificPopup({
-                        type: 'image',
-                        mainClass: 'mfp-zoom-in',
-                        removalDelay: 300,
-                        callbacks: {
-                            open: function () {
-                                console.log('Popup is opened');
-                            },
-                            close: function () {
-                                console.log('Popup is closed');
-                            }
-                        }
-                    });
-
-                });
-
-        })
-    </script>
-
+    <!-- <script src="https:/demo.awaikenthemes.com/../assets/js/theme-panel.js"></script> -->
+    <script src="/cars/assets/js/cars.js"></script>
 </body>
 
 </html>

@@ -18,7 +18,7 @@
         "image": "/cars/bmw/bmw-x5-xdrive-30d-2017-diesel-tvm/assets/images/bmw-x5-xdrive-30d-2017-diesel-tvm-7.webp"
     },
     {
-        "brand": "bmw",
+        "brand": "BMW",
         "model": "x7 ",
         "variant": "30d",
         "fuel": "Diesel ",
@@ -54,7 +54,7 @@
         "image": "/cars/jaguar/f-type-2017-petrol-tvm/assets/images/jaguar-f-type-2017-petrol-tvm1.webp"
     },
     {
-        "brand": "mercedes benz",
+        "brand": "Mercedes Benz",
         "model": "G63 ",
         "variant": "",
         "fuel": "Petrol ",
@@ -72,7 +72,7 @@
         "image": "/cars/mercedes-benz/g63-2018-petrol-tvm/assets/images/g63-g63-2018-petrol-tvm2.webp"
     },
     {
-        "brand": "MERCEDES BENZ",
+        "brand": "Mercedes Benz",
         "model": "GLS",
         "variant": "GLS400",
         "fuel": "Diesel ",

@@ -48,6 +48,7 @@
 
 :root{
 	--primary-color			: #000000;
+	--primary-1-color		: #121212ab;
 	--secondary-color		: #191919;
 	--text-color			: #CECECE;
 	--accent-color			: #FF3600;
@@ -847,9 +848,9 @@ header.main-header .header-sticky.active{
 }
 
 .rent-details-box{
-	background-color: var(--divider-color);
+	background-color: #4A4A4A1F;
 	border: 1px solid var(--divider-color);
-	backdrop-filter: blur(50px);
+	backdrop-filter: blur(10px);
 	border-radius: 30px;
 	padding: 25px 30px;
 	margin: 0;
@@ -859,10 +860,10 @@ header.main-header .header-sticky.active{
 	display: flex;
 	flex-wrap: wrap;
 	gap: 20px;
+	justify-content: space-evenly;
 }
 
 .rent-details-item{
-	width: calc(20% - 30px);
 	display: flex;
 	border-right: 1px solid var(--divider-color);
 	padding-right: 20px;
@@ -973,6 +974,28 @@ header.main-header .header-sticky.active{
 }
 
 .rent-details-search a i{
+	font-size: 24px;
+	color: var(--white-color);
+}
+
+.rent-details-search button{
+	background-color: var(--accent-color);
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease-in-out;
+	border: none;
+}
+
+.rent-details-search button:hover{
+	background-color: var(--primary-color);
+}
+
+.rent-details-search button i{
 	font-size: 24px;
 	color: var(--white-color);
 }
@@ -1254,7 +1277,7 @@ header.main-header .header-sticky.active{
 }
 
 .perfect-fleet-item{
-	background-color: #121212;
+	background-color:var(--primary-1-color);
 	border-radius: 30px;
 
 }
@@ -1309,7 +1332,8 @@ header.main-header .header-sticky.active{
 	position: relative;
     width: calc(50% - 5px);
     text-transform: capitalize;
-    padding-left: 25px;
+    padding-left: 10px;
+	padding-top: 5px;
 }
 
 .perfect-fleet-body ul li img{
@@ -3077,7 +3101,7 @@ header.main-header .header-sticky.active{
 .fleets-sidebar{
 	position: sticky;
 	top: 20px;
-	background-color: var(--secondary-color);
+	background-color: var(--primary-1-color);
 	border-radius: 30px;
 	padding: 25px;
 }
@@ -6568,3 +6592,18 @@ header.main-header .header-sticky.active{
 }
 /* END ZOOM-IN ANIMATION */
 
+select {
+  transition: all 15s ease;
+  cursor: pointer;
+}
+
+#sortSelect{
+	width: 100%;
+  padding: 10px 20px;
+  background: var(--primary-color);
+  color: var(--text-color);
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  box-shadow: none;
+}
