@@ -2463,11 +2463,11 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background: url('../images/page-header-bg.jpg') no-repeat center center;
-	background-size: cover;
+	background: no-repeat center center;
+	background-size: contain;
 	border-radius: 46px;
 	overflow: hidden;
-	padding: 100px 0px 10px;
+	padding: 182px 0px 83px;
 }
 
 .page-header:before{
@@ -4567,11 +4567,11 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-contact-us{
-	padding: 100px 0 50px;
+	padding: 30px 0 50px;
 }
 
 .contact-info-form{
-	background: var(--secondary-color) url('../images/contact-form-plan.svg') no-repeat;
+	background: var(--primary-1-color) url('../images/contact-form-plan.svg') no-repeat;
 	background-position: bottom -10px right 50px;
 	background-size: auto;
 	width: 100%;
@@ -4630,6 +4630,10 @@ header.main-header .header-sticky.active{
 .contact-info-content p{
 	color: var(--white-color);
 	margin: 0;
+}
+.contact-info-content a :hover{
+	color: var(--accent-color);
+	margin: 1;
 }
 
 .contact-info-social ul{
