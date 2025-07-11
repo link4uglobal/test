@@ -853,7 +853,7 @@ header.main-header .header-sticky.active{
 	backdrop-filter: blur(10px);
 	border-radius: 30px;
 	padding: 25px 30px;
-	margin: 0;
+	margin: -40px 0px;
 }
 
 .rent-details-form{
@@ -1675,11 +1675,12 @@ header.main-header .header-sticky.active{
 
 .intro-video{
 	position: relative;
-	background: url('../images/intro-video-bg.jpg') no-repeat;
-	background-position: center center;
-	background-size: cover;
-	padding: 100px 0;
+	background: url('../../contact/contact.webp') no-repeat;
+	background-position: center;
+	background-size: contain;
+	/* padding: 100px 0; */
 	overflow: hidden;
+	height: 100vh;
 }
 
 .intro-video::before{
@@ -2645,6 +2646,7 @@ header.main-header .header-sticky.active{
 .vision-image figure{
 	display: block;
 	border-radius: 46px;
+	max-width: 600px;
 }
 
 .vision-image img{
@@ -6610,4 +6612,8 @@ select {
   border: none;
   border-radius: 30px;
   box-shadow: none;
+}
+.custom-h2{
+	font-size: 39px !important;
+	font-weight: 500 !important;
 }
