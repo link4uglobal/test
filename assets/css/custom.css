@@ -1675,7 +1675,7 @@ header.main-header .header-sticky.active{
 
 .intro-video{
 	position: relative;
-	background: url('../../contact/contact.webp') no-repeat;
+	background: url('/contact/contact.webp') no-repeat;
 	background-position: center;
 	background-size: contain;
 	/* padding: 100px 0; */
