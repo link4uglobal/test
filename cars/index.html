@@ -94,11 +94,11 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-3" data-cursor="-opaque">Our Fleets</h1>
+                        <h1 class="text-anime-style-3" data-cursor="-opaque">Our Cars</h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="./">home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">fleets</li>
+                                <li class="breadcrumb-item"><a href="/">home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Cars</li>
                             </ol>
                         </nav>
                     </div>
@@ -277,6 +277,7 @@
     <!-- Main Custom js file -->
     <script src="../assets/js/function.js"></script>
     <script src="https:/demo.awaikenthemes.com/../assets/js/theme-panel.js"></script>
+    
 
     <script>
         $(document).ready(function () {
@@ -293,7 +294,10 @@
                                 <div class="perfect-fleet-item fleets-collection-item wow fadeInUp">
                                     <!-- Image Box Start -->
                                     <div class="image-box">
-                                        <img src="${item.image}" alt="">
+                                        <a href="${item.image}" class="popup-link" title="${currentName}" >
+                                            <img src="${item.image}" alt="">
+                                        </a>
+                                        
                                     </div>
                                     <!-- Image Box End -->
     
@@ -310,6 +314,14 @@
                                             
                                         </div>
                                         <!-- Perfect Fleets Body End -->
+                                        <div class="perfect-fleet-body">
+                                            <ul>
+                                                <li><i class="fa fa-calendar"></i> ${item.year}</li>
+                                                <li><i class="fas fa-tachometer-alt"></i> ${item.kmDriven}</li>
+                                                <li><i class="fa fa-gas-pump"></i> ${item.fuel}</li>
+                                                <li><i class="fas fa-car-side"></i> ${item.bodyType}</li>
+                                            </ul>
+                                        </div>
     
                                         <!-- Perfect Fleets Footer Start -->
                                         <div class="perfect-fleet-footer">
@@ -328,12 +340,27 @@
                                         <!-- Perfect Fleets Footer End -->
                                     </div>
                                     <!-- Perfect Fleets Content End -->
+                                    
                                 </div>
                                 <!-- Perfect Fleets Item End -->
                             </div>
                 `;
                         $("#cars-parent-container").append(block);
 
+                    });
+                    // Initialize Magnific Popup after all images are added
+                    $('.popup-link').magnificPopup({
+                        type: 'image',
+                        mainClass: 'mfp-zoom-in',
+                        removalDelay: 300,
+                        callbacks: {
+                            open: function () {
+                                console.log('Popup is opened');
+                            },
+                            close: function () {
+                                console.log('Popup is closed');
+                            }
+                        }
                     });
 
                 });

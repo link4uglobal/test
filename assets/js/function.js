@@ -431,7 +431,7 @@
 	if ($('.popup-video').length) {
 		$('.popup-video').magnificPopup({
 			type: 'iframe',
-			mainClass: 'mfp-fade',
+			mainClass: 'mfp-zoom-in',
 			removalDelay: 160,
 			preloader: false,
 			fixedContentPos: true
