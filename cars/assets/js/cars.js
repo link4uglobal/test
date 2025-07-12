@@ -42,7 +42,7 @@ function displayResults(cars) {
           </div>
           <div class="perfect-fleet-content">
             <div class="perfect-fleet-title">
-              <h2 class="text-uppercase">${carName}</h2>
+              <h2 class="text-uppercase text-black">${carName}</h2>
             </div>
             <div class="perfect-fleet-body">
               <ul>
