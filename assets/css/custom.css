@@ -1,63 +1,17 @@
-/* ----------------------------------------------------------------------------------------
-* Author        : Prajosh Johny
-* Template Name : Link 4U Global - Luxury. Trust. Delivered.
-* File          : CSS File
-* Version       : 1.0
-* ---------------------------------------------------------------------------------------- */
-/* INDEX
-----------------------------------------------------------------------------------------
-01. Global Variables
-02. General css
-03. Header css
-04. Hero css
-05. About Us css
-06. Our Services css
-07. Perfect Fleets css
-08. Luxury Collection css
-09. How It Work Css
-10. Intro Video css
-11. Why Choose Us css
-12. Our Faqs css
-13. Our Testiminial css
-14. CTA Box css
-15. Latest Article css
-16. Footer css
-17. About us Page css
-18. Services Page css
-19. Service Single css
-20. Page Cars css
-21. Car Single css
-22. Page Cars Type css
-23. Our Drivers css
-24. Drivers Single css
-25. Blog Archive css
-26. Blog Single css
-27. Page Pricing css
-28. Testimonial Page css 
-29. Image Gallery css
-30. Video Gallery css
-31. Contact us Page css
-32.	FAQs Page css
-33. 404 Page css
-34. Responsive css
--------------------------------------------------------------------------------------- */
 
-/************************************/
-/*** 	 01. Global Variables	  ***/
-/************************************/	
 
 :root{
 	--primary-color			: #000000;
 	--primary-1-color		: #121212ab;
 	--secondary-color		: #191919;
 	--text-color			: #CECECE;
-	--accent-color			: #FF3600;
+	--accent-color			: #FFA700;
 	--white-color			: #FFFFFF;
 	--divider-color			: #FFFFFF2E;
 	--dark-divider-color	: #ECECEC;
 	--error-color			: rgb(230, 87, 87);
-	--default-font			: "DM Sans", sans-serif;
-	--accent-font			: "Epilogue", sans-serif;
+	--default-font			: "Barlow Condensed", arial;
+	--accent-font			: "Barlow Condensed", arial;
 }
 
 /************************************/
@@ -74,9 +28,18 @@ body{
 }
 
 p{
-	line-height: 1.7em;
-	margin-bottom: 1.6em;
+	line-height: 1.7;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 0.3px;
+  color: #5c5c5c;
+  font-family: Barlow, arial;
 }
+
+section{
+	padding: 75px 0px;
+}
+
 
 h1,
 h2,
@@ -86,10 +49,30 @@ h5,
 h6{
 	margin :0;
 	font-family: var(--accent-font);
-	font-weight: 700;
-	line-height: 1.2em;
 	color: var(--white-color);
+  	text-transform: uppercase;
+  	line-height: 1;
+	font-weight: 500;
+
 }
+h2{
+	font-weight: 600;
+  	line-height: 1.1;
+	font-size: 45px;
+}
+h3{
+	font-weight: 600;
+  	line-height: 1.1;
+	font-size: 35px;
+	color: black;
+	letter-spacing: 0;
+}
+h5{
+	font-size: 27px;
+  	font-weight: 600;
+	color: black;
+}
+
 
 figure{
 	margin: 0;
@@ -369,32 +352,9 @@ body{
 	margin-bottom: 40px;
 }
 
-.section-title h3{
-	display: inline-block;
-	position: relative;
-	font-size: 16px;
-    font-weight: 600;
-	line-height: 1.2em;
-    text-transform: capitalize;
-    color: var(--accent-color);
-	padding-left: 25px;
-    margin-bottom: 15px;
-}
-
-.section-title h3::before{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: url("../images/icon-sub-heading.svg") no-repeat;
-	background-position: left center;
-	background-size: cover;
-	width: 18px;
-	height: 18px;
-}
 
 .section-title h1{
-	font-size: 74px;
+	font-size: 55px;
 	font-weight: 700;
 	margin-bottom: 0;
 }
@@ -480,12 +440,15 @@ header.main-header .header-sticky.active{
 }
 
 .main-menu ul li a{
-	font-size: 16px;
-	font-weight: 600;
+	text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.9px;
 	padding: 14px 15px !important;
 	color: var(--white-color);
-	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
+	
 }
 
 .main-menu ul li.submenu > a:after{
@@ -564,9 +527,9 @@ header.main-header .header-sticky.active{
 }
 
 .responsive-menu,
-.navbar-toggle{
+/* .navbar-toggle{
 	display: none;
-}
+} */
 
 .responsive-menu{
 	top: 0;
@@ -589,10 +552,10 @@ header.main-header .header-sticky.active{
 	display: block;
 	width: 100%;
 	height: 3px;
-	width: 22px;
+	width: 31px;
 	background-color: var(--white-color);
 	border-radius: 6px;
-	margin: 4px auto !important;
+	margin: 6px auto !important;
 	transition: all 0.1s ease-in-out;
 }
 
@@ -634,11 +597,11 @@ header.main-header .header-sticky.active{
 .slicknav_nav .slicknav_row,
 .slicknav_nav li a{
 	position: relative;
-	font-size: 16px;
-	font-weight: 500;
-	text-transform: capitalize;
-	padding: 10px 20px;
-	color: var(--white-color);
+	text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.9px;
 	line-height: normal;
 	margin: 0;
 	border-radius: 0 !important;
@@ -702,7 +665,7 @@ header.main-header .header-sticky.active{
 	bottom: 0;
 	right: 0;
 	left: 0;
-	background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 13.62%, rgba(0, 0, 0, 0.5) 68.99%);
+	background-color: transparent;
 	width: 100%;
 	height: 100%;
 	z-index: 0;
@@ -1277,7 +1240,7 @@ header.main-header .header-sticky.active{
 }
 
 .perfect-fleet-item{
-	background-color:var(--primary-1-color);
+	background-color:var(--white-color);
 	border-radius: 30px;
 
 }
@@ -1314,7 +1277,7 @@ header.main-header .header-sticky.active{
 }
 
 .perfect-fleet-body{
-	border-bottom: 1px solid var(--divider-color);
+	border-bottom: 1px solid var(--primary-color);
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 }
@@ -1334,6 +1297,7 @@ header.main-header .header-sticky.active{
     text-transform: capitalize;
     padding-left: 10px;
 	padding-top: 5px;
+	color: #5f5f5f;
 }
 
 .perfect-fleet-body ul li img{
@@ -1355,6 +1319,7 @@ header.main-header .header-sticky.active{
 .perfect-fleet-pricing h2{
 	font-family: var(--default-font);
 	font-size: 24px;
+	color: black;
 }
 
 .perfect-fleet-pricing h2 span{
@@ -6541,7 +6506,7 @@ header.main-header .header-sticky.active{
 
 /* edited  */
 .link-nav-logo{
-	width: 128px;
+	width: 110px;
   margin-top: -46px;
   position: absolute;
   background: transparent;
@@ -6616,4 +6581,40 @@ select {
 .custom-h2{
 	font-size: 39px !important;
 	font-weight: 500 !important;
+}
+.vision-image img {
+  width: 100%;              /* Makes the image fill its container */
+  height: 500px;            /* Or any fixed height you want */
+  object-fit: cover;        /* Ensures image fills area without distortion */
+  border-radius: 8px;       /* Optional: gives rounded corners */
+  display: block;
+}
+
+.vision-image img {
+  width: 100%;
+  aspect-ratio: 16 / 9;     /* Maintains a widescreen ratio */
+  object-fit: contain;
+}
+
+.vision-image {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.exclusive{
+	background: #fff;
+	padding: 100px 0;
+}
+.exclusive h2{
+	font-weight: 600;
+  	line-height: 1.1;
+	font-size: 50px;
+	color: black;
+}
+.exclusive h3{
+	font-weight: 600;
+  	line-height: 1.1;
+	font-size: 35px;
+	color: black;
+	letter-spacing: 0;
 }
