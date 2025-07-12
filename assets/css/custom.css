@@ -1358,7 +1358,7 @@ header.main-header .header-sticky.active{
 	position: relative;
 	width: 48px;
 	height: 48px;
-	background-color: var(--accent-color);
+	background-color: var(--primary-color);
 	border-radius: 100%;
 	transition: all 0.4s ease-in-out;
 }
@@ -1381,7 +1381,7 @@ header.main-header .header-sticky.active{
     bottom: 0;
     left: 0;
     right: 0;
-    background: url("../images/arrow-white.svg") no-repeat center center;
+    background: url("../img/icons/arrow-white.svg") no-repeat center center;
     background-size: 14px auto;
     transform: rotate(45deg);
     display: flex;
@@ -2041,7 +2041,7 @@ header.main-header .header-sticky.active{
     bottom: 0;
     left: 0;
     right: 0;
-    background: url("../images/arrow-white.svg") no-repeat center center;
+    background: url("../img/icons/arrow-white.svg") no-repeat center center;
     background-size: 14px auto;
     transform: rotate(45deg);
     display: flex;
@@ -2257,7 +2257,7 @@ header.main-header .header-sticky.active{
     top: 2px;
     right: 0;
     bottom: 0;
-    background-image: url("../images/arrow-white.svg");
+    background-image: url("../img/icons/arrow-white.svg");
     background-repeat: no-repeat;
     background-position: center center;
 	background-size: 8px auto;
@@ -3662,7 +3662,7 @@ header.main-header .header-sticky.active{
 
 .booking-form .btn-default.btn-highlighted::before{
 	background-color: var(--primary-color);
-	background-image: url('../images/arrow-white.svg');
+	background-image: url('../img/icons/arrow-white.svg');
 }
 
 /************************************/
@@ -4046,7 +4046,7 @@ header.main-header .header-sticky.active{
     top: 2px;
     right: 0;
     bottom: 0;
-    background-image: url("../images/arrow-white.svg");
+    background-image: url("../img/icons/arrow-white.svg");
     background-repeat: no-repeat;
     background-position: center center;
 	background-size: 8px auto;
@@ -6506,8 +6506,8 @@ header.main-header .header-sticky.active{
 
 /* edited  */
 .link-nav-logo{
-	width: 110px;
-  margin-top: -46px;
+	width: 100px;
+  margin-top: -60px;
   position: absolute;
   background: transparent;
   padding: 10px;

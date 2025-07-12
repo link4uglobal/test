@@ -348,7 +348,8 @@
                     <div>
                         <h2 class="text-center text-black text-anime-style-3" data-cursor="-opaque">Discover Our Cars
                         </h2>
-                        <p class="text-center text-anime-style-3">Curated luxury cars that combine elegance, power, and performance.</p>
+                        <p class="text-center text-anime-style-3">Curated luxury cars that combine elegance, power, and
+                            performance.</p>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -360,10 +361,10 @@
                     <div class="car-details-slider">
                         <div class="swiper">
                             <div class="swiper-wrapper" id="parent-cars-container" data-cursor-text="Drag"></div>
-
                         </div>
                     </div>
                     <!-- Testimonial Slider End -->
+
                 </div>
             </div>
         </div>
@@ -542,13 +543,13 @@
         });
     </script>
     <script>
-    $(document).ready(function () {
-        fetch("/cars/assets/json/full-cars.json")
-            .then((response) => response.json())
-            .then((data) => {
-                data.forEach((car, index) => {
-                    const carName = `${car.brand} ${car.model} ${car.variant}`;
-                    const block = `
+        $(document).ready(function () {
+            fetch("/cars/assets/json/full-cars.json")
+                .then((response) => response.json())
+                .then((data) => {
+                    data.forEach((car, index) => {
+                        const carName = `${car.brand} ${car.model} ${car.variant}`;
+                        const block = `
                         <div class="swiper-slide">
                             <!-- Perfect Fleets Item Start -->
                             <div href="${car.URL}" class="perfect-fleet-item fleets-collection-item wow fadeInUp">
@@ -584,11 +585,11 @@
                             <!-- Perfect Fleets Item End -->
                         </div>
                     `;
-                    $("#parent-cars-container").append(block);
+                        $("#parent-cars-container").append(block);
+                    });
                 });
-            });
-    });
-</script>
+        });
+    </script>
 
 
 
