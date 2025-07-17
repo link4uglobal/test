@@ -1,0 +1,109 @@
+.w3-animate-left{position:relative;animation:animateleft 0.9s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+.hamburger {
+	width: 60px !important;
+	height: 60px;
+	display: flex;
+	border-radius: 50px;
+	padding: 18px 15px;
+	align-self: center;
+	flex-direction: column;
+	justify-content: space-between;
+	cursor: pointer;
+	transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	background-color: transparent;
+}
+
+.hamburger span {
+	align-self: flex-end;
+	height: 2.5px;
+	width: 83.33333333%;
+	background: #fff;
+	transition: all 400ms ease-in-out;
+	transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+}
+
+.hamburger:hover span {
+	background-color: var(--white-color);
+}
+
+.hamburger .meat {
+	width: 100%;
+	transition: all 200ms ease-in-out;
+}
+
+.hamburger .bottom-bun {
+	width: 58.33333333%;
+	transition: all 100ms ease-in-out;
+}
+
+.hamburger:hover span {
+	width: 100%;
+}
+
+html:not(.body-menu-opened) .hamburger .top-bun {
+	-webkit-animation: burger-hover 1s infinite ease-in-out alternate forwards 200ms;
+	animation: burger-hover 1s infinite ease-in-out alternate forwards 200ms;
+}
+
+html:not(.body-menu-opened) .hamburger .meat {
+	-webkit-animation: burger-hover 1s infinite ease-in-out alternate forwards 400ms;
+	animation: burger-hover 1s infinite ease-in-out alternate forwards 400ms;
+}
+
+html:not(.body-menu-opened) .hamburger .bottom-bun {
+	-webkit-animation: burger-hover 1s infinite ease-in-out alternate forwards 600ms;
+	animation: burger-hover 1s infinite ease-in-out alternate forwards 600ms;
+}
+
+@-webkit-keyframes burger-hover {
+	0% {
+		width: 100%;
+	}
+
+	50% {
+		width: 50%;
+	}
+
+	100% {
+		width: 100%;
+	}
+}
+
+@keyframes burger-hover {
+	0% {
+		width: 100%;
+	}
+
+	50% {
+		width: 50%;
+	}
+
+	100% {
+		width: 100%;
+	}
+}
+#menu-button-top{
+    background-color: transparent;
+    border: none;
+}
+#mySidebar{
+    z-index: 100000;
+    position: absolute;
+    width:100%; 
+    background-color:red; 
+    height: 100vh;
+    display: none;
+}
+.close-btn-div{
+    display: flex;
+    justify-content:  flex-end;
+}
