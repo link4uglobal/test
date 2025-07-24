@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Mercedes Benz",
+        "model": "GLC",
+        "variant": "220d 4MATIC",
+        "fuel": "Diesel",
+        "transmission": "Automatic",
+        "priceRange": 32,
+        "price": "32 Lakh",
+        "year": 2018,
+        "kmDriven": 46000,
+        "bodyType": "SUV",
+        "color": "White",
+        "location": "Trivandrum",
+        "availability": "Available",
+        "postedDate": "2024-06-02",
+        "URL": "/cars/mercedes-benz/glc-220d-4matic-2018-diesel-trivandrum/",
+        "image": "/cars/mercedes-benz/glc-220d-4matic-2018-diesel-trivandrum/assets/images/mercedes-benz-glc-220d-4matic-2018-diesel-trivandrum14.webp"
+    },
+    {
         "brand": "Ford",
         "model": "Mustang",
         "variant": "GT",
