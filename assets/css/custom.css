@@ -415,7 +415,7 @@ header.main-header .header-sticky.active{
 }
 
 .navbar{
-	padding: 30px 0;
+	padding: 18px 0;
 	align-items: center;
 }
 
@@ -3228,7 +3228,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-fleets-single{
-	padding: 100px 0;
+	padding: 10px 0;
 }
 
 .fleets-single-sidebar{
@@ -3346,7 +3346,7 @@ header.main-header .header-sticky.active{
 
 .fleets-slider-image{
 	position: relative;
-	border-radius: 30px;
+	border-radius: 10px;
 	overflow: hidden;
 }
 
@@ -3363,7 +3363,7 @@ header.main-header .header-sticky.active{
 }
 
 .fleets-slider-image img{
-	border-radius: 30px;
+	border-radius: 10px;
 	overflow: hidden;
 	aspect-ratio: 1 / 0.67;
     object-fit: cover;
@@ -6670,13 +6670,15 @@ select {
 
 	/* single page for cars  */
 .cars-data-top{
-	height: 135px;
+	min-height: 123px;
 	width: 100%;
 	position: sticky;
 	top: 0;
-	background-color:#eee;
+	background-color:#f4f4f4;
 	z-index: 100000;
 	padding: 20px 0;
+	display: flex;
+	align-items: center;
 }
 .cars-data-top h1{
   color: black;
@@ -6687,4 +6689,104 @@ select {
   color: black;
   font-size: 22px;
   font-weight: 600;
+}
+.reserve-this-car{
+	color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  transition: all .3s ease-in-out;
+  background-color: #000;
+  border-color: #000;
+  border-radius: 15px;
+  padding: 19px 28px;
+  margin: 0 10px;
+  width: auto;
+  min-width: auto;
+}
+.reserve-this-car:hover{
+	color: #000;
+  background-color: #fff;
+  border: solid 0.5px black;
+}
+
+@media (max-width: 1600px) {
+  .reserve-this-car {
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 11px 20px;
+    margin: 0 10px;
+    margin-top: 0px;
+
+  }
+}
+.compare-button{
+	cursor: pointer;
+  display: inline-block;
+  color: #313131;
+  font-family: "Barlow Condensed", arial;
+  font-size: 10.25px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  transition: all .3s ease-in-out;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 12px;
+  margin: 0 2.5px;
+  font-size: 8.5px;
+    border-radius: 8px;
+    padding: 9px 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin: 0 2px;
+    margin-top: 0px;
+	background-color: #fff;
+}
+.compare-button::before{
+	content: "";
+  width: 14px;
+  height: 14px;
+  background-image: url(/assets/img/icons/compare.png);
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: block;
+  margin: 0 auto 4px;
+}
+
+.top-car-detailes-div{
+	display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}	
+.top-car-detailes{
+	text-transform: uppercase;
+  	letter-spacing: 1.6px;
+	font-size: 13px;
+	list-style: none;
+	color: #565655;
+  font-family: "Barlow Condensed", arial;
+  font-weight: 500;
+  line-height: 1.4;
+}	
+.top-car-detailes>li .key + .val::before{
+	content: ":";
+  	position: absolute;
+  	top: 40%;
+  	bottom: auto;
+  	left: 0;
+  	right: auto;
+  	transform: translateY(-50%);
+}	
+.top-car-detailes .key{
+	min-width: 85px;
+}	
+#image-gallery>div{
+	width: 700px !important;
 }
