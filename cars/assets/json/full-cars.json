@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Ford",
+        "model": "Mustang",
+        "variant": "GT",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "priceRange": 75,
+        "price": "75 Lakh",
+        "year": 2017,
+        "kmDriven": 40000,
+        "bodyType": "Coupe",
+        "color": "Yellow",
+        "location": "Trivandrum",
+        "availability": "Available",
+        "postedDate": "2024-07-24",
+        "URL": "/cars/ford/mustang-gt-2017-petrol-trivandrum/",
+        "image": "/cars/ford/mustang-gt-2017-petrol-trivandrum/assets/images/ford-mustang-gt-2017-petrol-trivandrum9.webp"
+    },
+    {
         "brand": "BMW",
         "model": "X5",
         "variant": "xDrive 30D",
