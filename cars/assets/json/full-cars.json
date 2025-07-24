@@ -1,6 +1,24 @@
 [
     {
         "brand": "Mercedes Benz",
+  "model": "CLA",
+  "variant": "200d",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 17,
+  "price": "17.90 Lakh",
+  "year": 2017,
+  "kmDriven": 50000,
+  "bodyType": "Sedan",
+  "color": "Silver",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/mercedes-benz/cla-200d-2017-diesel-trivandrum/",
+  "image": "/cars/mercedes-benz/cla-200d-2017-diesel-trivandrum/assets/images/mercedes-benz-cla-200d-2017-diesel-trivandrum9.webp"
+    },
+    {
+        "brand": "Mercedes Benz",
         "model": "GLC",
         "variant": "220d 4MATIC",
         "fuel": "Diesel",
