@@ -441,14 +441,14 @@ header.main-header .header-sticky.active{
 
 .main-menu ul li a{
 	text-transform: uppercase;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: 0.9px;
 	padding: 14px 15px !important;
 	color: var(--white-color);
 	transition: all 0.3s ease-in-out;
-	
+	font-family: var(--default-font);
 }
 
 .main-menu ul li.submenu > a:after{
@@ -1261,8 +1261,6 @@ header.main-header .header-sticky.active{
 
 }
 
-.perfect-fleet-title{
-}
 
 .perfect-fleet-title h3{
 	font-size: 12px;
@@ -6789,4 +6787,11 @@ select {
 }	
 #image-gallery>div{
 	width: 700px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .vision-mission-content h3 {
+    margin-bottom: 10px;
+    padding-left: 0px;
+  }
 }

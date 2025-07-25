@@ -3,6 +3,7 @@ async function firstLoadFunction() {
   const allCars = await getAllCarsFromJson();
   displayResults(allCars);
   generateBrandCheckboxes(allCars);
+  generateBodyTypeCheckboxes(allCars)
   generateYearCheckboxes(allCars);
   setupSearchInput(allCars);
   setupSortSelect(allCars);
@@ -22,6 +23,10 @@ async function getAllCarsFromJson() {
 
 // Display car cards
 function displayResults(cars) {
+  const resultCounter = document.getElementById("results-count")
+  if(resultCounter){
+    resultCounter.innerHTML = cars.length;
+  }
   const container = document.getElementById("cars-parent-container");
   container.innerHTML = "";
 
@@ -67,24 +72,7 @@ function displayResults(cars) {
       </div>
     `;
     container.insertAdjacentHTML("beforeend", carHTML);
-    $('.popup-link').magnificPopup({
-          type: 'image',
-          mainClass: 'mfp-zoom-in',
-          removalDelay: 300,
-          gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0, 1] // Preloads the previous and next images
-          },
-          callbacks: {
-            open: function () {
-              console.log('Popup is opened');
-            },
-            close: function () {
-              console.log('Popup is closed');
-            }
-          }
-        });
+    
   });
 }
 
@@ -111,6 +99,36 @@ function generateBrandCheckboxes(allCars) {
     });
 
   const checkboxes = container.querySelectorAll(".brand-filter");
+  checkboxes.forEach((checkbox) => {
+    checkbox.addEventListener("change", () => {
+      applyCombinedFilters(allCars);
+    });
+  });
+}
+
+// Generate brand checkboxes
+function generateBodyTypeCheckboxes(allCars) {
+  const container = document.getElementById("bodyCheckboxContainer");
+  container.innerHTML = "";
+
+  const bodyTypeSet = new Set();
+  allCars.forEach((car) => bodyTypeSet.add(car.bodyType.trim()));
+
+  Array.from(bodyTypeSet)
+    .sort()
+    .forEach((bodyType) => {
+      const id = bodyType.replace(/\s+/g, "-");
+
+      const li = document.createElement("li");
+      li.className = "form-check";
+      li.innerHTML = `
+        <input class="form-check-input bodyType-filter" type="checkbox" value="${bodyType}" id="${id}">
+        <label class="form-check-label" for="${id}">${bodyType}</label>
+      `;
+      container.appendChild(li);
+    });
+
+  const checkboxes = container.querySelectorAll(".bodyType-filter");
   checkboxes.forEach((checkbox) => {
     checkbox.addEventListener("change", () => {
       applyCombinedFilters(allCars);
@@ -169,6 +187,7 @@ function setupSortSelect(allCars) {
 // Combined filters and sorting
 function applyCombinedFilters(allCars) {
   const selectedBrands = Array.from(document.querySelectorAll(".brand-filter:checked")).map(cb => cb.value.trim());
+  const selectedBodyType = Array.from(document.querySelectorAll(".bodyType-filter:checked")).map(cb => cb.value.trim());
   const selectedYears = Array.from(document.querySelectorAll(".year-filter:checked")).map(cb => cb.value.trim());
   const searchText = document.getElementById("carSearchInput")?.value.trim().toLowerCase() || "";
   const sortBy = document.getElementById("sortSelect")?.value;
@@ -176,9 +195,10 @@ function applyCombinedFilters(allCars) {
   let filtered = allCars.filter((car) => {
     const name = `${car.brand} ${car.model} ${car.variant}`.toLowerCase();
     const matchBrand = selectedBrands.length === 0 || selectedBrands.includes(car.brand.trim());
+    const matchBodyType = selectedBodyType.length === 0 || selectedBodyType.includes(car.bodyType.trim());
     const matchYear = selectedYears.length === 0 || selectedYears.includes(String(car.year));
     const matchSearch = name.includes(searchText);
-    return matchBrand && matchYear && matchSearch;
+    return  matchBrand && matchBodyType&& matchYear && matchSearch;
   });
 
   // Apply sorting
@@ -191,8 +211,8 @@ function applyCombinedFilters(allCars) {
         case "price-asc": return a.priceRange - b.priceRange;
         case "km-desc": return parseInt(b.kmDriven) - parseInt(a.kmDriven);
         case "km-asc": return parseInt(a.kmDriven) - parseInt(b.kmDriven);
-        case "date-desc": return new Date(b.postedDate) - new Date(a.postedDate);
-        case "date-asc": return new Date(a.postedDate) - new Date(b.postedDate);
+        // case "date-desc": return new Date(b.postedDate) - new Date(a.postedDate);
+        // case "date-asc": return new Date(a.postedDate) - new Date(b.postedDate);
         default: return 0;
       }
     });

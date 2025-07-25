@@ -63,9 +63,7 @@
     <link href="../assets/css/custom.css" rel="stylesheet" media="screen">
     <!-- only for this page css  -->
     <link rel="stylesheet" href="/cars/assets/css/cars.css">
-    <link rel="stylesheet" href="/cars/assets/css/filter.css">
 </head>
-
 <body>
 
     <!-- Preloader Start -->
@@ -76,57 +74,6 @@
         </div>
     </div>
     <!-- Preloader End -->
-
-    <!-- filiter-div start -->
-    <div class="overlay" id="filterOverlay">
-        <div class="filter-panel" id="filterPanel">
-            <div  class="filter-section">
-                <button class="reset-btn">RESET ⟳</button>
-
-                <h3>Registration Year</h3>
-                <div class="options" id="yearOptions">
-                    <button data-range="2000-2010">2000 - 2010</button>
-                    <button data-range="2010-2015">2010 - 2015</button>
-                    <button data-range="2015-2020">2015 - 2020</button>
-                    <button data-range="2020-2025">2020 - 2025</button>
-                    <button data-range="0-9999">All</button>
-                </div>
-
-
-                <h3>KMS Driven</h3>
-                <div class="options" id="KMSOptions">
-                    <button data-range="0-0">Brand New</button>
-                    <button data-range="0-5000">0 - 5000</button>
-                    <button data-range="5000-10000">5000 - 10000</button>
-                    <button data-range="10000-15000">10000 - 15000</button>
-                    <button data-range="15000-20000">15000 - 20000</button>
-                    <button data-range="20000-1000000">20000 & Above</button>
-                </div>
-
-
-                <h3>Budget</h3>
-                <div class="options" id="budgetOptions">
-                    <button data-range="0-50">Less Than 50L</button>
-                    <button data-range="50-100">50L to 1Cr</button>
-                    <button data-range="100-150">1Cr to 1.5Cr</button>
-                    <button data-range="150-10000">1.5Cr & Above</button>
-                </div>
-
-                <h3>Body Type</h3>
-                <div id="bodyTypeOptions" class="options body-type">
-
-                </div>
-
-                <h3>Brand</h3>
-                <select id="brandDropdown" class="dropdown">
-                    <!-- Add more brands -->
-                </select>
-
-
-            </div>
-        </div>
-    </div>
-    <!-- filiter-div end -->
 
     <!-- Header Start -->
     <header class="main-header">
@@ -166,7 +113,7 @@
     <!-- Header End -->
 
     <!-- Page Header Start -->
-    <div class="pt-5 bg-white">
+    <div class=" py-5 bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -174,7 +121,7 @@
                     <div class="page-header-box">
                         <h1 class="text-anime-style-3 text-black" data-cursor="-opaque" style="font-size: 46px;">Explore
                             Our Luxury
-                            Car Collection Filter</h1>
+                            Car Collection</h1>
                         <h2 class="text-anime-style-3 text-black" data-cursor="-opaque"
                             style="font-size: 18px; font-weight: 500;">
                             Handpicked premium vehicles that blend performance, comfort, and class.</h2>
@@ -185,31 +132,31 @@
 
                 <div class="container">
                     <div class="car-results-header pt-5 mt-3">
-                        <div class="total-results">TOTAL <span id="results-count"></span> RESULTS FOUND</div>
+                    <div class="total-results">TOTAL <span id="results-count"></span> RESULTS FOUND</div>
 
-                        <div class="filter-sort">
-                            <div class="filter-section">
-                                <span class="label">FILTERS:</span>
-                                <button class="filter-btn" id="filterBtn">
-                                    <img src="/assets/img/icons/filters-icon-black.png" alt="Filter Icon">
-                                </button>
-                            </div>
+                    <div class="filter-sort">
+                        <div class="filter-section">
+                            <span class="label">FILTERS:</span>
+                            <button class="filter-btn">
+                                <img src="/assets/img/icons/filters-icon-black.png" alt="Filter Icon">
+                            </button>
+                        </div>
 
-
-                            <div class="sort-section">
-  <span class="label" style="width: 100px;">SORT BY:</span>
-  <select id="sortSelect" class="sort-dropdown">
-    <option value="price-desc">Price: High to Low</option>
-    <option value="price-asc">Price: Low to High</option>
-    <option value="km-asc">KM Driven: Low to High</option>
-    <option value="km-desc">KM Driven: High to Low</option>
-    <option value="year-desc">Year: Newest First</option>
-    <option value="year-asc">Year: Oldest First</option>
-  </select>
-</div>
-
+                        <div class="sort-section">
+                            <span class="label" style="width: 100px;">SORT BY:</span>
+                            <select id="sortSelect" class="sort-dropdown">
+                                    <option value="price-desc">Price: High to Low</option>
+                                    <option value="price-asc">Price: Low to High</option>
+                                    <option value="km-asc">KM Driven: Low to High</option>
+                                    <option value="km-desc">KM Driven: High to Low</option>
+                                    <option value="year-desc">Year: Newest First</option>
+                                    <option value="year-asc">Year: Oldest First</option>
+                                    <!-- <option value="date-desc">Posted: Newest First</option>
+                                    <option value="date-asc">Posted: Oldest First</option> -->
+                                </select>
                         </div>
                     </div>
+                </div>
                 </div>
 
             </div>
@@ -218,10 +165,60 @@
     <!-- Page Header End -->
 
     <!-- Page Fleets Start -->
-    <section class="bg-white">
+    <section class="page-fleets bg-white">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-3">
+                    <!-- Fleets Sidebar Start -->
+                    <div class="fleets-sidebar wow fadeInUp">
+                        <!-- Fleets Search Box Start -->
+                        <div class="fleets-search-box">
+                            <form id="fleetsForm" action="#" method="POST">
+                                <div class="form-group">
+                                    <input type="text" name="search" class="form-control" id="carSearchInput"
+                                        placeholder="Search..." required="">
+                                    <button type="button" class="section-icon-btn"><i
+                                            class="fa-solid fa-magnifying-glass"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Fleets Search Box End -->
+
+                        <div class="fleets-sidebar-list-box">
+                            
+                            <!-- Fleets Sidebar List Start -->
+                            <div class="fleets-sidebar-list">
+                                <div class="fleets-list-title">
+                                    <h3>select Brand</h3>
+                                </div>
+                                <ul id="brandCheckboxContainer"></ul>
+                            </div>
+                            <!-- Fleets Sidebar List End -->
+
+                            <!-- Fleets Sidebar List Start -->
+                            <div class="fleets-sidebar-list">
+                                <div class="fleets-list-title">
+                                    <h3>select Body Type</h3>
+                                </div>
+                                <ul id="bodyCheckboxContainer"></ul>
+                            </div>
+                            <!-- Fleets Sidebar List End -->
+
+                            <!-- Fleets Sidebar List Start -->
+                            <div class="fleets-sidebar-list">
+                                <div class="fleets-list-title">
+                                    <h3>select Year</h3>
+                                </div>
+                                <ul id="yearCheckboxContainer"></ul>
+                            </div>
+                            <!-- Fleets Sidebar List End -->
+
+                        </div>
+                    </div>
+                    <!-- Fleets Sidebar End -->
+                </div>
+
+                <div class="col-lg-9">
                     <!-- Fleets Collection Box Start -->
                     <div class="fleets-collection-box">
                         <div class="row" id="cars-parent-container">
@@ -268,7 +265,7 @@
     <!-- Main Custom js file -->
     <script src="../assets/js/function.js"></script>
     <!-- <script src="https:/demo.awaikenthemes.com/../assets/js/theme-panel.js"></script> -->
-    <script src="/cars/assets/js/filter.js"></script>
+    <script src="/cars/assets/js/cars.js"></script>
 </body>
 
 </html>

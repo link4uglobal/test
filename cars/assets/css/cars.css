@@ -1,0 +1,56 @@
+.car-results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e5e5;
+  font-family: 'Arial', sans-serif;
+  flex-wrap: wrap;
+}
+
+.total-results {
+  font-weight: bold;
+  font-size: 18px;
+  color: #111;
+}
+
+.filter-sort {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.label {
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.filter-btn {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filter-btn img {
+  width: 16px;
+  height: 16px;
+}
+
+.sort-dropdown {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+}
