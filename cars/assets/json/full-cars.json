@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Jeep",
+  "model": "Wrangler Rubicon",
+  "variant": "Rubicon",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 57,
+  "price": "57 Lakh",
+  "year": 2021,
+  "kmDriven": 20000,
+  "bodyType": "SUV",
+  "color": "Red",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/jeep/wrangler-rubicon-2021-petrol-trivandrum/",
+  "image": "/cars/jeep/wrangler-rubicon-2021-petrol-trivandrum/assets/images/jeep-rubicon-2021-petrol-trivandrum3.webp"
+    },
+    {
         "brand": "BMW",
   "model": "X6 xDrive40i",
   "variant": "xDrive40i",
