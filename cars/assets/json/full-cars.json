@@ -1,6 +1,24 @@
 [
     {
         "brand": "Maserati",
+  "model": "Ghibli",
+  "variant": "Diesel",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 45,
+  "price": "45 Lakh",
+  "year": 2017,
+  "kmDriven": 50000,
+  "bodyType": "Sedan",
+  "color": "Brown",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/maserati/ghibili-2017-diesel-trivandrum/",
+  "image": "/cars/maserati/ghibili-2017-diesel-trivandrum/assets/images/maserati-ghibili-2017-diesel-trivandrum1.webp"
+    },
+    {
+        "brand": "Maserati",
   "model": "Levante",
   "variant": "",
   "fuel": "Diesel",
