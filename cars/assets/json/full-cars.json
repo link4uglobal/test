@@ -1,5 +1,23 @@
 [
     {
+        "brand": "BMW",
+  "model": "X6 xDrive40i",
+  "variant": "xDrive40i",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 85,
+  "price": "85 Lakh",
+  "year": 2020,
+  "kmDriven": 20000,
+  "bodyType": "Coupe",
+  "color": "Black",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/x6-xdrive-40i-2020-petrol-trivandrum/",
+  "image": "/cars/bmw/x6-xdrive-40i-2020-petrol-trivandrum/assets/images/bmw-x6-xdrive-40i-2020-petrol-trivandrum2.webp"
+    },
+    {
         "brand": "Lamborghini",
   "model": "Aventador",
   "variant": "LP 700-4",
