@@ -160,19 +160,19 @@ function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
 }
 
-// Filter Panel Toggle
-const filterBtn = document.getElementById('filterBtn');
-const overlay = document.getElementById('filterOverlay');
-const filterPanel = document.getElementById('filterPanel');
+// // Filter Panel Toggle
+// const filterBtn = document.getElementById('filterBtn');
+// const overlay = document.getElementById('filterOverlay');
+// const filterPanel = document.getElementById('filterPanel');
 
-filterBtn.addEventListener('click', () => {
-    overlay.classList.add('active');
-    document.body.style.overflow = 'hidden';
-});
+// filterBtn.addEventListener('click', () => {
+//     overlay.classList.add('active');
+//     document.body.style.overflow = 'hidden';
+// });
 
-overlay.addEventListener('click', (e) => {
-    if (!filterPanel.contains(e.target)) {
-        overlay.classList.remove('active');
-        document.body.style.overflow = 'auto';
-    }
-});
+// overlay.addEventListener('click', (e) => {
+//     if (!filterPanel.contains(e.target)) {
+//         overlay.classList.remove('active');
+//         document.body.style.overflow = 'auto';
+//     }
+// });

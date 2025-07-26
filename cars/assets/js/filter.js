@@ -2,7 +2,9 @@
 const filterBtn = document.getElementById('filterBtn');
 const overlay = document.getElementById('filterOverlay');
 const filterPanel = document.getElementById('filterPanel');
+const filterSubmitBtn = document.getElementById('apply-btn-filter');
 const resultCounter = document.getElementById("results-count")
+const resultsContainer = document.getElementById("cars-parent-container");
 
 filterBtn.addEventListener('click', () => {
     overlay.classList.add('active');
@@ -14,6 +16,10 @@ overlay.addEventListener('click', (e) => {
         overlay.classList.remove('active');
         document.body.style.overflow = 'auto';
     }
+});
+filterSubmitBtn.addEventListener('click', (e) => {
+    overlay.classList.remove('active');
+        document.body.style.overflow = 'auto';
 });
 
 // Toggle active class for options
@@ -67,7 +73,7 @@ function sortCars(cars, sortBy) {
 
 async function init() {
     const carData = await getAllCarsFromJson();
-    const resultsContainer = document.getElementById("cars-parent-container");
+    
 
     const brandDropdown = document.getElementById("brandDropdown");
     const bodyTypeContainer = document.getElementById("bodyTypeOptions");
@@ -138,49 +144,21 @@ async function init() {
         const sortValue = sortDropdown.value;
         filteredCars = sortCars(filteredCars, sortValue);
 
-        resultsContainer.innerHTML = filteredCars.length === 0
-            ? "<p>No results found.</p>"
-            : "";
-        resultCounter.innerHTML = filteredCars.length
+        if(filteredCars.length === 0){
+            resultsContainer.innerHTML = `<h3 class="text-center text-black py-5"> Sorry No results found From your filiter you can choose belove.</h3>`
+            console.log(carData);
+            displayResults(carData)
+            
+            
+        }
+        else{
+            resultsContainer.innerHTML = ""
+        }
 
-        filteredCars.forEach((car) => {
-            const carName = `${car.brand} ${car.model} ${car.variant}`;
-            const carHTML = `
-            <div class="col-lg-4 col-md-6">
-              <div class="perfect-fleet-item fleets-collection-item wow fadeInUp">
-                <div class="image-box">
-                  <a href="${car.URL}">
-                    <img src="${car.image}" alt="${carName}">
-                  </a>
-                </div>
-                <div class="perfect-fleet-content">
-                  <div class="perfect-fleet-title">
-                    <h2 class="text-uppercase text-black">${carName}</h2>
-                  </div>
-                  <div class="perfect-fleet-body">
-                    <ul>
-                      <li><i class="fa fa-calendar"></i> ${car.year}</li>
-                      <li><i class="fas fa-tachometer-alt"></i> ${car.kmDriven}</li>
-                      <li><i class="fa fa-gas-pump"></i> ${car.fuel}</li>
-                      <li><i class="fas fa-car-side"></i> ${car.bodyType}</li>
-                    </ul>
-                  </div>
-                  <div class="perfect-fleet-footer">
-                    <div class="perfect-fleet-pricing">
-                      <h2>₹ ${car.price}</h2>
-                    </div>
-                    <div class="perfect-fleet-btn">
-                      <a href="${car.URL}" class="section-icon-btn">
-                        <img src="../assets/img/icons/arrow-white.svg" alt="Go">
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            `;
-            resultsContainer.insertAdjacentHTML("beforeend", carHTML);
-        });
+        resultCounter.innerHTML = filteredCars.length
+        displayResults(filteredCars)
+
+        
     }
 
     function setupButtonGroup(buttons, setter) {
@@ -220,6 +198,47 @@ async function init() {
     });
 
     updateFilters();
+}
+
+function displayResults(filteredCars){
+    filteredCars.forEach((car) => {
+            const carName = `${car.brand} ${car.model} ${car.variant}`;
+            const carHTML = `
+            <div class="col-lg-4 col-md-6">
+              <div class="perfect-fleet-item fleets-collection-item wow fadeInUp">
+                <div class="image-box">
+                  <a href="${car.URL}">
+                    <img src="${car.image}" alt="${carName}">
+                  </a>
+                </div>
+                <div class="perfect-fleet-content">
+                  <div class="perfect-fleet-title">
+                    <h2 class="text-uppercase text-black">${carName}</h2>
+                  </div>
+                  <div class="perfect-fleet-body">
+                    <ul>
+                      <li><i class="fa fa-calendar"></i> ${car.year}</li>
+                      <li><i class="fas fa-tachometer-alt"></i> ${car.kmDriven}</li>
+                      <li><i class="fa fa-gas-pump"></i> ${car.fuel}</li>
+                      <li><i class="fas fa-car-side"></i> ${car.bodyType}</li>
+                    </ul>
+                  </div>
+                  <div class="perfect-fleet-footer">
+                    <div class="perfect-fleet-pricing">
+                      <h2>₹ ${car.price}</h2>
+                    </div>
+                    <div class="perfect-fleet-btn">
+                      <a href="${car.URL}" class="section-icon-btn">
+                        <img src="../assets/img/icons/arrow-white.svg" alt="Go">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            `;
+            resultsContainer.insertAdjacentHTML("beforeend", carHTML);
+        });
 }
 
 init();
