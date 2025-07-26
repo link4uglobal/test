@@ -1,5 +1,23 @@
 [
     {
+        "brand": "BMW",
+  "model": "Z4",
+  "variant": "M40i",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 87,
+  "price": "87 Lakh",
+  "year": 2021,
+  "kmDriven": 20000,
+  "bodyType": "Convertible",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/z4-m40i-2021-petrol-trivandrum/",
+  "image": "/cars/bmw/z4-m40i-2021-petrol-trivandrum/assets/images/bmw-z4-m40i-2021-petrol-trivandrum2.webp"
+    },
+    {
         "brand": "Jeep",
   "model": "Wrangler Rubicon",
   "variant": "Rubicon",

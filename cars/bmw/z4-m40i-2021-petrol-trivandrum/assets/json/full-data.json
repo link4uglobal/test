@@ -1,0 +1,46 @@
+
+{
+  "brand": "BMW",
+  "model": "Z4",
+  "variant": "M40i",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 87,
+  "price": "87 Lakh",
+  "year": 2021,
+  "kmDriven": 20000,
+  "bodyType": "Convertible",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/z4-m40i-2021-petrol-trivandrum/",
+  "image": "/cars/bmw/z4-m40i-2021-petrol-trivandrum/assets/images/bmw-z4-m40i-2021-petrol-trivandrum2.webp",
+  "gallery": [
+      "/cars/bmw/z4-m40i-2021-petrol-trivandrum/assets/images/bmw-z4-m40i-2021-petrol-trivandrum1.webp",
+  "/cars/bmw/z4-m40i-2021-petrol-trivandrum/assets/images/bmw-z4-m40i-2021-petrol-trivandrum2.webp",
+  "/cars/bmw/z4-m40i-2021-petrol-trivandrum/assets/images/bmw-z4-m40i-2021-petrol-trivandrum3.webp"
+  ],
+  "features": [
+    "convertible soft top",
+    "leather seats",
+    "touchscreen infotainment",
+    "Apple CarPlay",
+    "Android Auto",
+    "wireless charging",
+    "rear camera",
+    "automatic climate control",
+    "keyless entry",
+    "ABS system",
+    "traction control",
+    "cruise control",
+    "electronic stability control",
+    "parking sensors",
+    "digital instrument cluster",
+    "sports mode",
+    "alloy wheels",
+    "power seats",
+    "ambient lighting"
+  ],
+  "description": "The 2021 BMW Z4 M40i is a premium convertible roadster that blends striking looks with thrilling performance. Powered by a 3.0L turbocharged inline-6 engine producing 340 hp, the Z4 M40i accelerates with purpose and handles with precision. Featuring a luxurious white finish, soft-top convertible roof, and advanced tech, it offers open-top driving excitement with German engineering finesse."
+}
