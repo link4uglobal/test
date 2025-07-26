@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Maserati",
+  "model": "Levante",
+  "variant": "",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 75,
+  "price": "70 Lakh",
+  "year": 2017,
+  "kmDriven": 60000,
+  "bodyType": "SUV",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/maserati/levante-2017-diesel-trivandrum/",
+  "image": "/cars/maserati/levante-2017-diesel-trivandrum/assets/images/maserati-levante-2017-diesel-trivandrum2.webp"
+    },
+    {
         "brand": "BMW",
   "model": "Z4",
   "variant": "M40i",
