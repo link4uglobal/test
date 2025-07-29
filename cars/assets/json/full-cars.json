@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Mercedes Benz",
+  "model": "GLA 200D",
+  "variant": "Diesel",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 13,
+  "price": "13 Lakh",
+  "year": 2016,
+  "kmDriven": 70000,
+  "bodyType": "SUV",
+  "color": "Brown",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/mercedes-benz/gla-200d-diesel-2016-trivandrum/",
+  "image": "/cars/mercedes-benz/gla-200d-diesel-2016-trivandrum/assets/images/mercedes-benz-gla-200d-2016-diesel-trivandrum3.webp"
+    },
+    {
         "brand": "Maserati",
   "model": "Ghibli",
   "variant": "Diesel",
