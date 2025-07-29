@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Land Rover",
+  "model": "Defender",
+  "variant": "110 HSE",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 90,
+  "price": "90 Lakh",
+  "year": 2022,
+  "kmDriven": 30000,
+  "bodyType": "SUV",
+  "color": "Black",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/land-rover/defender-110-hse-2022-petrol-trivandrum/",
+  "image": "/cars/land-rover/defender-110-hse-2022-petrol-trivandrum/assets/images/land-rover-defender-110-hse-2022-petrol-trivandrum0.webp"
+    },
+    {
         "brand": "Volvo",
         "model": "XC90",
         "variant": "Inscription",
