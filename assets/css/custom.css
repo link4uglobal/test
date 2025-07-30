@@ -364,6 +364,10 @@ body{
 	font-weight: 700;
 	margin-bottom: 0;
 }
+.section-title h4{
+	color: #00000052;
+  font-size: 24px;
+}
 
 .section-title p{
 	margin-top: 20px;
@@ -6794,4 +6798,35 @@ select {
     margin-bottom: 10px;
     padding-left: 0px;
   }
+}
+
+/* button start  */
+
+.link-btn-1{
+	display: inline-block;
+  vertical-align: top;
+  color: #000;
+  font-family: "Barlow Condensed", arial;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #cacaca;
+  border-radius: 10px;
+  padding: 23px 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+  padding-left: 40px;
+  padding-right: 45px;
+  margin: 15px 0;
+  min-width: 60%;
+  position: relative;
+}
+.link-btn-1:hover{
+	color: #fff;
+  background-color: #000;
+  border: 1px solid #000;
 }
