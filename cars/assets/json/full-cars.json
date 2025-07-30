@@ -1,6 +1,24 @@
 [
     {
         "brand": "BMW",
+  "model": "Z4",
+  "variant": "35i",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 25,
+  "price": "25 Lakh",
+  "year": 2018,
+  "kmDriven": 30000,
+  "bodyType": "Sedan",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/z4-35i-2018-petrol-trivandrum/",
+  "image": "/cars/bmw/z4-35i-2018-petrol-trivandrum/assets/images/bmw-z4-35i-2018-petrol-trivandrum3.webp"
+    },
+    {
+        "brand": "BMW",
   "model": "530d",
   "variant": "M Sport",
   "fuel": "Diesel",
