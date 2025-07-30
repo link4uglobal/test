@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Porsche",
+  "model": "718",
+  "variant": "Cayman",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 85,
+  "price": "85 Lakh",
+  "year": 2018,
+  "kmDriven": 18000,
+  "bodyType": "Coupe",
+  "color": "Blue Metallic",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/porsche/718-cayman-2018-petrol-trivandrum/",
+  "image": "/cars/porsche/718-cayman-2018-petrol-trivandrum/assets/images/porsche-718-cayman-2018-petrol-trivandrum1.webp"
+    },
+    {
         "brand": "BMW",
   "model": "730 Ld",
   "variant": "",

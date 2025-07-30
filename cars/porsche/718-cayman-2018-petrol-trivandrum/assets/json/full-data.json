@@ -1,0 +1,43 @@
+{
+  "brand": "Porsche",
+  "model": "718",
+  "variant": "Cayman",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 85,
+  "price": "85 Lakh",
+  "year": 2018,
+  "kmDriven": 18000,
+  "bodyType": "Coupe",
+  "color": "Blue Metallic",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/porsche/718-cayman-2018-petrol-trivandrum/",
+  "image": "/cars/porsche/718-cayman-2018-petrol-trivandrum/assets/images/porsche-718-cayman-2018-petrol-trivandrum1.webp",
+  "gallery": [
+    "/cars/porsche/718-cayman-2018-petrol-trivandrum/assets/images/porsche-718-cayman-2018-petrol-trivandrum1.webp",
+  "/cars/porsche/718-cayman-2018-petrol-trivandrum/assets/images/porsche-718-cayman-2018-petrol-trivandrum3.webp",
+  "/cars/porsche/718-cayman-2018-petrol-trivandrum/assets/images/porsche-718-cayman-2018-petrol-trivandrum4.webp",
+  "/cars/porsche/718-cayman-2018-petrol-trivandrum/assets/images/porsche-718-cayman-2018-petrol-trivandrum6.webp",
+  "/cars/porsche/718-cayman-2018-petrol-trivandrum/assets/images/porsche-718-cayman-2018-petrol-trivandrum8.webp",
+  "/cars/porsche/718-cayman-2018-petrol-trivandrum/assets/images/porsche-718-cayman-2018-petrol-trivandrum7.webp",
+  "/cars/porsche/718-cayman-2018-petrol-trivandrum/assets/images/porsche-718-cayman-2018-petrol-trivandrum2.webp",
+  "/cars/porsche/718-cayman-2018-petrol-trivandrum/assets/images/porsche-718-cayman-2018-petrol-trivandrum5.webp"
+  ],
+  "features": [
+    "2.0L turbocharged flat-4 petrol engine",
+    "7-speed PDK automatic transmission",
+    "0-100 km/h in just 4.9 seconds",
+    "Rear-wheel drive with dynamic chassis control",
+    "Sport Chrono Package with drive mode selector",
+    "Bi-Xenon headlights with Porsche Dynamic Light System",
+    "Porsche Communication Management with Apple CarPlay",
+    "Sport seats with electric adjustment",
+    "Leather and Alcantara interior",
+    "19-inch alloy wheels",
+    "Automatic climate control",
+    "Rear parking sensors and camera"
+  ],
+  "description": "Own the thrill with this stunning 2018 Porsche 718 Cayman in Blue Metallic. Powered by a turbocharged petrol engine and PDK transmission, this 18,000 km run coupe offers exhilarating performance and iconic design. Available now in Trivandrum for ₹85 lakh."
+}
