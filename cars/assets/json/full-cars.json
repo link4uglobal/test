@@ -1,5 +1,23 @@
 [
     {
+        "brand": "BMW",
+  "model": "530d",
+  "variant": "M Sport",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 40,
+  "price": "40 Lakh",
+  "year": 2018,
+  "kmDriven": 30000,
+  "bodyType": "Sedan",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/530d-m-sport-2018-diesel-trivandrum/",
+  "image": "/cars/bmw/530d-m-sport-2018-diesel-trivandrum/assets/images/bmw-530d-m-sport-2018-diesel-trivandrum1.webp"
+    },
+    {
         "brand": "Porsche",
   "model": "718",
   "variant": "Cayman",
