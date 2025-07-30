@@ -1,0 +1,39 @@
+{
+  "brand": "Mercedes Benz",
+  "model": "S-Class",
+  "variant": "S 350d",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 110,
+  "price": "1.10 Cr",
+  "year": 2022,
+  "kmDriven": 33000,
+  "bodyType": "Sedan",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/mercedes-benz/s-class-s-350d-s-350d-2022-diesel-trivandrum/",
+  "image": "/cars/mercedes-benz/s-class-s-350d-s-350d-2022-diesel-trivandrum/assets/images/mercedes-benz-s-class-s-350d-s-350d-2022-diesel-trivandrum2.webp",
+  "gallery": [
+      "/cars/mercedes-benz/s-class-s-350d-s-350d-2022-diesel-trivandrum/assets/images/mercedes-benz-s-class-s-350d-s-350d-2022-diesel-trivandrum1.webp",
+  "/cars/mercedes-benz/s-class-s-350d-s-350d-2022-diesel-trivandrum/assets/images/mercedes-benz-s-class-s-350d-s-350d-2022-diesel-trivandrum2.webp",
+  "/cars/mercedes-benz/s-class-s-350d-s-350d-2022-diesel-trivandrum/assets/images/mercedes-benz-s-class-s-350d-s-350d-2022-diesel-trivandrum3.webp"
+  ],
+  "features": [
+    "3.0L Inline-6 diesel engine with EQ Boost",
+    "9G-TRONIC automatic transmission",
+    "AirMATIC air suspension",
+    "Mercedes-Benz User Experience (MBUX)",
+    "12.8-inch OLED touchscreen infotainment system",
+    "Burmeister 3D surround sound system",
+    "Rear seat executive package with massage",
+    "Active ambient lighting",
+    "Panoramic sunroof",
+    "360-degree camera with parking assist",
+    "ADAS features: lane assist, adaptive cruise control, blind spot assist",
+    "Ventilated and heated front and rear seats",
+    "Wireless charging for front and rear passengers"
+  ],
+  "description": "The 2022 Mercedes-Benz S-Class S 350d sets a new benchmark in luxury and technology. This premium white diesel sedan, driven just 33,000 km, offers unmatched comfort, cutting-edge tech, and top-tier safety features. Located in Trivandrum and in immaculate condition — experience flagship luxury."
+}

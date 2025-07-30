@@ -1,5 +1,24 @@
 [
     {
+     "brand": "Mercedes Benz",
+  "model": "S-Class",
+  "variant": "S 350d",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 110,
+  "price": "1.10 Cr",
+  "year": 2022,
+  "kmDriven": 33000,
+  "bodyType": "Sedan",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/mercedes-benz/s-class-s-350d-s-350d-2022-diesel-trivandrum/",
+  "image": "/cars/mercedes-benz/s-class-s-350d-s-350d-2022-diesel-trivandrum/assets/images/mercedes-benz-s-class-s-350d-s-350d-2022-diesel-trivandrum2.webp"
+  
+    },
+    {
         "brand": "Land Rover",
   "model": "Range Rover Sport",
   "variant": "3.0 TDV6 HSE Diesel",
