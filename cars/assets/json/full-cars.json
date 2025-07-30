@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Toyota",
+  "model": "Land Cruiser",
+  "variant": "4.5 VX LC 200",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 70,
+  "price": "70 Lakh",
+  "year": 2012,
+  "kmDriven": 140000,
+  "bodyType": "SUV",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/toyota/land-cruiser-45-vx-lc-200-2012-diesel-trivandrum/",
+  "image": "/cars/toyota/land-cruiser-45-vx-lc-200-2012-diesel-trivandrum/assets/images/toyota-land-cruiser-45-vx-lc-200-2012-diesel-trivandrum9.webp"
+    },
+    {
         "brand": "Land Rover",
   "model": "Defender",
   "variant": "110 HSE",

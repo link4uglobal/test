@@ -60,34 +60,24 @@
           <!-- Logo End -->
 
           <!-- Main Menu Start -->
-          <div class="collapse navbar-collapse main-menu">
-            <div class="nav-menu-wrapper">
-              <ul class="navbar-nav mr-auto" id="menu">
-                <li class="nav-item">
-                  <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/about">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/cars">Our Cars</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/exclusive">Exclusive</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/contact">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-            <!-- Let’s Start Button Start -->
-            <div class="header-btn d-inline-flex">
-              <a href="tel:918888875999" class="btn-default">Call Now</a>
-            </div>
-            <!-- Let’s Start Button End -->
-          </div>
-          <!-- Main Menu End -->
-          <div class="navbar-toggle"></div>
+                    <div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item"><a class="nav-link" href="/">Home</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/cars">Our Cars</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/exclusive">Exclusive</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- Let’s Start Button Start -->
+
+                        <!-- Let’s Start Button End -->
+                    </div>
+                    <!-- Main Menu End -->
+                    <div class="navbar-toggle"></div>
         </div>
       </nav>
       <div class="responsive-menu"></div>
@@ -95,32 +85,33 @@
   </header>
   <!-- Header End -->
 
-    <!-- Page Header Start -->
-    <div class="page-header bg-section parallaxie">
+    <!-- Happy Delivery Start -->
+    <section class="bg-white exclusive ">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Page Header Box Start -->
-                    <div class="page-header-box">
-                        <h1 class="text-anime-style-3 uppercase" data-cursor="-opaque" id="car-title">
-                            The Exclusive Deliveries
-                        </h1>
-                        <h2 class="text-anime-style-3 uppercase" data-cursor="-opaque" style=" font-size: larger;">Celebrating our most prestigious handovers to distinguished clients across the country.</h2>
-                        
-                    </div>
-                    <!-- Page Header Box End -->
+            <div class="row ">
+                <div class="page-header-box">
+                    <h2 class="text-anime-style-3 " data-cursor="-opaque" id="car-title">
+                        The Exclusive Deliveries
+                    </h2>
+                    <p class="text-anime-style-3 uppercase mt-2" data-cursor="-opaque">Celebrating our most prestigious
+                        handovers to
+                        distinguished clients across the country.</p>
+
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- Page Header End -->
 
-    <!-- exclusive start -->
-    <section class="mt-5 mb-5">
-        <div class="container" id="parent-container">
+            <div class="hero hero-slider" style="padding-top: 50px;">
+                <div class="hero-section bg-section hero-slider-layout">
+                    <div class="swiper">
+                        <div class="swiper-wrapper" id="slider-exclusive-container">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
-    <!-- exclusive end -->
+    <!-- Happy Delivery End -->
 
 
     <!-- Jquery Library File -->
@@ -161,43 +152,58 @@
 
   <script>
     $(document).ready(function () {
-      fetch("/exclusive/assets/json/exclusive.json")
-        .then((response) => response.json())
-        .then((data) => {
-          data.forEach((item, index) => {
-          const block = `<div class="exclusive-card mt-5 mb-5">
-                <div class="our-vision-item tab-pane fade show active" id="vision" role="tabpanel">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 bg-black">
-                            <div class="vision-mission-content">
-                                <div class="section-title">
-                                    <h3 class="wow fadeInUp">${item.subHeading}</h3>
-                                    <h2 class="wow fadeInLeft" data-cursor="-opaque">${item.heading}</h2>
-                                    <p class="wow fadeInUp" data-wow-delay="0.25s">${item.description}</p>
+            fetch("/exclusive/assets/json/exclusive.json")
+                .then((response) => response.json())
+                .then((data) => {
+                    data.forEach((item, index) => {
+                        const block = `<div class="swiper-slide">
+                                <div class="our-vision-item tab-pane fade show active"  role="tabpanel">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-6">
+                                            <div class="vision-mission-content">
+                                                <div class="section-title">
+                                                    <h3 class="text-anime-style-3" data-cursor="-opaque">${item.heading}</h3>
+                                                    <p class="wow fadeInUp" data-wow-delay="0.25s">${item.description}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <div class="vision-image">
+                                                <figure class="image-anime revel">
+                                                    <img src="${item.image}"
+                                                        alt="${item.alt}">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-
                             </div>
-                        </div>
-
-                        <div class="col-lg-6">
-                            <div class="vision-image">
-                                <figure class="image-anime">
-                                    <img src="${item.image}"
-                                        alt="${item.alt}">
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
                 `;
-          $("#parent-container").append(block);
+                        $("#slider-exclusive-container").append(block);
 
-        });
-          
-        });
+                    });
+                    $('.popup-link').magnificPopup({
+                        type: 'image',
+                        mainClass: 'mfp-zoom-in',
+                        removalDelay: 300,
+                        gallery: {
+                            enabled: true,
+                            navigateByImgClick: true,
+                            preload: [0, 1] // Preloads the previous and next images
+                        },
+                        callbacks: {
+                            open: function () {
+                                console.log('Popup is opened');
+                            },
+                            close: function () {
+                                console.log('Popup is closed');
+                            }
+                        }
+                    });
+                });
 
-    })
+        })
   </script>
 
 </body>
