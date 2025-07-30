@@ -1,6 +1,24 @@
 [
     {
         "brand": "BMW",
+  "model": "X3",
+  "variant": "xDrive20d Luxury Line",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 35,
+  "price": "35 Lakhs",
+  "year": 2019,
+  "kmDriven": 30000,
+  "bodyType": "SUV",
+  "color": "Blue",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/x3-xdrive20d-luxury-line-2019-diesel-trivandrum/",
+  "image": "/cars/bmw/x3-xdrive20d-luxury-line-2019-diesel-trivandrum/assets/images/bmw-x3-xdrive20d-luxury-line-2019-diesel-trivandrum1.webp"
+    },
+    {
+        "brand": "BMW",
   "model": "X5",
   "variant": "xDrive 30d Luxury Line",
   "fuel": "Diesel",
