@@ -1,0 +1,43 @@
+{
+  "brand": "Land Rover",
+  "model": "Range Rover Evoque",
+  "variant": "SE",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 28,
+  "price": "28 Lakh",
+  "year": 2018,
+  "kmDriven": 55000,
+  "bodyType": "SUV",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/land-rover/range-rover-evoque-se-2018-diesel-trivandrum/",
+  "image": "/cars/land-rover/range-rover-evoque-se-2018-diesel-trivandrum/assets/images/land-rover-range-rover-evoque-se-2018-diesel-trivandrum8.webp",
+  "gallery": [
+    "/cars/land-rover/range-rover-evoque-se-2018-diesel-trivandrum/assets/images/land-rover-range-rover-evoque-se-2018-diesel-trivandrum1.webp",
+  "/cars/land-rover/range-rover-evoque-se-2018-diesel-trivandrum/assets/images/land-rover-range-rover-evoque-se-2018-diesel-trivandrum2.webp",
+  "/cars/land-rover/range-rover-evoque-se-2018-diesel-trivandrum/assets/images/land-rover-range-rover-evoque-se-2018-diesel-trivandrum3.webp",
+  "/cars/land-rover/range-rover-evoque-se-2018-diesel-trivandrum/assets/images/land-rover-range-rover-evoque-se-2018-diesel-trivandrum4.webp",
+  "/cars/land-rover/range-rover-evoque-se-2018-diesel-trivandrum/assets/images/land-rover-range-rover-evoque-se-2018-diesel-trivandrum5.webp",
+  "/cars/land-rover/range-rover-evoque-se-2018-diesel-trivandrum/assets/images/land-rover-range-rover-evoque-se-2018-diesel-trivandrum6.webp",
+  "/cars/land-rover/range-rover-evoque-se-2018-diesel-trivandrum/assets/images/land-rover-range-rover-evoque-se-2018-diesel-trivandrum7.webp",
+  "/cars/land-rover/range-rover-evoque-se-2018-diesel-trivandrum/assets/images/land-rover-range-rover-evoque-se-2018-diesel-trivandrum8.webp"
+  ],
+  "features": [
+    "2.0L turbocharged diesel engine",
+    "9-speed automatic transmission",
+    "All-wheel drive (AWD)",
+    "Xenon headlights with LED signature",
+    "10-inch Touch Pro infotainment system",
+    "Dual-zone climate control",
+    "Meridian sound system",
+    "Panoramic sunroof",
+    "Electric tailgate",
+    "Leather upholstery with powered front seats",
+    "Rear parking sensors with camera",
+    "Terrain Response system for off-road capability"
+  ],
+  "description": "The 2018 Range Rover Evoque SE in elegant White is a refined luxury SUV that blends performance, design, and versatility. With 55,000 km driven and a full set of premium features, this diesel AWD model is available in Trivandrum for ₹28 lakh. A perfect urban SUV with off-road confidence."
+}

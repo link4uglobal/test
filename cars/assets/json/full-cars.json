@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Land Rover",
+  "model": "Range Rover Evoque",
+  "variant": "SE",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 28,
+  "price": "28 Lakh",
+  "year": 2018,
+  "kmDriven": 55000,
+  "bodyType": "SUV",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/land-rover/range-rover-evoque-se-2018-diesel-trivandrum/",
+  "image": "/cars/land-rover/range-rover-evoque-se-2018-diesel-trivandrum/assets/images/land-rover-range-rover-evoque-se-2018-diesel-trivandrum8.webp"
+    },
+    {
         "brand": "Mercedes Benz",
   "model": "C CLASS C 220d",
   "variant": "Edition C",
