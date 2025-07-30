@@ -1,0 +1,42 @@
+
+{
+  "brand": "BMW",
+  "model": "X7",
+  "variant": "xDrive40i M Sport",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 85,
+  "price": "85 Lakhs",
+  "year": 2021,
+  "kmDriven": 59000,
+  "bodyType": "SUV",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/x7-xdrive40i-m-sport-2021-petrol-trivandrum/",
+  "image": "/cars/bmw/x7-xdrive40i-m-sport-2021-petrol-trivandrum/assets/images/bmw-x7-xdrive40i-m-sport-2021-petrol-trivandrum4.webp",
+  "gallery": [
+
+    "/cars/bmw/x7-xdrive40i-m-sport-2021-petrol-trivandrum/assets/images/bmw-x7-xdrive40i-m-sport-2021-petrol-trivandrum1.webp",
+  "/cars/bmw/x7-xdrive40i-m-sport-2021-petrol-trivandrum/assets/images/bmw-x7-xdrive40i-m-sport-2021-petrol-trivandrum2.webp",
+  "/cars/bmw/x7-xdrive40i-m-sport-2021-petrol-trivandrum/assets/images/bmw-x7-xdrive40i-m-sport-2021-petrol-trivandrum3.webp",
+  "/cars/bmw/x7-xdrive40i-m-sport-2021-petrol-trivandrum/assets/images/bmw-x7-xdrive40i-m-sport-2021-petrol-trivandrum4.webp"
+  ],
+  "features": [
+    "3.0L inline 6-cylinder petrol engine with TwinPower Turbo",
+    "xDrive all-wheel drive system",
+    "8-speed automatic Steptronic transmission",
+    "M Sport package with aerodynamic body styling",
+    "Adaptive air suspension with selectable drive modes",
+    "Panoramic Sky Lounge glass sunroof",
+    "Six/seven-seat configuration with captain seats",
+    "BMW Laserlight with adaptive LED headlights",
+    "12.3-inch digital instrument cluster and touchscreen infotainment",
+    "Gesture control and wireless Apple CarPlay/Android Auto",
+    "5-zone automatic climate control",
+    "Harman Kardon surround sound system",
+    "360-degree camera and Parking Assistant Plus"
+  ],
+  "description": "This 2021 BMW X7 xDrive40i M Sport in elegant White offers an extraordinary blend of commanding road presence and unmatched luxury. With 59,000 km on the odometer, this full-size SUV is ideal for those who demand performance, space, and cutting-edge technology in one premium package. Available now in Trivandrum."
+}

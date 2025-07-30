@@ -1,6 +1,24 @@
 [
     {
         "brand": "BMW",
+  "model": "X7",
+  "variant": "xDrive40i M Sport",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 85,
+  "price": "85 Lakhs",
+  "year": 2021,
+  "kmDriven": 59000,
+  "bodyType": "SUV",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/x7-xdrive40i-m-sport-2021-petrol-trivandrum/",
+  "image": "/cars/bmw/x7-xdrive40i-m-sport-2021-petrol-trivandrum/assets/images/bmw-x7-xdrive40i-m-sport-2021-petrol-trivandrum4.webp"
+    },
+    {
+        "brand": "BMW",
   "model": "X3",
   "variant": "xDrive20d Luxury Line",
   "fuel": "Diesel",
