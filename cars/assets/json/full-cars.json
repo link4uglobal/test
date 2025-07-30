@@ -1,6 +1,24 @@
 [
     {
         "brand": "Land Rover",
+  "model": "Discovery Sport",
+  "variant": "HSE",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 38,
+  "price": "38 Lakh",
+  "year": 2018,
+  "kmDriven": 40000,
+  "bodyType": "SUV",
+  "color": "Red",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/land-rover/discovery-sport-hse-2018-diesel-trivandrum/",
+  "image": "/cars/land-rover/discovery-sport-hse-2018-diesel-trivandrum/assets/images/land-rover-discovery-sport-hse-2018-diesel-trivandrum5.webp"
+    },
+    {
+        "brand": "Land Rover",
   "model": "Range Rover Evoque",
   "variant": "SE",
   "fuel": "Diesel",
