@@ -1,6 +1,24 @@
 [
     {
         "brand": "BMW",
+  "model": "520d",
+  "variant": "Luxury Line",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 17,
+  "price": "17.50 Lakh",
+  "year": 2016,
+  "kmDriven": 56000,
+  "bodyType": "Sedan",
+  "color": "Phytonic Blue Metallic",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/520d-luxury-line-2016-diesel-trivandrum/",
+  "image": "/cars/bmw/520d-luxury-line-2016-diesel-trivandrum/assets/images/bmw-520d-luxury-line-2016-diesel-trivandrum5.webp"
+    },
+    {
+        "brand": "BMW",
   "model": "X7",
   "variant": "xDrive40d M Sport",
   "fuel": "Diesel",

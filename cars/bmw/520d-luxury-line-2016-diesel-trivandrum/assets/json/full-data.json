@@ -1,0 +1,47 @@
+
+{
+  "brand": "BMW",
+  "model": "520d",
+  "variant": "Luxury Line",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 17,
+  "price": "17.50 Lakh",
+  "year": 2016,
+  "kmDriven": 56000,
+  "bodyType": "Sedan",
+  "color": "Phytonic Blue Metallic",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/520d-luxury-line-2016-diesel-trivandrum/",
+  "image": "/cars/bmw/520d-luxury-line-2016-diesel-trivandrum/assets/images/bmw-520d-luxury-line-2016-diesel-trivandrum5.webp",
+  "gallery": [
+    
+    "/cars/bmw/520d-luxury-line-2016-diesel-trivandrum/assets/images/bmw-520d-luxury-line-2016-diesel-trivandrum2.webp",
+  "/cars/bmw/520d-luxury-line-2016-diesel-trivandrum/assets/images/bmw-520d-luxury-line-2016-diesel-trivandrum1.webp",
+  "/cars/bmw/520d-luxury-line-2016-diesel-trivandrum/assets/images/bmw-520d-luxury-line-2016-diesel-trivandrum3.webp",
+  "/cars/bmw/520d-luxury-line-2016-diesel-trivandrum/assets/images/bmw-520d-luxury-line-2016-diesel-trivandrum4.webp",
+  "/cars/bmw/520d-luxury-line-2016-diesel-trivandrum/assets/images/bmw-520d-luxury-line-2016-diesel-trivandrum5.webp",
+  "/cars/bmw/520d-luxury-line-2016-diesel-trivandrum/assets/images/bmw-520d-luxury-line-2016-diesel-trivandrum6.webp",
+  "/cars/bmw/520d-luxury-line-2016-diesel-trivandrum/assets/images/bmw-520d-luxury-line-2016-diesel-trivandrum7.webp",
+  "/cars/bmw/520d-luxury-line-2016-diesel-trivandrum/assets/images/bmw-520d-luxury-line-2016-diesel-trivandrum8.webp",
+  "/cars/bmw/520d-luxury-line-2016-diesel-trivandrum/assets/images/bmw-520d-luxury-line-2016-diesel-trivandrum9.webp",
+  "/cars/bmw/520d-luxury-line-2016-diesel-trivandrum/assets/images/bmw-520d-luxury-line-2016-diesel-trivandrum10.webp"
+  ],
+  "features": [
+    "2.0L 4-cylinder turbocharged diesel engine",
+    "8-speed automatic transmission",
+    "Luxury Line exterior styling package",
+    "iDrive infotainment with controller and display screen",
+    "Navigation system with real-time traffic",
+    "Rear view camera and parking sensors",
+    "LED headlights and fog lights",
+    "Dual-zone climate control",
+    "Leather upholstery and wood trim interior",
+    "Powered front seats with memory function",
+    "Cruise control and drive modes",
+    "ABS with EBD, airbags, stability control"
+  ],
+  "description": "A well-maintained 2016 BMW 520d Luxury Line in Phytonic Blue Metallic. This elegant diesel sedan combines comfort, style, and performance. With only 56,000 km driven, it is available in Trivandrum at an attractive price of ₹17.5 lakh."
+}
