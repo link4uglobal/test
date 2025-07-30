@@ -1,6 +1,24 @@
 [
     {
         "brand": "Mercedes Benz",
+  "model": "GLS",
+  "variant": "350d",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 86,
+  "price": "86 Lakh",
+  "year": 2019,
+  "kmDriven": 25000,
+  "bodyType": "SUV",
+  "color": "Brown",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/mercedes-benz/gls-350d-2019-diesel-trivandrum/",
+  "image": "/cars/mercedes-benz/gls-350d-2019-diesel-trivandrum/assets/images/mercedes-benz-gls-350d-2019-diesel-trivandrum3.webp"
+    },
+    {
+        "brand": "Mercedes Benz",
   "model": "GLC 220d",
   "variant": "",
   "fuel": "Diesel",
