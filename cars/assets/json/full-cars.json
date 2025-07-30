@@ -1,5 +1,23 @@
 [
     {
+        "brand": "BMW",
+  "model": "X1",
+  "variant": "M Sport",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 30,
+  "price": "27 Lakh",
+  "year": 2016,
+  "kmDriven": 40000,
+  "bodyType": "SUV",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/x1-m-sport-2016-diesel-trivandrum/",
+  "image": "/cars/bmw/x1-m-sport-2016-diesel-trivandrum/assets/images/bmw-x1-m-sport-2016-diesel-trivandrum4.webp"
+    },
+    {
         "brand": "Volvo",
   "model": "XC40",
   "variant": "Inscription",
