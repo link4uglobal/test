@@ -1,0 +1,48 @@
+
+{
+  "brand": "BMW",
+  "model": "X5",
+  "variant": "xDrive 30d Luxury Line",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 52,
+  "price": "52 Lakhs",
+  "year": 2019,
+  "kmDriven": 50000,
+  "bodyType": "SUV",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/x5-xdrive-30d-luxury-line-2019-diesel-trivandrum/",
+  "image": "/cars/bmw/x5-xdrive-30d-luxury-line-2019-diesel-trivandrum/assets/images/bmw-x5-xdrive-30d-luxury-line-2019-diesel-trivandrum2.webp",
+  "gallery": [
+    "/cars/bmw/x5-xdrive-30d-luxury-line-2019-diesel-trivandrum/assets/images/bmw-x5-xdrive-30d-luxury-line-2019-diesel-trivandrum1.webp",
+  "/cars/bmw/x5-xdrive-30d-luxury-line-2019-diesel-trivandrum/assets/images/bmw-x5-xdrive-30d-luxury-line-2019-diesel-trivandrum2.webp",
+  "/cars/bmw/x5-xdrive-30d-luxury-line-2019-diesel-trivandrum/assets/images/bmw-x5-xdrive-30d-luxury-line-2019-diesel-trivandrum3.webp",
+  "/cars/bmw/x5-xdrive-30d-luxury-line-2019-diesel-trivandrum/assets/images/bmw-x5-xdrive-30d-luxury-line-2019-diesel-trivandrum4.webp",
+  "/cars/bmw/x5-xdrive-30d-luxury-line-2019-diesel-trivandrum/assets/images/bmw-x5-xdrive-30d-luxury-line-2019-diesel-trivandrum5.webp",
+  "/cars/bmw/x5-xdrive-30d-luxury-line-2019-diesel-trivandrum/assets/images/bmw-x5-xdrive-30d-luxury-line-2019-diesel-trivandrum6.webp",
+  "/cars/bmw/x5-xdrive-30d-luxury-line-2019-diesel-trivandrum/assets/images/bmw-x5-xdrive-30d-luxury-line-2019-diesel-trivandrum7.webp",
+  "/cars/bmw/x5-xdrive-30d-luxury-line-2019-diesel-trivandrum/assets/images/bmw-x5-xdrive-30d-luxury-line-2019-diesel-trivandrum8.webp",
+  "/cars/bmw/x5-xdrive-30d-luxury-line-2019-diesel-trivandrum/assets/images/bmw-x5-xdrive-30d-luxury-line-2019-diesel-trivandrum9.webp",
+  "/cars/bmw/x5-xdrive-30d-luxury-line-2019-diesel-trivandrum/assets/images/bmw-x5-xdrive-30d-luxury-line-2019-diesel-trivandrum10.webp",
+  "/cars/bmw/x5-xdrive-30d-luxury-line-2019-diesel-trivandrum/assets/images/bmw-x5-xdrive-30d-luxury-line-2019-diesel-trivandrum11.webp"
+  ],
+  "features": [
+    "3.0L 6-cylinder turbocharged diesel engine",
+    "xDrive all-wheel drive system",
+    "8-speed automatic Steptronic transmission",
+    "Luxury Line exterior and interior package",
+    "Panoramic glass sunroof",
+    "Adaptive LED headlights with BMW Laserlight",
+    "Vernasca leather upholstery",
+    "Gesture control and BMW iDrive 7.0",
+    "12.3-inch digital instrument cluster and infotainment display",
+    "Parking Assistant Plus with 360-degree camera",
+    "Ambient interior lighting",
+    "Wireless charging and Apple CarPlay",
+    "Harman Kardon surround sound system"
+  ],
+  "description": "This 2019 BMW X5 xDrive 30d Luxury Line in White offers a perfect blend of rugged performance and refined luxury. With 50,000 km driven and full-featured tech and comfort packages, this SUV stands out in Trivandrum as a premium, powerful, and versatile vehicle ideal for both urban and highway drives."
+}
