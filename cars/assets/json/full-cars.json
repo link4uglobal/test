@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Land Rover",
+  "model": "Range Rover Sport",
+  "variant": "3.0 TDV6 HSE Diesel",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 20,
+  "price": "18.5 Lakh",
+  "year": 2012,
+  "kmDriven": 140000,
+  "bodyType": "SUV",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/land-rover/range-rover-sport-sport-30-tdv6-hse-diesel-2012-diesel-trivandrum/",
+  "image": "/cars/land-rover/range-rover-sport-sport-30-tdv6-hse-diesel-2012-diesel-trivandrum/assets/images/land-rover-range-rover-sport-sport-30-tdv6-hse-diesel-2012-diesel-trivandrum4.webp"
+    },
+    {
         "brand": "BMW",
   "model": "X1",
   "variant": "M Sport",
