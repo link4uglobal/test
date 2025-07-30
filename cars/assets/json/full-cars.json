@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Volvo",
+  "model": "XC40",
+  "variant": "Inscription",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 25,
+  "price": "25.50 Lakh",
+  "year": 2020,
+  "kmDriven": 130000,
+  "bodyType": "SUV",
+  "color": "Black",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/volvo/xc40-inscription-2020-diesel-trivandrum/",
+  "image": "/cars/volvo/xc40-inscription-2020-diesel-trivandrum/assets/images/volvo-xc40-inscription-2020-diesel-trivandrum5.webp"
+    },
+    {
         "brand": "Toyota",
   "model": "Land Cruiser",
   "variant": "4.5 VX LC 200",

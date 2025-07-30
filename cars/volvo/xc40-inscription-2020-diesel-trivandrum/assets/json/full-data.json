@@ -1,0 +1,45 @@
+
+{
+  "brand": "Volvo",
+  "model": "XC40",
+  "variant": "Inscription",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 25,
+  "price": "25.50 Lakh",
+  "year": 2020,
+  "kmDriven": 130000,
+  "bodyType": "SUV",
+  "color": "Black",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/volvo/xc40-inscription-2020-diesel-trivandrum/",
+  "image": "/cars/volvo/xc40-inscription-2020-diesel-trivandrum/assets/images/volvo-xc40-inscription-2020-diesel-trivandrum5.webp",
+  "gallery": [
+  "/cars/volvo/xc40-inscription-2020-diesel-trivandrum/assets/images/volvo-xc40-inscription-2020-diesel-trivandrum2.webp",
+  "/cars/volvo/xc40-inscription-2020-diesel-trivandrum/assets/images/volvo-xc40-inscription-2020-diesel-trivandrum3.webp",
+  "/cars/volvo/xc40-inscription-2020-diesel-trivandrum/assets/images/volvo-xc40-inscription-2020-diesel-trivandrum4.webp",
+  "/cars/volvo/xc40-inscription-2020-diesel-trivandrum/assets/images/volvo-xc40-inscription-2020-diesel-trivandrum5.webp",
+  "/cars/volvo/xc40-inscription-2020-diesel-trivandrum/assets/images/volvo-xc40-inscription-2020-diesel-trivandrum6.webp",
+  "/cars/volvo/xc40-inscription-2020-diesel-trivandrum/assets/images/volvo-xc40-inscription-2020-diesel-trivandrum7.webp",
+  "/cars/volvo/xc40-inscription-2020-diesel-trivandrum/assets/images/volvo-xc40-inscription-2020-diesel-trivandrum8.webp"
+  ],
+  "features": [
+    "2.0L diesel engine",
+    "AWD (All Wheel Drive)",
+    "panoramic sunroof",
+    "9-inch touchscreen infotainment with Apple CarPlay & Android Auto",
+    "digital instrument cluster",
+    "leather upholstery",
+    "power tailgate",
+    "adaptive cruise control",
+    "lane-keeping assist",
+    "blind-spot detection",
+    "wireless charging",
+    "rear parking sensors with camera",
+    "multiple drive modes",
+    "premium 13-speaker Harman Kardon sound system"
+  ],
+  "description": "The 2020 Volvo XC40 Inscription Diesel is a perfect blend of Scandinavian design and cutting-edge technology. With 1.3 lakh km driven, this black luxury compact SUV offers comfort, class, and top-tier safety features. Ideal for urban commuting and long drives from Trivandrum, it's a rare diesel-powered gem in the premium segment."
+}
