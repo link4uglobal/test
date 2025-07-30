@@ -1,4 +1,4 @@
-/* .w3-animate-left{position:relative;animation:animateleft 0.9s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.w3-animate-left{position:relative;animation:animateleft 0.9s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
 
 .hamburger {
 	width: 60px !important;
@@ -99,11 +99,14 @@ html:not(.body-menu-opened) .hamburger .bottom-bun {
     z-index: 100000;
     position: absolute;
     width:100%; 
-    background-color:red; 
+    background-color:rgb(255, 255, 255); 
     height: 100vh;
     display: none;
 }
 .close-btn-div{
     display: flex;
     justify-content:  flex-end;
-} */
+	position: absolute;
+	top: 0;
+	left: 95%;
+}

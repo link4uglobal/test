@@ -6830,3 +6830,16 @@ select {
   background-color: #000;
   border: 1px solid #000;
 }
+.how-its-work .image-div{
+	display: flex;
+	justify-content: center;
+}
+.how-its-work>div{
+	padding-top: 10px;
+}
+.how-its-work img{
+	max-width: 180px;
+}
+.how-its-work h3{
+	font-size: 24px;
+}
