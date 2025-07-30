@@ -1,0 +1,41 @@
+{
+  "brand": "Audi",
+  "model": "TT",
+  "variant": "2.0 TFSI Coupe Quatro",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 18,
+  "price": "18 Lakh",
+  "year": 2013,
+  "kmDriven": 40000,
+  "bodyType": "Coupe",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/audi/tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum/",
+  "image": "/cars/audi/tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum/assets/images/audi-tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum1.webp",
+  "gallery": [
+    "/cars/audi/tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum/assets/images/audi-tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum1.webp",
+  "/cars/audi/tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum/assets/images/audi-tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum2.webp",
+  "/cars/audi/tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum/assets/images/audi-tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum3.webp",
+  "/cars/audi/tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum/assets/images/audi-tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum4.webp",
+  "/cars/audi/tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum/assets/images/audi-tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum5.webp",
+  "/cars/audi/tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum/assets/images/audi-tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum6.webp"
+  ],
+  "features": [
+    "2.0L TFSI turbocharged petrol engine",
+    "Quattro all-wheel-drive system",
+    "S-tronic dual-clutch automatic gearbox",
+    "Xenon plus headlights with LED DRLs",
+    "Leather/Alcantara sports seats",
+    "Automatic climate control",
+    "Audi MMI infotainment system",
+    "Bang & Olufsen sound system (optional)",
+    "18-inch alloy wheels",
+    "Cruise control and drive select",
+    "Retractable rear spoiler",
+    "Electronic stability control"
+  ],
+  "description": "Drive home the stylish and agile 2013 Audi TT 2.0 TFSI Coupe Quattro in pristine White. With just 40,000 km driven, this all-wheel-drive performance coupe offers sporty handling and timeless design. Available in Trivandrum for ₹18 lakh."
+}

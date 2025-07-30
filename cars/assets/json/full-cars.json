@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Audi",
+  "model": "TT",
+  "variant": "2.0 TFSI Coupe Quatro",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 18,
+  "price": "18 Lakh",
+  "year": 2013,
+  "kmDriven": 40000,
+  "bodyType": "Coupe",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/audi/tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum/",
+  "image": "/cars/audi/tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum/assets/images/audi-tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum1.webp"
+    },
+    {
         "brand": "BMW",
   "model": "Z4",
   "variant": "35i",
