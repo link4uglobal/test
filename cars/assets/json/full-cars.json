@@ -1,5 +1,23 @@
 [
     {
+        "brand": "BMW",
+  "model": "730 Ld",
+  "variant": "",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 40,
+  "price": "40 Lakh",
+  "year": 2016,
+  "kmDriven": 40000,
+  "bodyType": "Sedan",
+  "color": "Black",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/730-ld-2016-diesel-trivandrum/",
+  "image": "/cars/bmw/730-ld-2016-diesel-trivandrum/assets/images/bmw-730-ld-2016-diesel-trivandrum1.webp"
+    },
+    {
         "brand": "Mercedes Benz",
   "model": "GLS",
   "variant": "350d",

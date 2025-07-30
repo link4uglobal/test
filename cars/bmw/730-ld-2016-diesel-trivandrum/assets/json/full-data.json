@@ -1,0 +1,40 @@
+
+{
+  "brand": "BMW",
+  "model": "730 Ld",
+  "variant": "",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 40,
+  "price": "40 Lakh",
+  "year": 2016,
+  "kmDriven": 40000,
+  "bodyType": "Sedan",
+  "color": "Black",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/730-ld-2016-diesel-trivandrum/",
+  "image": "/cars/bmw/730-ld-2016-diesel-trivandrum/assets/images/bmw-730-ld-2016-diesel-trivandrum1.webp",
+  "gallery": [
+    "/cars/bmw/730-ld-2016-diesel-trivandrum/assets/images/bmw-730-ld-2016-diesel-trivandrum1.webp",
+  "/cars/bmw/730-ld-2016-diesel-trivandrum/assets/images/bmw-730-ld-2016-diesel-trivandrum2.webp",
+  "/cars/bmw/730-ld-2016-diesel-trivandrum/assets/images/bmw-730-ld-2016-diesel-trivandrum3.webp",
+  "/cars/bmw/730-ld-2016-diesel-trivandrum/assets/images/bmw-730-ld-2016-diesel-trivandrum4.webp"
+  ],
+  "features": [
+    "3.0L inline-six diesel engine",
+    "8-speed automatic transmission",
+    "Adaptive air suspension for superior comfort",
+    "Gesture-controlled infotainment system",
+    "Soft-close automatic doors",
+    "Rear-seat entertainment system",
+    "4-zone automatic climate control",
+    "Luxury leather interior with ambient lighting",
+    "Heads-up display and digital instrument cluster",
+    "360-degree camera and parking assist",
+    "Harman Kardon surround sound system",
+    "BMW ConnectedDrive services"
+  ],
+  "description": "Experience unmatched luxury with the BMW 730 Ld. This 2016 diesel variant in sleek black offers premium features like gesture control, air suspension, rear-seat entertainment, and a Harman Kardon sound system. With just 40,000 km driven, it's available now in Trivandrum for ₹40 lakh."
+}
