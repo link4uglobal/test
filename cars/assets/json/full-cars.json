@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Mercedes Benz",
+  "model": "C CLASS C 220d",
+  "variant": "Edition C",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 30,
+  "price": "30 Lakh",
+  "year": 2017,
+  "kmDriven": 40000,
+  "bodyType": "Sedan",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/mercedes-benz/c-class-220d-edition-c-2017-diesel-trivandrum/",
+  "image": "/cars/mercedes-benz/c-class-220d-edition-c-2017-diesel-trivandrum/assets/images/mercedes-benz-c-class-c-220d-edition-c-2017-diesel-trivandrum9.webp"
+    },
+    {
         "brand": "BMW",
   "model": "520d",
   "variant": "Luxury Line",
