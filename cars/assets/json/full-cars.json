@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Mercedes Benz",
+  "model": "GLC 220d",
+  "variant": "",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 26,
+  "price": "26 Lakh",
+  "year": 2016,
+  "kmDriven": 50000,
+  "bodyType": "SUV",
+  "color": "Blue",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/mercedes-benz/glc-220d-2016-diesel-trivandrum/",
+  "image": "/cars/mercedes-benz/glc-220d-2016-diesel-trivandrum/assets/images/mercedes-benz-glc-220d-2016-diesel-trivandrum2.webp"
+    },
+    {
         "brand": "Land Rover",
   "model": "Discovery Sport",
   "variant": "HSE",
