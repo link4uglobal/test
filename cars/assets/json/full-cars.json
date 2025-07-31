@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Lexus",
+  "model": "NX 300h",
+  "variant": "Luxury",
+  "fuel": "Petrol Hybrid",
+  "transmission": "Automatic",
+  "priceRange": 40,
+  "price": "40 Lakh",
+  "year": 2018,
+  "kmDriven": 50000,
+  "bodyType": "Suv",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/lexus/nx-300h-luxury-2018-petrol-hybrid-trivandrum/",
+  "image": "/cars/lexus/nx-300h-luxury-2018-petrol-hybrid-trivandrum/assets/images/lexus-nx-300h-luxury-2018-petrol-hybrid-trivandrum-3.webp"
+    },
+    {
         "brand": "BMW",
   "model": "220D",
   "variant": "M Sport",
