@@ -1,0 +1,43 @@
+{
+  "brand": "BMW",
+  "model": "220D",
+  "variant": "M Sport",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 32,
+  "price": "32 Lakh",
+  "year": 2021,
+  "kmDriven": 20000,
+  "bodyType": "Coupe",
+  "color": "Black Saphire",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/220d-m-sport-2021-diesel-trivandrum/",
+  "image": "/cars/bmw/220d-m-sport-2021-diesel-trivandrum/assets/images/bmw-220d-m-sport-2021-diesel-trivandrum-5.webp",
+  "gallery": [
+    "/cars/bmw/220d-m-sport-2021-diesel-trivandrum/assets/images/bmw-220d-m-sport-2021-diesel-trivandrum-5.webp",
+    "/cars/bmw/220d-m-sport-2021-diesel-trivandrum/assets/images/bmw-220d-m-sport-2021-diesel-trivandrum-1.webp",
+  "/cars/bmw/220d-m-sport-2021-diesel-trivandrum/assets/images/bmw-220d-m-sport-2021-diesel-trivandrum-2.webp",
+  "/cars/bmw/220d-m-sport-2021-diesel-trivandrum/assets/images/bmw-220d-m-sport-2021-diesel-trivandrum-3.webp",
+  "/cars/bmw/220d-m-sport-2021-diesel-trivandrum/assets/images/bmw-220d-m-sport-2021-diesel-trivandrum-4.webp",
+  "/cars/bmw/220d-m-sport-2021-diesel-trivandrum/assets/images/bmw-220d-m-sport-2021-diesel-trivandrum-6.webp",
+  "/cars/bmw/220d-m-sport-2021-diesel-trivandrum/assets/images/bmw-220d-m-sport-2021-diesel-trivandrum-7.webp",
+  "/cars/bmw/220d-m-sport-2021-diesel-trivandrum/assets/images/bmw-220d-m-sport-2021-diesel-trivandrum-8.webp"
+  ],
+  "features": [
+    "2.0L TwinPower Turbo 4-cylinder diesel engine",
+    "8-speed Steptronic automatic transmission",
+    "M Sport styling package with sport suspension",
+    "Fully digital instrument display",
+    "10.25-inch touchscreen with BMW iDrive system",
+    "Apple CarPlay and Android Auto",
+    "Dual-zone automatic climate control",
+    "LED headlights and DRLs",
+    "Rear view camera with front and rear parking sensors",
+    "18-inch alloy wheels",
+    "Leatherette upholstery and ambient lighting",
+    "Cruise control with braking function"
+  ],
+  "description": "This 2021 BMW 220D M Sport Coupe in Black Sapphire blends athletic design with thrilling diesel performance. With only 20,000 km driven, it’s available in Trivandrum for ₹32 lakh. Elevate your drive with BMW’s renowned engineering and sportiness."
+}

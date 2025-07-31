@@ -1,5 +1,23 @@
 [
     {
+        "brand": "BMW",
+  "model": "220D",
+  "variant": "M Sport",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 32,
+  "price": "32 Lakh",
+  "year": 2021,
+  "kmDriven": 20000,
+  "bodyType": "Coupe",
+  "color": "Black Saphire",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/220d-m-sport-2021-diesel-trivandrum/",
+  "image": "/cars/bmw/220d-m-sport-2021-diesel-trivandrum/assets/images/bmw-220d-m-sport-2021-diesel-trivandrum-5.webp"
+    },
+    {
         "brand": "Porsche",
   "model": "Macan",
   "variant": "",
