@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Land Rover",
+  "model": "Range Rover Evoque",
+  "variant": "SE",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 25,
+  "price": "21 Lakh",
+  "year": 2016,
+  "kmDriven": 88000,
+  "bodyType": "Suv",
+  "color": "Red",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/land-rover/range-rover-evoque-se-2016-diesel-trivandrum/",
+  "image": "/cars/land-rover/range-rover-evoque-se-2016-diesel-trivandrum/assets/images/land-rover-range-rover-evoque-se-2016-diesel-trivandrum-4.webp"
+    },
+    {
         "brand": "Lexus",
   "model": "NX 300h",
   "variant": "Luxury",
