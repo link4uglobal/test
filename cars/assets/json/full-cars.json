@@ -1,5 +1,23 @@
 [
     {
+        "brand": "BMW",
+  "model": "X5 xDrive30d",
+  "variant": "Pure Experience 7 Seater",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 20,
+  "price": "20 Lakh",
+  "year": 2015,
+  "kmDriven": 90000,
+  "bodyType": "SUV",
+  "color": "Black",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/bmw/x5-xdrive-30d-pure-experience-7-seater-2015-diesel-trivandrum/",
+  "image": "/cars/bmw/x5-xdrive-30d-pure-experience-7-seater-2015-diesel-trivandrum/assets/images/bmw-x5-xdrive-30d-pure-experience-7-seater-2015-diesel-trivandrum-2.webp"
+    },
+    {
         "brand": "Ferrari",
   "model": "458 Spyder",
   "variant": "",
