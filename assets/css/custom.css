@@ -6823,7 +6823,7 @@ select {
   padding-left: 40px;
   padding-right: 45px;
   margin: 15px 0;
-  min-width: 60%;
+  /* min-width: 60%; */
   position: relative;
 }
 .link-btn-1:hover{
@@ -6912,4 +6912,18 @@ select {
   font-weight: bold;
   color: #000;
   margin: 0;
+}
+
+.image-box {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+.image-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Ensures image covers container uniformly */
+  display: block;
 }
