@@ -6843,3 +6843,72 @@ select {
 .how-its-work h3{
 	font-size: 24px;
 }
+
+.experience-section h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.experience-section h2 span:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #000;
+  opacity: 0.05;
+  z-index: 0;
+  font-size: 5rem;
+  width: 100%;
+}
+
+.experience-section h2 span.text-dark {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.experience-section h2 span.text-secondary {
+  position: relative;
+  z-index: 1;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.experience-section p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.8;
+}
+
+.experience-section .stat-box {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
+  transition: transform 0.3s ease;
+}
+
+.experience-section .stat-box:hover {
+  transform: translateY(-5px);
+}
+
+.experience-section .stat-box i {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.experience-section .stat-box h6 {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.experience-section .stat-box p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+}
