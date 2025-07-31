@@ -1,6 +1,24 @@
 [
     {
         "brand": "Ferrari",
+  "model": "488 GTB",
+  "variant": "",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 372,
+  "price": "3.72 Cr",
+  "year": 2017,
+  "kmDriven": 20000,
+  "bodyType": "Coupe",
+  "color": "Black",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/ferrari/488-gtb-2017-petrol-trivandrum/",
+  "image": "/cars/ferrari/488-gtb-2017-petrol-trivandrum/assets/images/ferrari-488-gtb-2017-petrol-trivandrum-11.webp"
+    },
+    {
+        "brand": "Ferrari",
   "model": "458 Italia",
   "variant": "",
   "fuel": "Petrol",
