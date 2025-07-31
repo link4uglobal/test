@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Audi",
+  "model": "A3",
+  "variant": "S line",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 13,
+  "price": "13 Lakh",
+  "year": 2015,
+  "kmDriven": 50000,
+  "bodyType": "Sedan",
+  "color": "Red",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/audi/a3-s-line-2015-diesel-trivandrum/",
+  "image": "/cars/audi/a3-s-line-2015-diesel-trivandrum/assets/images/audi-a3-s-line-2015-diesel-trivandrum-13.webp"
+    },
+    {
         "brand": "Mercedes Benz",
   "model": "C CLASS C220d",
   "variant": "",
