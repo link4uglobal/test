@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Porsche",
+  "model": "Cayenne",
+  "variant": "Platinum Edition",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 47,
+  "price": "47 Lakh",
+  "year": 2017,
+  "kmDriven": 57000,
+  "bodyType": "SUV",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/porsche/cayenne-platinum-edition-2017-diesel-trivandrum/",
+  "image": "/cars/porsche/cayenne-platinum-edition-2017-diesel-trivandrum/assets/images/porsche-cayenne-platinum-edition-2017-diesel-trivandrum-3.webp"
+    },
+    {
         "brand": "BMW",
   "model": "X5 xDrive30d",
   "variant": "Pure Experience 7 Seater",
