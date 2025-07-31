@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Mercedes Benz",
+  "model": "C CLASS C220d",
+  "variant": "",
+  "fuel": "Diesel",
+  "transmission": "Automatic",
+  "priceRange": 55,
+  "price": "55 Lakh",
+  "year": 2019,
+  "kmDriven": 20000,
+  "bodyType": "Sedan",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/mercedes-benz/c-class-c220d-2019-diesel-trivandrum/",
+  "image": "/cars/mercedes-benz/c-class-c220d-2019-diesel-trivandrum/assets/images/mercedes-benz-c-class-c220d-2019-diesel-trivandrum-9.webp"
+    },
+    {
         "brand": "Land Rover",
   "model": "Range Rover Evoque",
   "variant": "SE",
