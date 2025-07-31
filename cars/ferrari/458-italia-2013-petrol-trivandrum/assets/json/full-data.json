@@ -1,0 +1,40 @@
+{
+  "brand": "Ferrari",
+  "model": "458 Italia",
+  "variant": "",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 350,
+  "price": "3.50 Cr",
+  "year": 2013,
+  "kmDriven": 17000,
+  "bodyType": "Coupe",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/ferrari/458-italia-2013-petrol-trivandrum/",
+  "image": "/cars/ferrari/458-italia-2013-petrol-trivandrum/assets/images/ferrari-458-italia-2013-petrol-trivandrum-1.webp",
+  "gallery": [
+  "/cars/ferrari/458-italia-2013-petrol-trivandrum/assets/images/ferrari-458-italia-2013-petrol-trivandrum-2.webp",
+  "/cars/ferrari/458-italia-2013-petrol-trivandrum/assets/images/ferrari-458-italia-2013-petrol-trivandrum-3.webp",
+  "/cars/ferrari/458-italia-2013-petrol-trivandrum/assets/images/ferrari-458-italia-2013-petrol-trivandrum-4.webp",
+  "/cars/ferrari/458-italia-2013-petrol-trivandrum/assets/images/ferrari-458-italia-2013-petrol-trivandrum-7.webp",
+  "/cars/ferrari/458-italia-2013-petrol-trivandrum/assets/images/ferrari-458-italia-2013-petrol-trivandrum-6.webp",
+  "/cars/ferrari/458-italia-2013-petrol-trivandrum/assets/images/ferrari-458-italia-2013-petrol-trivandrum-5.webp"
+  ],
+  "features": [
+    "4.5L V8 naturally aspirated engine producing 562 hp",
+    "7-speed dual-clutch automatic transmission",
+    "0-100 km/h in under 3.4 seconds",
+    "Carbon-ceramic brakes",
+    "Manettino drive mode selector",
+    "Racing bucket seats",
+    "Launch control",
+    "Magnetorheological suspension system",
+    "Brembo high-performance braking system",
+    "Bi-xenon headlights with LED DRLs",
+    "Aerodynamic enhancements inspired by Formula 1"
+  ],
+  "description": "Own the iconic 2013 Ferrari 458 Italia in elegant White, boasting just 17,000 km. This high-performance coupe blends Italian craftsmanship and race-inspired engineering. Available in Trivandrum for ₹3.50 Cr."
+}

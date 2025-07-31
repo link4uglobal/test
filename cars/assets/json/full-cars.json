@@ -1,5 +1,23 @@
 [
     {
+        "brand": "Ferrari",
+  "model": "458 Italia",
+  "variant": "",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 350,
+  "price": "3.50 Cr",
+  "year": 2013,
+  "kmDriven": 17000,
+  "bodyType": "Coupe",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/ferrari/458-italia-2013-petrol-trivandrum/",
+  "image": "/cars/ferrari/458-italia-2013-petrol-trivandrum/assets/images/ferrari-458-italia-2013-petrol-trivandrum-1.webp"
+    },
+    {
         "brand": "Audi",
   "model": "RS7",
   "variant": "Sportback",
