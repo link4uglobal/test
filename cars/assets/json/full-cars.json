@@ -1,6 +1,24 @@
 [
     {
         "brand": "Audi",
+  "model": "RS7",
+  "variant": "Sportback",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 95,
+  "price": "95 Lakh",
+  "year": 2018,
+  "kmDriven": 20000,
+  "bodyType": "Sedan",
+  "color": "Seapang Blue Pearl",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2024-06-02",
+  "URL": "/cars/audi/rs7-sportback-2018-petrol-trivandrum/",
+  "image": "/cars/audi/rs7-sportback-2018-petrol-trivandrum/assets/images/audi-rs7-sportback-2018-petrol-trivandrum-1.webp"
+    },
+    {
+        "brand": "Audi",
   "model": "A3",
   "variant": "S line",
   "fuel": "Diesel",
