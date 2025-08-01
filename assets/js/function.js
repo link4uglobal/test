@@ -1,3 +1,24 @@
+// Percentage Counter Logic
+    let count = 0;
+    const percentElement = document.getElementById("percent-count");
+
+    const interval = setInterval(() => {
+      if (count < 100) {
+        count++;
+        percentElement.textContent = count + "%";
+      }
+    }, 30); // Adjust speed
+
+    // Hide loader after 3s or when page fully loaded (whichever later)
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        clearInterval(interval);
+        percentElement.textContent = "100%";
+        document.getElementById("loader-wrapper").style.display = "none";
+        document.body.classList.add("loaded");
+      }, 3000);
+    });
+
 (function ($) {
     "use strict";
 	
