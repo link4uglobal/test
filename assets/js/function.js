@@ -433,3 +433,83 @@
 	}
 		
 })(jQuery);
+
+function w3_open() {
+  const sidebar = document.getElementById("mySidebar");
+
+  // Reset animation class if needed
+  sidebar.classList.remove("w3-animate-right");
+  sidebar.style.display = "block";
+
+  // Trigger slide-in animation
+  requestAnimationFrame(() => {
+    sidebar.classList.add("w3-animate-left");
+  });
+
+  // Lock scroll
+  document.body.style.overflow = "hidden";
+  document.body.style.position = "fixed";
+  document.body.style.width = "100%";
+}
+
+function w3_close() {
+  const sidebar = document.getElementById("mySidebar");
+
+  // Remove entry animation
+  sidebar.classList.remove("w3-animate-left");
+
+  // Trigger slide-out animation
+  sidebar.classList.add("w3-animate-right");
+
+  // Wait for animation, then hide and cleanup
+  setTimeout(() => {
+    sidebar.style.display = "none";
+    sidebar.classList.remove("w3-animate-right");
+
+    // Restore scroll
+    document.body.style.overflow = "auto";
+    document.body.style.position = "static";
+  }, 900); // duration must match CSS animation
+}
+
+
+// exper 
+  document.addEventListener("DOMContentLoaded", function () {
+    const stats = document.querySelectorAll(".stat-box");
+    stats.forEach((box, index) => {
+      box.style.opacity = 0;
+      box.style.transform = "translateY(20px)";
+      setTimeout(() => {
+        box.style.transition = "all 0.6s ease";
+        box.style.opacity = 1;
+        box.style.transform = "translateY(0)";
+      }, index * 200);
+    });
+  });
+
+  function animateCounter(element, end, duration = 2000) {
+    let start = 0;
+    const increment = end / (duration / 20); // updates every 20ms
+
+    const counter = setInterval(() => {
+      start += increment;
+      if (start >= end) {
+        element.innerText = end;
+        clearInterval(counter);
+      } else {
+        element.innerText = Math.floor(start);
+      }
+    }, 20);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const counters = document.querySelectorAll(".odometer");
+    if(counters){
+    counters.forEach((counter) => {
+      const target = parseInt(counter.getAttribute("data-count"));
+      animateCounter(counter, target);
+    });
+    }
+
+    
+  });

@@ -85,6 +85,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <!-- Preloader End -->
 
+    <!-- sidebar Start -->
+    <div id="mySidebar" class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left">
+
+        <div class="close-btn-div">
+            <button class="close-btn-side-bar" onclick="w3_close()"></button>
+        </div>
+        <div class="row  pt-5 ">
+            <div class="col-md-3 side-bar-urls">
+                <ul class="mt-4">
+                    <li class="nav-item-main"><a class="nav-link-mian" href="/">Home</a></li>
+                    <li class="nav-item-main"><a class="nav-link-mian" href="/about">About Us</a></li>
+                    <li class="nav-item-main"><a class="nav-link-mian" href="/cars">Our Cars</a></li>
+                    <li class="nav-item-main"><a class="nav-link-mian" href="/exclusive">Exclusive</a></li>
+                    <li class="nav-item-main"><a class="nav-link-mian" href="/contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-1"></div>
+
+            <div class="col-md-7 mt-5 side-bar-image">
+                <div class="container">
+                    <h1 class="text-anime-style-3 text-black" data-cursor="-opaque">10 YEARS OF
+                        TRUST WORHINESS….</h1>
+                    <p class="text-anime-style-3"></p>
+                    <a href="/cars/" class="link-btn-1"> Browse our collection</a>
+                    <div>
+                        <img src="/assets/img/common/sidebar.jpg" alt="Luxury Car" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sidebar End -->
+
     <!-- Header Start -->
     <header class="main-header" style="height: 0px;">
         <div class="header-sticky">
@@ -114,7 +148,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <!-- Let’s Start Button End -->
                     </div>
                     <!-- Main Menu End -->
-                    <div class="navbar-toggle"></div>
+                    <button id="menu-button-top" onclick="w3_open()">
+                        <a data-effect="st-effect-1"><span class="hamburger">
+                                <span class="top-bun"></span>
+                                <span class="meat"></span>
+                                <span class="bottom-bun"></span>
+                            </span></a>
+                    </button>
                 </div>
             </nav>
             <div class="responsive-menu"></div>
@@ -285,11 +325,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="intro-video-box">
                         <!-- Video Play Button Start -->
                         <div class="video-play-button">
-                            <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video"
+                            <a href="javascript:void(0)" 
                                 data-cursor-text="Play">
                                 <i class="fa-solid fa-play"></i>
                             </a>
                         </div>
+                        <!-- <div class="video-play-button">
+                            <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video"
+                                data-cursor-text="Play">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div> -->
                         <!-- Video Play Button End -->
 
                         <!-- Client Slider Start -->
@@ -349,9 +395,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </section>
     <!-- Intro Video Section End -->
 
-    
-
-
 
     <!-- Perfect Fleets Section Start -->
     <section class="bg-white">
@@ -380,6 +423,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <!-- Testimonial Slider End -->
 
                 </div>
+                <div class="d-flex justify-content-center align-items-center">
+                        <a class="link-btn-1" href=""> Explore ALl Cars</a>
+                     </div>
             </div>
         </div>
     </section>
