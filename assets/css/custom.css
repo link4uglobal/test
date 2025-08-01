@@ -6667,7 +6667,6 @@ select {
 
 .exclusive{
 	background: #fff;
-	padding: 100px 0;
 }
 .exclusive h2{
 	font-weight: 600;
@@ -7240,3 +7239,47 @@ html:not(.body-menu-opened) .hamburger .bottom-bun {
 #workaccordion p{
 color: #ffff !important;
 }
+section {
+      opacity: 0;
+    }
+
+    /* Animate from left */
+    section.animate-left {
+      animation: section-animateleft 2.0s forwards;
+    }
+
+    /* Animate from right */
+    section.animate-right {
+      animation: section-animateright 2.0s forwards;
+    }
+
+    @keyframes section-animateleft {
+      from { left: -1000px; opacity: 0; }
+      to { left: 0; opacity: 1; }
+    }
+
+    @keyframes section-animateright {
+      from { left: 1000px; opacity: 0; }
+      to { left: 0; opacity: 1; }
+    }
+	.link-btn-3{
+		background: #00000047;
+  padding: 9px 86px;
+  font-size: x-large;
+  margin-top: 10px;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+	}
+		.link-btn-3:hover{
+		background: #ffffff47;
+  padding: 9px 86px;
+  font-size: x-large;
+  margin-top: 10px;
+  border-radius: 4px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 500;
+	}
+	

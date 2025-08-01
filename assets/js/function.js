@@ -18,6 +18,23 @@
         document.body.classList.add("loaded");
       }, 3000);
     });
+	
+	const sections = document.querySelectorAll("section");
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const index = [...sections].indexOf(entry.target);
+          const direction = index % 2 === 0 ? 'animate-left' : 'animate-right';
+          entry.target.classList.add(direction);
+          observer.unobserve(entry.target); // Animate only once
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    sections.forEach((section) => observer.observe(section));
 
 (function ($) {
     "use strict";
