@@ -50,6 +50,66 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+        <style>
+             /* Loader Wrapper */
+    #loader-wrapper {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      overflow: hidden;
+      transition: opacity 1s ease;
+      color: white;
+    }
+
+    /* Car Loader Container */
+    .car-loader {
+      position: relative;
+      width: 100%;
+      max-width: 500px;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    /* Car Image Animation */
+    .car-img {
+      width: 400px;
+      animation: drive-in 2.5s ease-out forwards;
+      opacity: 0;
+    }
+
+    /* Drive-in Animation */
+    @keyframes drive-in {
+      0% {
+        transform: translateX(-150%);
+        opacity: 0;
+      }
+      70% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    /* Percentage Counter */
+    #percent-count {
+      font-size: 24px;
+      font-weight: bold;
+      font-family: Arial, sans-serif;
+    }
+        </style>
     <!-- Bootstrap Css -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!-- SlickNav Css -->
@@ -76,14 +136,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-    <!-- Preloader Start -->
-    <div class="preloader">
-        <div class="loading-container">
-            <div class="loading"></div>
-            <div id="loading-icon"><img src="assets/img/logo.png" alt=""></div>
-        </div>
+    <!-- Loader Section -->
+  <div id="loader-wrapper">
+    <div class="car-loader">
+      <img src="/assets/img/common/loader.png" alt="Loading Car" class="car-img">
     </div>
-    <!-- Preloader End -->
+    <div id="percent-count">0%</div>
+  </div>
 
     <!-- sidebar Start -->
     <div id="mySidebar" class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left">
@@ -468,6 +527,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="assets/js/function.js"></script>
 
     <script src="https:/demo.awaikenthemes.com/assets/js/theme-panel.js"></script>
+
+    <script>
+    // Percentage Counter Logic
+    let count = 0;
+    const percentElement = document.getElementById("percent-count");
+
+    const interval = setInterval(() => {
+      if (count < 100) {
+        count++;
+        percentElement.textContent = count + "%";
+      }
+    }, 30); // Adjust speed
+
+    // Hide loader after 3s or when page fully loaded (whichever later)
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        clearInterval(interval);
+        percentElement.textContent = "100%";
+        document.getElementById("loader-wrapper").style.display = "none";
+        document.body.classList.add("loaded");
+      }, 3000);
+    });
+  </script>
 
 
 

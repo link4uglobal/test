@@ -489,7 +489,7 @@ function w3_close() {
 
   function animateCounter(element, end, duration = 2000) {
     let start = 0;
-    const increment = end / (duration / 20); // updates every 20ms
+    const increment = end / (duration / 10); // updates every 20ms
 
     const counter = setInterval(() => {
       start += increment;
