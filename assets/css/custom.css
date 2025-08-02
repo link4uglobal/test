@@ -1317,6 +1317,8 @@ header.main-header .header-sticky.active{
 .perfect-fleet-item .image-box{
 	text-align: center;
 	border-radius: 15px;
+	padding: 10px;
+	
 
 }
 .perfect-fleet-item .image-box img{
@@ -3405,13 +3407,13 @@ header.main-header .header-sticky.active{
 	margin-bottom: 40px;
 }
 
-.fleets-slider-image{
+/* .fleets-slider-image{
 	position: relative;
 	border-radius: 10px;
 	overflow: hidden;
-}
+} */
 
-.fleets-slider-image::before{
+/* .fleets-slider-image::before{
 	content: '';
     display: block;
     position: absolute;
@@ -3421,14 +3423,8 @@ header.main-header .header-sticky.active{
     bottom: 0;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 74.81%, rgba(0, 0, 0, 0.88) 92.46%);
     z-index: 1;
-}
+} */
 
-.fleets-slider-image img{
-	border-radius: 10px;
-	overflow: hidden;
-	aspect-ratio: 1 / 0.67;
-    object-fit: cover;
-}
 
 .fleets-single-slider .swiper-pagination{
     position: relative;
@@ -6846,9 +6842,7 @@ select {
 .top-car-detailes .key{
 	min-width: 85px;
 }	
-#image-gallery>div{
-	width: 700px !important;
-}
+
 
 @media only screen and (max-width: 767px) {
   .vision-mission-content h3 {
@@ -6974,7 +6968,7 @@ select {
   height: 300px;
   width: 100%;
   overflow: hidden;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 .image-box img {
@@ -7305,4 +7299,75 @@ section {
     height: 250%;
     transition: all 600ms linear;
     background-color: transparent;
+}
+.view-all-btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.view-all-btn {
+  background-color: #000000;
+  color: white;
+  font-weight: 600;
+  padding: 15px 30px;
+  font-size: 25px;
+  border: none;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-all-btn:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  transform: scale(1.05);
+}
+
+.arrow-icon {
+  font-size: 18px;
+}
+/* === Each Slide === */
+.fleets-single-slider .swiper-slide {
+  background-color: black; /* or transparent */
+  height: 560px !important;
+  width: 100% !important; /* allow width to depend on image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* === Image Wrapper === */
+.fleets-slider-image {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* === Image === */
+.fleets-slider-image img {
+  height: 100%;
+  width: auto;
+  object-fit: contain; /* ensures full image is shown without cropping */
+  display: block;
+  border-radius: 10px;
+  max-width: 100%; /* prevents overflow on very wide images */
+}
+
+/* Optional: Ensure <figure> fills slide */
+.swiper-slide figure {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

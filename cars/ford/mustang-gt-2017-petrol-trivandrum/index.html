@@ -111,7 +111,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <!-- Logo Start -->
-          <a class="navbar-brand" href="./">
+          <a class="navbar-brand" href="/">
             <img class="link-nav-logo" src="../../../assets/img/logo.png" alt="Link 4U Global Logo" />
           </a>
           <!-- Logo End -->
@@ -533,6 +533,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             }
           }
         });
+        if ($('#image-gallery').length) {
+          const images = document.querySelectorAll('#image-gallery img');
+
+          images.forEach((img) => {
+            if (img.complete) {
+              adjustImageSize(img);
+            } else {
+              img.onload = () => adjustImageSize(img);
+            }
+          });
+
+          function adjustImageSize(img) {
+            const container = img.closest('.swiper-slide');
+            if (!container) return;
+
+            if (img.naturalHeight > img.naturalWidth) {
+              container.style.setProperty('width', '300px', 'important');
+              console.log('Portrait container adjusted:', img.src);
+            } else {
+              container.style.setProperty('width', '100%', '! important');
+              console.log('Landscape container adjusted:', img.src);
+            }
+
+          }
+        }
 
 
 
