@@ -110,66 +110,66 @@ $(document).ready(function () {
 
 
   // Car Data Dropdowns
-  let carData = [];
-  const brandSelect = document.getElementById("brandSelect");
-  const modelSelect = document.getElementById("modelSelect");
-  const yearSelect = document.getElementById("yearSelect");
+  // let carData = [];
+  // const brandSelect = document.getElementById("brandSelect");
+  // const modelSelect = document.getElementById("modelSelect");
+  // const yearSelect = document.getElementById("yearSelect");
 
-  function populateSelect(selectElement, values) {
-    selectElement.innerHTML = '<option value="">Select</option>';
-    values.forEach((value) => {
-      const option = document.createElement("option");
-      option.value = value;
-      option.textContent = value;
-      selectElement.appendChild(option);
-    });
-  }
+  // function populateSelect(selectElement, values) {
+  //   selectElement.innerHTML = '<option value="">Select</option>';
+  //   values.forEach((value) => {
+  //     const option = document.createElement("option");
+  //     option.value = value;
+  //     option.textContent = value;
+  //     selectElement.appendChild(option);
+  //   });
+  // }
 
-  fetch("/cars/assets/json/full-cars.json")
-    .then((response) => response.json())
-    .then((data) => {
-      carData = data;
-      const brands = [
-        ...new Set(carData.map((car) => car.brand.trim())),
-      ].sort();
-      populateSelect(brandSelect, brands);
-    });
+  // fetch("/cars/assets/json/full-cars.json")
+  //   .then((response) => response.json())
+  //   .then((data) => {
+  //     carData = data;
+  //     const brands = [
+  //       ...new Set(carData.map((car) => car.brand.trim())),
+  //     ].sort();
+  //     populateSelect(brandSelect, brands);
+  //   });
 
-  brandSelect.addEventListener("change", function () {
-    const selectedBrand = this.value;
-    const filteredCars = carData.filter(
-      (car) => car.brand.trim() === selectedBrand
-    );
-    const models = [
-      ...new Set(filteredCars.map((car) => car.model.trim())),
-    ].sort();
-    const years = [...new Set(filteredCars.map((car) => car.year))].sort(
-      (a, b) => b - a
-    );
-    populateSelect(modelSelect, models);
-    populateSelect(yearSelect, years);
-  });
+  // brandSelect.addEventListener("change", function () {
+  //   const selectedBrand = this.value;
+  //   const filteredCars = carData.filter(
+  //     (car) => car.brand.trim() === selectedBrand
+  //   );
+  //   const models = [
+  //     ...new Set(filteredCars.map((car) => car.model.trim())),
+  //   ].sort();
+  //   const years = [...new Set(filteredCars.map((car) => car.year))].sort(
+  //     (a, b) => b - a
+  //   );
+  //   populateSelect(modelSelect, models);
+  //   populateSelect(yearSelect, years);
+  // });
 
   // Car Cards in Swiper
   
 });
 
 // Car Filter Form Submit
-document
-  .getElementById("carFilterForm")
-  .addEventListener("submit", function (e) {
-    const brand = document.getElementById("brandSelect").value;
-    const model = document.getElementById("modelSelect").value;
-    const year = document.getElementById("yearSelect").value;
+// document
+//   .getElementById("carFilterForm")
+//   .addEventListener("submit", function (e) {
+//     const brand = document.getElementById("brandSelect").value;
+//     const model = document.getElementById("modelSelect").value;
+//     const year = document.getElementById("yearSelect").value;
 
-    const query = new URLSearchParams({
-      brand: brand,
-      model: model,
-      year: year,
-    }).toString();
+//     const query = new URLSearchParams({
+//       brand: brand,
+//       model: model,
+//       year: year,
+//     }).toString();
 
-    this.action = `/cars/index-old.html?${query}`;
-  });
+//     this.action = `/cars/index-old.html?${query}`;
+//   });
 
 // Select Expand/Collapse on Hover
 document.querySelectorAll("select").forEach((select) => {
@@ -183,28 +183,3 @@ document.querySelectorAll("select").forEach((select) => {
     this.size = 1;
   });
 });
-
-// Sidebar Open/Close
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-
-// // Filter Panel Toggle
-// const filterBtn = document.getElementById('filterBtn');
-// const overlay = document.getElementById('filterOverlay');
-// const filterPanel = document.getElementById('filterPanel');
-
-// filterBtn.addEventListener('click', () => {
-//     overlay.classList.add('active');
-//     document.body.style.overflow = 'hidden';
-// });
-
-// overlay.addEventListener('click', (e) => {
-//     if (!filterPanel.contains(e.target)) {
-//         overlay.classList.remove('active');
-//         document.body.style.overflow = 'auto';
-//     }
-// });

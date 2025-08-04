@@ -1,23 +1,33 @@
-// Percentage Counter Logic
-    let count = 0;
-    const percentElement = document.getElementById("percent-count");
+ // Lock scroll during preload
+  document.body.style.overflow = "hidden";
+  document.body.style.position = "fixed";
+  document.body.style.width = "100%";
 
-    const interval = setInterval(() => {
-      if (count < 100) {
-        count++;
-        percentElement.textContent = count + "%";
-      }
-    }, 30); // Adjust speed
+  // Percentage Counter Logic
+  let count = 0;
+  const percentElement = document.getElementById("percent-count");
 
-    // Hide loader after 3s or when page fully loaded (whichever later)
-    window.addEventListener("load", () => {
-      setTimeout(() => {
-        clearInterval(interval);
-        percentElement.textContent = "100%";
-        document.getElementById("loader-wrapper").style.display = "none";
-        document.body.classList.add("loaded");
-      }, 3000);
-    });
+  const interval = setInterval(() => {
+    if (count < 100) {
+      count++;
+      percentElement.textContent = count + "%";
+    }
+  }, 30); // Speed of counting
+
+  // On window load, hide loader after 3s
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      clearInterval(interval);
+      percentElement.textContent = "100%";
+      document.getElementById("loader-wrapper").style.display = "none";
+      document.body.classList.add("loaded");
+
+      // Restore scroll
+      document.body.style.overflow = "";
+      document.body.style.position = "";
+      document.body.style.width = "";
+    }, 3000);
+  });
 	
 	const sections = document.querySelectorAll("section");
 
