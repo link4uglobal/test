@@ -4597,9 +4597,6 @@ header.main-header .header-sticky.active{
 }
 
 .contact-info-form{
-	background: var(--primary-1-color) url('../images/contact-form-plan.svg') no-repeat;
-	background-position: bottom -10px right 50px;
-	background-size: auto;
 	width: 100%;
 	max-width: 1366px;
 	margin: 0 auto;
@@ -4706,7 +4703,7 @@ header.main-header .header-sticky.active{
 
 .contact-us-form .form-group label{
 	font-family: var(--accent-font);
-	color: var(--white-color);
+	color: var(--primary-color);
 	font-size: 16px;
 	font-weight: 500;
 	text-transform: capitalize;
@@ -4718,9 +4715,9 @@ header.main-header .header-sticky.active{
 	font-size: 16px;
 	background-color: transparent;
 	border: none;
-	border-bottom: 1px solid var(--divider-color);
+	border-bottom: 1px solid var(--primary-color);
 	border-radius: 0;
-	color: var(--white-color);
+	color: var(--primary-color);
 	box-shadow: none;
 	outline: none;
 }
@@ -6843,12 +6840,12 @@ select {
 }	
 
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   .vision-mission-content h3 {
     margin-bottom: 10px;
     padding-left: 0px;
   }
-}
+} */
 
 /* button start  */
 
@@ -7495,4 +7492,17 @@ footer{
 }
 .current-link-active{
 	color: var(--accent-color) !important;
+}
+.cta-address{
+	padding-left: 60px;
+}
+.cta-address a{
+	padding: 0px;
+	max-width: 300px;
+}
+.cta-item{
+	border-bottom: 1px solid #0006 !important;
+}
+.cta-item h3{
+	height: 64px;
 }
