@@ -7417,7 +7417,7 @@ section {
   font-size: 25px;
   font-weight: 600;
   border: solid 1px black;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -7432,7 +7432,7 @@ section {
   font-size: 25px;
   font-weight: 600;
   border: solid 1px white;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -7504,5 +7504,7 @@ footer{
 	border-bottom: 1px solid #0006 !important;
 }
 .cta-item h3{
-	height: 64px;
+	height: auto;
+	padding-bottom: 7px;
+
 }
