@@ -81,46 +81,81 @@
 
     <!-- Preloader Start -->
     <div id="loader-wrapper">
-    <div class="car-loader">
-      <img src="/assets/img/common/loader.webp" alt="Loading Car" class="car-img">
+        <div class="car-loader">
+            <img src="/assets/img/common/loader.webp" alt="Loading Car" class="car-img">
+        </div>
+        <div id="percent-count">0%</div>
     </div>
-    <div id="percent-count">0%</div>
-  </div>
     <!-- Preloader End -->
 
     <!-- sidebar Start -->
     <div id="mySidebar" class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left">
 
-        <div class="close-btn-div">
-            <button class="close-btn-side-bar" onclick="w3_close()"></button>
+    <div class="close-btn-div">
+      <button class="close-btn-side-bar" onclick="w3_close()"></button>
+    </div>
+    <div class="row  pt-5 ">
+      <div class="col-md-3 d-flex align-items-center justify-content-center">
+        <div>
+          <div class="side-bar-urls">
+          <ul class="mt-4">
+            <li class="nav-item-main"><a class="nav-link-mian" href="/">Home</a></li>
+            <li class="nav-item-main"><a class="nav-link-mian" href="/about">About Us</a></li>
+            <li class="nav-item-main"><a class="nav-link-mian" href="/cars">Our Cars</a></li>
+            <li class="nav-item-main"><a class="nav-link-mian" href="/exclusive">Exclusive</a></li>
+            <li class="nav-item-main"><a class="nav-link-mian" href="/contact">Contact Us</a></li>
+          </ul>
         </div>
-        <div class="row  pt-5 ">
-            <div class="col-md-3 side-bar-urls">
-                <ul class="mt-4">
-                    <li class="nav-item-main"><a class="nav-link-mian" href="/">Home</a></li>
-                    <li class="nav-item-main"><a class="nav-link-mian" href="/about">About Us</a></li>
-                    <li class="nav-item-main"><a class="nav-link-mian" href="/cars">Our Cars</a></li>
-                    <li class="nav-item-main"><a class="nav-link-mian" href="/exclusive">Exclusive</a></li>
-                    <li class="nav-item-main"><a class="nav-link-mian" href="/contact">Contact Us</a></li>
-                </ul>
-            </div>
 
-            <div class="col-md-1"></div>
+        <div class="sidbar-social-links mt-3">
+          <ul class="p-0">
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
 
-            <div class="col-md-7 mt-5 side-bar-image">
-                <div class="container">
-                    <h1 class="text-anime-style-3 text-black" data-cursor="-opaque">10 YEARS OF
-                        TRUST WORTHINESS.....</h1>
-                    <p class="text-anime-style-3"></p>
-                    <a href="/cars/" class="link-btn-1"> Browse our collection</a>
-                    <div>
-                        <img src="/assets/img/common/sidebar.jpg" alt="Luxury Car" />
-                    </div>
-                </div>
-            </div>
+      <div class="col-md-1"></div>
+
+      <div class="col-md-7 mt-5 side-bar-image">
+        <div class="container">
+          <h1 class="text-anime-style-3 text-black" data-cursor="-opaque">10 YEARS OF
+            TRUST WORTHINESS.....</h1>
+          <p class="text-anime-style-3"></p>
+          <a href="/cars/" class="link-btn-1"> Browse our collection</a>
+          <div>
+            <img src="/assets/img/common/sidebar.jpg" alt="Luxury Car" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- sidebar End -->
+
+    <!-- sell car form start  -->
+    <div id="popupForm" class="sell-car-form-popup">
+        <div class="sell-car-form-content">
+            <span class="sell-car-form-close tsc">&times;</span>
+            <h2 class="sell-car-form-title text-center text-black tsc">Sell Your Car</h2>
+            <form class="sell-car-form-form" id="sellCarForm" action="https://formspree.io/f/movlnopy" method="POST">
+                <input id="name" name="name" type="text" placeholder="Your Name" class="sell-car-form-input" />
+                <input id="phone" name="phone" type="tel" placeholder="Phone Number / WhatsApp Number"
+                    class="sell-car-form-input" />
+                <input id="brand" name="brand" type="text" placeholder="Car Brand" class="sell-car-form-input" />
+                <input id="model" name="model" type="text" placeholder="Model" class="sell-car-form-input" />
+                <input id="year" name="year" type="text" placeholder="Year" class="sell-car-form-input" />
+                <input id="location" name="location" type="text" placeholder="Location" class="sell-car-form-input" />
+
+                <button id="my-form-button" type="submit" class="sell-car-form-submit">Submit</button>
+                <div id="formMessage"></div>
+            </form>
         </div>
     </div>
-    <!-- sidebar End -->
+    <!-- sell car form End  -->
 
 
     <!-- Header Start -->
@@ -130,7 +165,8 @@
                 <div class="container">
                     <!-- Logo Start -->
                     <a class="navbar-brand" href="/">
-                        <img class="link-nav-logo" style="margin-top: -50px;" src="/assets/img/logo.png" alt="Link 4U Global Logo">
+                        <img class="link-nav-logo" style="margin-top: -50px;" src="/assets/img/logo.png"
+                            alt="Link 4U Global Logo">
                     </a>
                     <!-- Logo End -->
 
@@ -193,7 +229,8 @@
                         <!-- Hero Content Start -->
                         <div class="hero-content">
                             <div class="section-title">
-                                <h1 class="text-anime-style-3 heading-main-hero" data-cursor="-opaque">LINKING U TO UR DREAM MACHINES</h1>
+                                <h1 class="text-anime-style-3 heading-main-hero" data-cursor="-opaque">LINKING U TO UR
+                                    DREAM MACHINES</h1>
                                 <p class="text-anime-style-3 sub-heading-main-hero">10 YEARS OF
                                     TRUST WORTHINESS.....</p>
 
@@ -212,10 +249,10 @@
         <div class="container">
             <div class="row ">
                 <div class="page-header-box">
-                    <h2 class="text-anime-style-3 " data-cursor="-opaque" id="car-title">
+                    <h2 class="text-anime-style-3 tsc" data-cursor="-opaque" id="car-title">
                         The Exclusive Deliveries
                     </h2>
-                    <p class="text-anime-style-3 uppercase mt-2" data-cursor="-opaque">Celebrating our most prestigious
+                    <p class="text-anime-style-3 uppercase mt-2  text-black bold tsc" data-cursor="-opaque">Celebrating our most prestigious
                         handovers to
                         distinguished clients across the country.</p>
 
@@ -236,16 +273,15 @@
     <!-- Happy Delivery End -->
 
     <!-- Intro Video Section Start -->
-    <section class="intro-video bg-section parallaxie">
+    <div class="intro-video bg-section parallaxie d-flex align-items-center">
         <div class="container">
             <div class="row section-row">
                 <div class="col-lg-12">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">watch full video</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Experience luxury in motion</h2>
-                        <h4 class="mt-3 text-anime-style-3" data-cursor="-opaque">watch our latest car walkarounds,
-                            feature highlights, and client deliveries.</h4>
+                        <h2 class="text-anime-style-3 text-white tscb" data-cursor="-opaque">Experience luxury in motion</h2>
+                        <h6 class=" text-anime-style-3 mt-3 text-white " style="font-size: 28px;" data-cursor="-opaque">watch our latest car walkarounds,
+                            feature highlights, and client deliveries.</h6>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -323,7 +359,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- Intro Video Section End -->
 
 
@@ -334,9 +370,9 @@
                 <div class="col-lg-12">
                     <!-- Section Title Start -->
                     <div>
-                        <h2 class="text-center text-black text-anime-style-3" data-cursor="-opaque">Discover Our Cars
+                        <h2 class="text-center text-black text-anime-style-3 tsc" data-cursor="-opaque">Discover Our Cars
                         </h2>
-                        <p class="text-center text-anime-style-3">Curated luxury cars that combine elegance, power, and
+                        <p class="text-center text-anime-style-3 text-uppercase text-black tsc mt-1">Curated luxury cars that combine elegance, power, and
                             performance.</p>
                     </div>
                     <!-- Section Title End -->
@@ -356,11 +392,11 @@
                 </div>
                 <div class="d-flex justify-content-center align-items-center">
                     <div class="view-all-btn-container">
-  <a class="view-all-btn"  href="/cars/">
-    Explore Our collection
-    <span class="fas fa-arrow-right"></span>
-  </a>
-</div>
+                        <a class="view-all-btn" href="/cars/">
+                            Explore Our collection
+                            <span class="fas fa-arrow-right"></span>
+                        </a>
+                    </div>
 
                 </div>
             </div>
@@ -368,7 +404,132 @@
     </section>
     <!-- cars Section End -->
 
-    <!-- How It Work Section Start -->
+    <!-- How It Works -->
+     <section class="bg-black mt-3 mb-3">
+        <div class="container">
+            <div class="row section-row">
+                <div class="col-lg-12">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp stroke-style-head text-black mt-">How It Works</h3>
+                        <h2 class="text-anime-style-3 text-white tscb" data-cursor="-opaque">Your Luxury Car Journey Made Simple</h2>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+            </div>
+             <div class="row mt-5 how-its-work">
+                <div class="col-lg-4 col-md-4">
+                    <div class="image-div">
+                        <img src="/assets/img/3d/how-step1.png" loading="lazy" alt="">
+                    </div>
+                    <h3 class="text-center text-white mt-3 mb-2 "> 1<br>Browse & Select</h3>
+                    <p class="text-center text-white">Explore our curated collection of premium cars from top brands like Rolls-Royce, Porsche, Mercedes-Benz, and BMW.
+Use our easy filters to find the car that matches your style, needs, and budget.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <div class="image-div">
+                        <img src="/assets/img/3d/how-step2.png" loading="lazy" alt="">
+                    </div>
+                    <h3 class="text-center text-white mt-3 mb-2 "> 2 <br> Connect with Us & Book a Test Drive</h3>
+                    <p class="text-center text-white">Reach out to our expert team via phone, WhatsApp, or email.
+We’ll arrange a convenient test drive so you can experience the car firsthand.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <div class="image-div">
+                        <img src="/assets/img/3d/how-step3.png" loading="lazy" alt="">
+                    </div>
+                    <h3 class="text-center text-white mt-3 mb-2 ">3 <br>Book & Enjoy</h3>
+                    <p class="text-center text-white">Once you’ve found the perfect car, we’ll handle all the paperwork and verification.
+Drive away with confidence, knowing you own a certified luxury vehicle.</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a href="/cars/" class="theme-btn-black wow fadeInUp mt-3">Explore Our Cars Now</a>
+            </div>
+        </div>
+     </section>
+     <!-- How It Works end  -->
+
+    <!-- Why Choose Us Section Start -->
+    <section class="why-choose-us bg-white">
+        <div class="container">
+            <div class="row section-row">
+                <div class="col-lg-12">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp link-head-2">why choose us</h3>
+                        <h2 class="text-anime-style-3 text-black" data-cursor="-opaque">Driven by Excellence, Trusted by
+                            Many</h2>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 order-lg-1 order-md-1 order-1">
+                    <!-- Why Choose Item Start -->
+                    <div class="why-choose-item wow fadeInUp">
+                        <div class="why-choose-content">
+                            <h3>Premium Car Collection</h3>
+                            <p>Explore a curated fleet of high-end vehicles from iconic brands like Rolls-Royce,
+                                Porsche, and Lamborghini.
+                                Each car is hand-selected to ensure top quality and performance.
+                                We bring you exclusivity and elegance on four wheels.</p>
+                        </div>
+                    </div>
+                    <!-- Why Choose Item End -->
+
+                    <!-- Why Choose Item Start -->
+                    <div class="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
+
+                        <div class="why-choose-content">
+                            <h3>Trusted by Enthusiasts</h3>
+                            <p>Our commitment to integrity and transparency has earned the trust of car lovers across
+                                the country.
+                                We maintain long-term relationships with our clients.
+                                Your satisfaction and confidence are our greatest rewards.</p>
+                        </div>
+                    </div>
+                    <!-- Why Choose Item End -->
+                </div>
+
+                <div class="col-lg-4 col-md-12 order-lg-2 order-md-3 order-2 image-anime">
+                    <img src="/assets/img/index/11.webp" alt="">
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 order-lg-3 order-md-2 order-3">
+                    <!-- Why Choose Item Start -->
+                    <div class="why-choose-item wow fadeInUp">
+                        <div class="why-choose-content">
+                            <h3>End-to-End Support</h3>
+                            <p>From helping you choose the right car to arranging test drives and documentation, we
+                                handle it all.
+                                Our expert team guides you at every stage of the buying journey.
+                                You enjoy peace of mind with personalized assistance.</p>
+                        </div>
+                    </div>
+                    <!-- Why Choose Item End -->
+
+                    <!-- Why Choose Item Start -->
+                    <div class="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
+                        <div class="why-choose-content">
+                            <h3>Competitive Pricing</h3>
+                            <p>Own your dream car at a price that offers real value.
+                                We provide fair, market-based pricing without hidden charges.
+                                Luxury becomes more accessible with Link 4U Global.</p>
+                        </div>
+                    </div>
+                    <!-- Why Choose Item End -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose Us Section End -->
+
+    <!-- Sell Your car Start -->
     <section class="how-it-work my-5">
         <div class="container">
             <div class="row align-items-center">
@@ -378,8 +539,12 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp theme-color-link">Sell Your Car to Link 4U Global</h3>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Get the Best Value with a Hassle-Free Selling Experience</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">At Link 4U Global, selling your car is simple, fast, and transparent. Whether you're upgrading or just need to sell, we offer a fair price, take care of the paperwork, and ensure quick payment with zero stress.</p>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Get the Best Value with a Hassle-Free
+                                Selling Experience</h2>
+                            <p class="wow fadeInUp text-white" data-wow-delay="0.25s">At Link 4U Global, selling your
+                                car is simple, fast, and transparent. Whether you're upgrading or just need to sell, we
+                                offer a fair price, take care of the paperwork, and ensure quick payment with zero
+                                stress.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -388,16 +553,21 @@
                             <!-- FAQ Item Start -->
                             <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="icon-box">
-                                    <img src="/assets/img/icons/icon-how-it-work-1.svg" alt="">
+                                    <img src="/assets/img/icons/connect.png" alt="">
                                 </div>
                                 <h2 class="accordion-header" id="workheading1">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#workcollapse1" aria-expanded="true" aria-controls="workcollapse1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#workcollapse1" aria-expanded="true"
+                                        aria-controls="workcollapse1">
                                         Submit Your Car Details
                                     </button>
                                 </h2>
-                                <div id="workcollapse1" class="accordion-collapse collapse show" aria-labelledby="workheading1" data-bs-parent="#workaccordion">
+                                <div id="workcollapse1" class="accordion-collapse collapse show"
+                                    aria-labelledby="workheading1" data-bs-parent="#workaccordion">
                                     <div class="accordion-body">
-                                        <p>Fill out a quick form with your vehicle’s information — make, model, year, kilometers driven, and condition. Add a few clear pictures for a faster evaluation.</p>
+                                        <p>Fill out a quick form with your vehicle’s information — make, model, year,
+                                            kilometers driven, and condition. Add a few clear pictures for a faster
+                                            evaluation.</p>
                                     </div>
                                 </div>
                             </div>
@@ -406,38 +576,48 @@
                             <!-- FAQ Item Start -->
                             <div class="accordion-item wow fadeInUp" data-wow-delay="0.75s">
                                 <div class="icon-box">
-                                    <img src="/assets/img/icons/icon-how-it-work-2.svg" alt="">
+                                    <img src="/assets/img/icons/offer.png" alt="">
                                 </div>
                                 <h2 class="accordion-header" id="workheading2">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#workcollapse2" aria-expanded="false" aria-controls="workcollapse2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#workcollapse2" aria-expanded="false"
+                                        aria-controls="workcollapse2">
                                         Get a Fair Offer
                                     </button>
                                 </h2>
-                                <div id="workcollapse2" class="accordion-collapse collapse" aria-labelledby="workheading2" data-bs-parent="#workaccordion">
+                                <div id="workcollapse2" class="accordion-collapse collapse"
+                                    aria-labelledby="workheading2" data-bs-parent="#workaccordion">
                                     <div class="accordion-body">
-                                        <p>Our expert team will assess your car and provide you with a competitive offer based on market value and vehicle condition — no hidden charges.</p>
+                                        <p>Our expert team will assess your car and provide you with a competitive offer
+                                            based on market value and vehicle condition — no hidden charges.</p>
                                     </div>
                                 </div>
                             </div>
                             <!-- FAQ Item End -->
-                            
+
                             <!-- FAQ Item Start -->
                             <div class="accordion-item wow fadeInUp" data-wow-delay="1s">
                                 <div class="icon-box">
-                                    <img src="/assets/img/icons/icon-how-it-work-3.svg" alt="">
+                                    <img src="/assets/img/icons/hand-shake.png" alt="">
                                 </div>
                                 <h2 class="accordion-header" id="workheading3">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#workcollapse3" aria-expanded="false" aria-controls="workcollapse3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#workcollapse3" aria-expanded="false"
+                                        aria-controls="workcollapse3">
                                         Instant Payment & Pickup
                                     </button>
                                 </h2>
-                                <div id="workcollapse3" class="accordion-collapse collapse" aria-labelledby="workheading3" data-bs-parent="#workaccordion">
+                                <div id="workcollapse3" class="accordion-collapse collapse"
+                                    aria-labelledby="workheading3" data-bs-parent="#workaccordion">
                                     <div class="accordion-body">
-                                        <p>Once you accept the offer, we handle all paperwork and arrange a free vehicle pickup. You get paid instantly and securely.</p>
+                                        <p>Once you accept the offer, we handle all paperwork and arrange a free vehicle
+                                            pickup. You get paid instantly and securely.</p>
                                     </div>
                                 </div>
                             </div>
                             <!-- FAQ Item End -->
+                            <button id="openFormBtnSell" class="theme-btn-black wow fadeInUp">Sell Your Car Now</button>
+
                         </div>
                         <!-- How Work Accordion End -->
                     </div>
@@ -450,82 +630,149 @@
             </div>
         </div>
     </section>
-    <!-- How It Work Section End -->
+    <!-- Sell Your car End -->
+    
 
-        <!-- Why Choose Us Section Start -->
-    <section class="why-choose-us bg-white">
+    <!-- contact start -->
+     <section class="bg-white">
         <div class="container">
-            <div class="row section-row">
-                <div class="col-lg-12">
-                    <!-- Section Title Start -->
+            <div class="row my-3">
+                <div class="col-lg-5">
                     <div class="section-title">
-                        <h3 class="wow fadeInUp link-head-2">why choose us</h3>
-                        <h2 class="text-anime-style-3 text-black" data-cursor="-opaque">Driven by Excellence, Trusted by Many</h2>
-                    </div>
-                    <!-- Section Title End -->
+                            <h3 class="wow fadeInUp link-head-2">Get in Touch</h3>
+                            <h2 class="text-anime-style-3 text-black" data-cursor="-opaque">We’re here to help you drive your dream</h2>
+                            <p class="wow fadeInUp text-black" data-wow-delay="0.25s">Have questions about a car, test drive, or purchase process? Our team is ready to assist you every step of the way. Reach out via call, email, or drop by our showroom. Let’s connect!</p>
+                        </div>
+                        <div class="how-work-accordion" >
+                            <!-- CTA Item Start -->
+                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="icon-box">
+                                    <img style="filter: invert(1);" src="/assets/img/icons/icon-phone.svg" loading="lazy" alt="">
+                                </div>
+                                <h3 class="accordion-header" >
+                                    <a class="accordion-button-cta" href="tel:+91 888 8875 999" >
+                                        +91 888 8875 999
+                                    </a>
+                                </h3>
+                            </div>
+                            <!-- CTA Item End -->
+                            <!-- CTA Item Start -->
+                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="icon-box">
+                                    <img style="filter: invert(1);" src="/assets/img/icons/icon-mail.svg" loading="lazy" alt="">
+                                </div>
+                                <h3 class="accordion-header" >
+                                    <a class="accordion-button-cta" href="mailto:info@domain.com" >
+                                        info@domain.com
+                                    </a>
+                                </h3>
+                            </div>
+                            <!-- CTA Item End -->
+                            <!-- CTA Item Start -->
+                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="icon-box">
+                                    <img style="filter: invert(1);" src="/assets/img/icons/icon-location.svg" loading="lazy" alt="">
+                                </div>
+                                <h3 class="accordion-header" >
+                                    <a class="accordion-button-cta" href="mailto:tvm" >
+                                        Trivandrum
+                                    </a>
+                                    <a class="accordion-button-cta px-0" href="mailto:chen" >
+                                        Chennai
+                                    </a>
+                                    <a class="accordion-button-cta p-0 " style="margin-left: 2.3rem;" href="mailto:bng" >
+                                        Bangloore
+                                    </a>
+                                </h3>
+                            </div>
+                            <!-- CTA Item End -->
+                        </div>
+
                 </div>
-            </div>
-
-            <div class="row align-items-center">
-                <div class="col-lg-4 col-md-6 order-lg-1 order-md-1 order-1">
-                    <!-- Why Choose Item Start -->
-                    <div class="why-choose-item wow fadeInUp">
-                        <div class="why-choose-content">
-                            <h3>Premium Car Collection</h3>
-                            <p>Explore a curated fleet of high-end vehicles from iconic brands like Rolls-Royce, Porsche, and Lamborghini.
-Each car is hand-selected to ensure top quality and performance.
-We bring you exclusivity and elegance on four wheels.</p>
-                        </div>
+                <div class="col-lg-7 d-flex align-items-center">
+                    <div>
+                        <img loading="lazy" src="/assets/img/index/conatct-side.webp" alt="">
+                    <a href="/contact/" class="theme-btn-white wow fadeInUp">Contact Us Now</a>
                     </div>
-                    <!-- Why Choose Item End -->
-
-                    <!-- Why Choose Item Start -->
-                    <div class="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
-                        
-                        <div class="why-choose-content">
-                            <h3>Trusted by Enthusiasts</h3>
-                            <p>Our commitment to integrity and transparency has earned the trust of car lovers across the country.
-We maintain long-term relationships with our clients.
-Your satisfaction and confidence are our greatest rewards.</p>
-                        </div>
-                    </div>
-                    <!-- Why Choose Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-12 order-lg-2 order-md-3 order-2 image-anime">
-                                                <img src="/assets/img/index/11.webp" alt="">
-
-                </div>
-
-                <div class="col-lg-4 col-md-6 order-lg-3 order-md-2 order-3">
-                    <!-- Why Choose Item Start -->
-                    <div class="why-choose-item wow fadeInUp">
-                        <div class="why-choose-content">
-                            <h3>End-to-End Support</h3>
-                            <p>From helping you choose the right car to arranging test drives and documentation, we handle it all.
-Our expert team guides you at every stage of the buying journey.
-You enjoy peace of mind with personalized assistance.</p>
-                        </div>
-                    </div>
-                    <!-- Why Choose Item End -->
-
-                    <!-- Why Choose Item Start -->
-                    <div class="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
-                        <div class="why-choose-content">
-                            <h3>Competitive Pricing</h3>
-                            <p>Own your dream car at a price that offers real value.
-We provide fair, market-based pricing without hidden charges.
-Luxury becomes more accessible with Link 4U Global.</p>
-                        </div>
-                    </div>
-                    <!-- Why Choose Item End -->
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Why Choose Us Section End -->
+     </section>
+     <!-- contact end  -->
 
+    <!-- Footer Start -->
+    <footer>
+        <div class="footer-custome bg-black pt-5">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <!-- About Footer Start -->
+                     <div class="about-footer">
+                        <!-- Footer Logo Start -->
+                        <div class="footer-logo d-flex justify-content-start mb-3">
+                            <img src="/assets/img/logo.png" width="76px" alt="">
+                            <h2 style="font-size: 28px; margin-left: 5px; max-width: 300px;" >Your trusted partner for pre-owned luxury cars in India.</h2>
+                        </div>
+                        <!-- Footer Logo End -->
 
+                        <!-- About Footer Content Start -->
+                         <div class="about-footer-content">
+                            <p>We specialize in premium vehicles from all luxury brands across the world  — delivering quality, trust, and excellence nationwide.</p>
+                         </div>
+                        <!-- About Footer Content End -->
+                     </div>
+                    <!-- About Footer End -->
+                </div>
+
+                <div class="col-lg-3">
+                    <!-- Footer Menu Start -->
+                    <div class="footer-links footer-menu">
+                        <h3>quick links</h3>
+                        <ul>                            
+                            <li><a href="/">Home </a></li>
+                            <li><a href="/about/">About us</a></li>
+                            <li><a href="/cars/">Our Cars </a></li>
+                            <li><a href="/exclusive/">Exclusive</a></li>
+                        </ul>
+                    </div>
+                    <!-- Footer Menu End -->
+                </div>
+
+                <div class="col-lg-4">
+                    <!-- Footer Newsletter Start -->
+                    <div class="footer-newsletter">
+                        <h3>Follow Our Social Media</h3>
+                        <div class="footer-social-links d-flex mt-3">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Footer Newsletter End -->
+                </div>
+            </div>
+
+            <!-- Footer Copyright Section Start -->
+            <div class="footer-copyright">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <!-- Footer Copyright Start -->
+                        <div class="footer-copyright-text">
+                            <p class="text-center">© 2025 Link 4U Global. All rights reserved.</p>
+                        </div>
+                        <!-- Footer Copyright End -->
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Copyright Section End -->
+        </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
 
     <!-- Jquery Library File -->
     <script src="/assets/js/jquery-3.7.1.min.js"></script>
@@ -562,7 +809,6 @@ Luxury becomes more accessible with Link 4U Global.</p>
     <script src="/assets/js/function.js"></script>
     <!-- secondary  -->
     <script src="/assets/js/index.js"></script>
-
 </body>
 
 </html>

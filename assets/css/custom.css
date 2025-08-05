@@ -288,7 +288,7 @@ body{
 }
 
 .section-icon-btn{
-	background-color: var(--accent-color);
+	background-color: var(--primary-color);
 	border-radius: 100%;
 	width: 48px;
 	height: 48px;
@@ -1610,6 +1610,19 @@ header.main-header .header-sticky.active{
 	box-shadow: none;
 	padding: 5px 30px 5px 60px;
 }
+.accordion-button-cta{
+	position: relative;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: capitalize;
+	border: none;
+	box-shadow: none;
+	padding: 5px 30px 5px 60px;
+	color: #000;
+	transform: translate(0px, -50%);
+	transition: all 0.3s ease-in-out;
+
+}
 
 .how-work-accordion .accordion-header .accordion-button::after,
 .how-work-accordion .accordion-header .accordion-button.collapsed::after{
@@ -1706,9 +1719,9 @@ header.main-header .header-sticky.active{
 
 .intro-video{
 	position: relative;
-	background: url('/contact/contact.webp') no-repeat;
+	background: url('/assets/img/index/video-bg-1.webp') no-repeat;
 	background-position: center;
-	background-size: contain;
+	background-size: cover;
 	/* padding: 100px 0; */
 	overflow: hidden;
 	height: 100vh;
@@ -1742,7 +1755,7 @@ header.main-header .header-sticky.active{
 
 .video-play-button a{
 	position: relative;
-	background-color: var(--accent-color);
+	background-color: #000;
 	border-radius: 100%;
 	width: 74px;
 	height: 74px;
@@ -2123,17 +2136,6 @@ header.main-header .header-sticky.active{
 /***       14. CTA Box css        ***/
 /************************************/
 
-.cta-box{
-	position: relative;
-	background: var(--secondary-color) url('../images/cta-box-bg.svg') no-repeat;
-	background-position: center center;
-	background-size: cover;
-	padding: 100px 0;
-}
-
-.cta-box.bg-section{
-	max-width: 1500px;
-}
 
 .cta-box-content{
 	width: 100%;
@@ -2353,10 +2355,6 @@ header.main-header .header-sticky.active{
 	padding-right: 40px;
 }
 
-.about-footer .footer-logo{
-	margin-bottom: 30px;
-}
-
 .about-footer .about-footer-content p{
 	color: var(--white-color);
 	margin: 0;
@@ -2373,6 +2371,7 @@ header.main-header .header-sticky.active{
 	font-weight: 600;
 	text-transform: capitalize;
 	margin-bottom: 25px;
+	text-transform: uppercase;
 }
 
 .footer-links ul{
@@ -2383,6 +2382,7 @@ header.main-header .header-sticky.active{
 
 .footer-links ul li{
 	margin-bottom: 10px;
+	font-size: 23px;
 }
 
 .footer-links ul li:last-child{
@@ -2444,28 +2444,28 @@ header.main-header .header-sticky.active{
     margin-top: 50px;
 }
 
-.footer-copyright .footer-copyright-text p{
+.footer-copyright-text p{
 	color: var(--white-color);
 	margin: 0;
 }
 
-.footer-copyright .footer-social-links ul{
+.footer-social-links ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	text-align: end;
 }
 
-.footer-copyright .footer-social-links ul li{
+.footer-social-links ul li{
 	display: inline-block;
 	margin-right: 10px;
 }
 
-.footer-copyright .footer-social-links ul li:last-child{
+.footer-social-links ul li:last-child{
 	margin-right: 0;
 }
 
-.footer-copyright .footer-social-links ul li a{
+.footer-social-links ul li a{
 	background-color: transparent;
 	color: var(--white-color);
 	border: 2px solid var(--white-color);
@@ -2479,11 +2479,11 @@ header.main-header .header-sticky.active{
     transition: all 0.3s ease-in-out;
 }
 
-.footer-copyright .footer-social-links ul li a i{
+.footer-social-links ul li a i{
 	font-size: 16px;
 }
 
-.footer-copyright .footer-social-links ul li a:hover{
+.footer-social-links ul li a:hover{
 	border-color: var(--accent-color);
 	color: var(--accent-color);
 }
@@ -6888,7 +6888,7 @@ select {
 	padding-top: 10px;
 }
 .how-its-work img{
-	max-width: 180px;
+	max-width: 245px;
 }
 .how-its-work h3{
 	font-size: 24px;
@@ -7146,7 +7146,6 @@ html:not(.body-menu-opened) .hamburger .bottom-bun {
 }
 .side-bar-urls{
 	display: flex;
-	justify-content: center;
 	align-items: center;
 }
 .side-bar-urls>ul{
@@ -7191,8 +7190,7 @@ html:not(.body-menu-opened) .hamburger .bottom-bun {
   background-color: #fff;
   color: #000;
   border: none;
-  font-size: 4.8rem;
-  border-radius: 50%;
+  font-size: 3.8rem;
   padding: 6px 12px;
   cursor: pointer;
   transition: background 0.3s ease;
@@ -7311,7 +7309,7 @@ section {
   padding: 15px 30px;
   font-size: 25px;
   border: none;
-  border-radius: 30px;
+  border-radius: 5px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -7369,4 +7367,132 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+/* sell car  */
+.sell-car-form-popup {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center; align-items: center;
+}
+
+.sell-car-form-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+}
+.sell-car-form-content h2{
+	font-size: 32px;
+}
+
+.sell-car-form-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.sell-car-form-input,
+.sell-car-form-submit {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.sell-car-form-submit {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.theme-btn-black{
+  padding: 10px 37px;
+  background: #fff;
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+  border: solid 1px black;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.theme-btn-black:hover{
+  background: #000000;
+  color: rgb(255, 255, 255);
+}
+.theme-btn-white{
+  padding: 10px 37px;
+  background: #000;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  border: solid 1px white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.theme-btn-white:hover{
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+}
+.error {
+      border-color: red;
+    }
+
+    .error-message {
+      color: red;
+      font-size: 13px;
+      margin: -8px 0 8px;
+    }
+
+    .success-message {
+      color: green;
+      margin-top: 10px;
+    }
+.sidbar-social-links>ul{
+	display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  font-size: x-large;
+}
+.sidbar-social-links a{
+	color: black;
+	padding: 10px;
+}
+.sidbar-social-links a:hover{
+	color: var(--accent-color);
+}
+.footer-custome{
+	background-color: #000;
+	border-radius: 50px 50px 0px 0px;
+}
+footer{
+	background-color: #fff !important;
+}
+.accordion-header a:hover{
+	color: var(--accent-color);
+}
+.stroke-style-head{
+	color: #fff0 !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+
+}
+.tsc{
+	text-shadow: 2px 1px 3px #00000054;
+}
+.tscb{
+	text-shadow: 2px 2px 0px #ffffff54;
+}
+.current-link-active{
+	color: var(--accent-color) !important;
 }
