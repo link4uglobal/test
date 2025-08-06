@@ -1,323 +1,327 @@
-<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-<loc>https://link4uglobal.co.in/</loc>
-<lastmod>2025-08-06T11:26:46+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://link4uglobal.co.in/about/</loc>
-<lastmod>2025-08-06T11:26:46+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://link4uglobal.co.in/cars/</loc>
-<lastmod>2025-08-06T11:26:46+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://link4uglobal.co.in/exclusive/</loc>
-<lastmod>2025-08-06T11:26:46+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://link4uglobal.co.in/contact/</loc>
-<lastmod>2025-08-06T11:26:46+00:00</lastmod>
-<priority>0.80</priority>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
+  <loc>https://link4uglobal.co.in/</loc>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://link4uglobal.co.in/about/</loc>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://link4uglobal.co.in/cars/</loc>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://link4uglobal.co.in/exclusive/</loc>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://link4uglobal.co.in/contact/</loc>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://link4uglobal.co.in/cars/rolls-royce/ghost-v12-2012-petrol-trivandrum/</loc>
-  <lastmod>2025-08-06T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/volvo/xc-90-t8-excellence-2017-petrol-hybrid-trivandrum/</loc>
-  <lastmod>2025-08-06T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/porsche/cayenne-platinum-edition-2017-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/bmw/x5-xdrive-30d-pure-experience-7-seater-2015-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/ferrari/458-spyder-2015-petrol-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/land-rover/range-rover-sport-se-30-2019-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/ferrari/488-gtb-2017-petrol-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/ferrari/458-italia-2013-petrol-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/audi/rs7-sportback-2018-petrol-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/audi/a3-s-line-2015-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/mercedes-benz/c-class-c220d-2019-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/land-rover/range-rover-evoque-se-2016-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/lexus/nx-300h-luxury-2018-petrol-hybrid-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/bmw/220d-m-sport-2021-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/porsche/macan-2022-petrol-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/audi/tt-20-tfsi-coupe-quatro-2013-petrol-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/bmw/z4-35i-2018-petrol-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/bmw/530d-m-sport-2018-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/porsche/718-cayman-2018-petrol-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/bmw/730-ld-2016-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/mercedes-benz/gls-350d-2019-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/mercedes-benz/glc-220d-2016-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/land-rover/discovery-sport-hse-2018-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/land-rover/range-rover-evoque-se-2018-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/mercedes-benz/c-class-220d-edition-c-2017-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/bmw/520d-luxury-line-2016-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/bmw/x7-xdrive40d-m-sport-2024-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/bmw/x7-xdrive40i-m-sport-2021-petrol-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/bmw/x3-xdrive20d-luxury-line-2019-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/bmw/x5-xdrive-30d-luxury-line-2019-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/mercedes-benz/e-class-e350d-e-350d-amg-line-2021-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/mercedes-benz/s-class-s-350d-s-350d-2022-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/land-rover/range-rover-sport-sport-30-tdv6-hse-diesel-2012-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/bmw/x1-m-sport-2016-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/volvo/xc40-inscription-2020-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/toyota/land-cruiser-45-vx-lc-200-2012-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/land-rover/defender-110-hse-2022-petrol-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/volvo/xc-90-inscription-2018-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/mercedes-benz/gla-200d-diesel-2016-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/maserati/ghibili-2017-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/maserati/levante-2017-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/bmw/z4-m40i-2021-petrol-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/jeep/wrangler-rubicon-2021-petrol-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/bmw/x6-xdrive-40i-2020-petrol-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/lamborghini/avenetedor-lp-700-4-2012-petrol-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/lamborghini/huracan-spyder-lp-610-4-2017-petroll-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/mercedes-benz/cla-200d-2017-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/mercedes-benz/glc-220d-4matic-2018-diesel-trivandrum/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/ford/mustang-gt-2017-petrol-trivandrum/</loc>
-  <lastmod>2024-07-24T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/bmw/bmw-x5-xdrive-30d-2017-diesel-tvm/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/bmw/bmw-x7-30d-2019-diesel-tvm/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/jaguar/f-type-2017-petrol-tvm/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/mercedes-benz/g63-2018-petrol-tvm/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/mercedes-benz/gls-gls400-2020-diesel-tvm/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://link4uglobal.co.in/cars/mercedes-benz/slk-200-diesel-tvm</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <loc>https://link4uglobal.co.in/cars/mercedes-benz/slk-200-diesel-tvm/</loc>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/mini-cooper/clubman-cooper-s/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/porsche/cayman-cayman-s-2015-petrol-tvm/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/rolls-royce/ghost-v12-2011-petrol-tvm/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>https://link4uglobal.co.in/cars/toyota/land-cruiser-lc300-2022-diesel-tvm/</loc>
-  <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  <lastmod>2025-08-06T15:54:14.028Z</lastmod>
   <priority>0.70</priority>
 </url>
 </urlset>
