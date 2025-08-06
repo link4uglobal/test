@@ -1,4 +1,5 @@
 [
+    
     {
         "brand": "Rolls Royce",
   "model": "Ghost",
@@ -16,6 +17,24 @@
   "postedDate": "2025-08-06",
   "URL": "/cars/rolls-royce/ghost-v12-2012-petrol-trivandrum/",
   "image": "/cars/rolls-royce/ghost-v12-2012-petrol-trivandrum/assets/images/rolls-royce-ghost-v12-2012-petrol-trivandrum-5.webp"
+    },
+    {
+        "brand": "Volvo",
+  "model": "XC90",
+  "variant": "T8 Excellence",
+  "fuel": "Petrol Hybrid",
+  "transmission": "Automatic",
+  "priceRange": 75,
+  "price": "75 Lakh",
+  "year": 2017,
+  "kmDriven": 83000,
+  "bodyType": "SUV",
+  "color": "White",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2025-08-06",
+  "URL": "/cars/volvo/xc-90-t8-excellence-2017-petrol-hybrid-trivandrum/",
+  "image": "/cars/volvo/xc-90-t8-excellence-2017-petrol-hybrid-trivandrum/assets/images/volvo-xc-90-t8-excellence-2017-petrol-hybrid-trivandrum-10.webp"
     },
     {
         "brand": "Porsche",
