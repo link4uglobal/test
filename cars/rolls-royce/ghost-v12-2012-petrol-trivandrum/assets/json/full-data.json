@@ -1,0 +1,42 @@
+{
+  "brand": "Rolls Royce",
+  "model": "Ghost",
+  "variant": "V12",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "priceRange": 250,
+  "price": "2.50 Crore",
+  "year": 2012,
+  "kmDriven": 59000,
+  "bodyType": "Sedan",
+  "color": "Smokey Quartz",
+  "location": "Trivandrum",
+  "availability": "Available",
+  "postedDate": "2025-08-06",
+  "URL": "/cars/rolls-royce/ghost-v12-2012-petrol-trivandrum/",
+  "image": "/cars/rolls-royce/ghost-v12-2012-petrol-trivandrum/assets/images/rolls-royce-ghost-v12-2012-petrol-trivandrum-5.webp",
+  "gallery": [
+    "/cars/rolls-royce/ghost-v12-2012-petrol-trivandrum/assets/images/rolls-royce-ghost-v12-2012-petrol-trivandrum-1.webp",
+  "/cars/rolls-royce/ghost-v12-2012-petrol-trivandrum/assets/images/rolls-royce-ghost-v12-2012-petrol-trivandrum-2.webp",
+  "/cars/rolls-royce/ghost-v12-2012-petrol-trivandrum/assets/images/rolls-royce-ghost-v12-2012-petrol-trivandrum-3.webp",
+  "/cars/rolls-royce/ghost-v12-2012-petrol-trivandrum/assets/images/rolls-royce-ghost-v12-2012-petrol-trivandrum-4.webp",
+  "/cars/rolls-royce/ghost-v12-2012-petrol-trivandrum/assets/images/rolls-royce-ghost-v12-2012-petrol-trivandrum-5.webp",
+  "/cars/rolls-royce/ghost-v12-2012-petrol-trivandrum/assets/images/rolls-royce-ghost-v12-2012-petrol-trivandrum-6.webp",
+  "/cars/rolls-royce/ghost-v12-2012-petrol-trivandrum/assets/images/rolls-royce-ghost-v12-2012-petrol-trivandrum-7.webp",
+  "/cars/rolls-royce/ghost-v12-2012-petrol-trivandrum/assets/images/rolls-royce-ghost-v12-2012-petrol-trivandrum-8.webp",
+  "/cars/rolls-royce/ghost-v12-2012-petrol-trivandrum/assets/images/rolls-royce-ghost-v12-2012-petrol-trivandrum-9.webp"
+  ],
+  "features": [
+    "6.6L V12 Twin-Turbocharged Engine",
+    "8-Speed Automatic Transmission",
+    "Luxury handcrafted interior",
+    "Premium leather upholstery",
+    "Rear seat entertainment system",
+    "Soft-close doors",
+    "Adaptive air suspension",
+    "Premium sound system",
+    "Navigation system",
+    "Reverse camera with parking sensors"
+  ],
+  "description": "The 2012 Rolls-Royce Ghost V12 offers unmatched luxury, elegance, and performance. Powered by a 6.6L twin-turbocharged V12, it delivers an incredibly smooth driving experience. This Smokey Quartz sedan, with only 59,000 km on the odometer, blends timeless craftsmanship with modern technology. Available in Trivandrum for ₹2.50 Crore."
+}
