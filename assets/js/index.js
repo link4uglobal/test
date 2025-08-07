@@ -22,7 +22,7 @@ $(document).ready(function () {
                                                 <div class="section-title">
                                                     <h5 class="text-anime-style-3 mb-1 wow fadeInUp text-white tsc" data-cursor="-opaque">${item.subHeading}</h5>
                                                     <h3 class="text-anime-style-3 tsc" wow fadeInRight data-cursor="-opaque">${item.heading}</h3>
-                                                    <p class="wow fadeInUp text-black" style="text-shadow: 1px 1px 2px #0000003d;
+                                                    <p class="wow fadeInUp text-black" style="
 } font-size: 16px;" data-wow-delay="0.25s">${item.description}</p>
                                                 </div>
                                             </div>
