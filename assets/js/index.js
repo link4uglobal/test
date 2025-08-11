@@ -69,12 +69,18 @@ $(document).ready(function () {
    fetch("/cars/assets/json/full-cars.json")
     .then((response) => response.json())
     .then((data) => {
+      const currentDate = new Date();
+    const daysAgo30 = currentDate.setDate(currentDate.getDate() - 30);
       data.forEach((car) => {
+        const isNew = new Date(car.postedDate) > daysAgo30;
+      const newBadge = isNew ? `<span class="badge-new">NEW</span>` : "";
+
         const carName = `${car.brand} ${car.model} ${car.variant}`;
         const block = `
                     <div class="swiper-slide">
                         <div href="${car.URL}" class="perfect-fleet-item fleets-collection-item wow fadeInUp">
                             <div class="image-box">
+                            ${newBadge}
                                 <a href="${car.URL}">
                                     <img src="${car.image}" alt="${carName}">
                                 </a>

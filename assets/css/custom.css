@@ -6561,8 +6561,8 @@ header.main-header .header-sticky.active{
 
 /* edited  */
 .link-nav-logo{
-	width: 100px;
-  margin-top: -60px;
+	width: 87px;
+  margin-top: -50px;
   position: absolute;
   background: transparent;
   padding: 10px;
@@ -6717,6 +6717,12 @@ select {
       padding: 10px 20px;
       font-size: 18px;
     }
+
+@media (max-width:816px){
+	.filter-panel{
+		margin-top: 96px;
+	}
+}
 
 	/* single page for cars  */
 .cars-data-top{
@@ -7506,5 +7512,24 @@ footer{
 .cta-item h3{
 	height: auto;
 	padding-bottom: 7px;
+}
+.perfect-fleet-item {
+	.badge-new {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--accent-color);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 32px 7px;
+  border-radius: 0px 0px 36px 0px;
+  z-index: 10;
+  text-transform: uppercase;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
 
+.image-box {
+  position: relative;
+}
 }

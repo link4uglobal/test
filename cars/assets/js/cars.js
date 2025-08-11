@@ -35,41 +35,47 @@ function displayResults(cars) {
     return;
   }
 
+  console.log('his');
+  
   cars.forEach((car) => {
     const carName = `${car.brand} ${car.model} ${car.variant}`;
     const carHTML = `
       <div class="col-lg-4 col-md-6">
-        <div class="perfect-fleet-item fleets-collection-item wow fadeInUp">
-          <div class="image-box">
-            <a href="${car.image}" class="popup-link" title="${carName}">
-              <img src="${car.image}" alt="${carName}">
-            </a>
-          </div>
-          <div class="perfect-fleet-content">
-            <div class="perfect-fleet-title">
-              <h2 class="text-uppercase text-black">${carName}</h2>
-            </div>
-            <div class="perfect-fleet-body">
-              <ul>
-                <li><i class="fa fa-calendar"></i> ${car.year}</li>
-                <li><i class="fas fa-tachometer-alt"></i> ${car.kmDriven}</li>
-                <li><i class="fa fa-gas-pump"></i> ${car.fuel}</li>
-                <li><i class="fas fa-car-side"></i> ${car.bodyType}</li>
-              </ul>
-            </div>
-            <div class="perfect-fleet-footer">
-              <div class="perfect-fleet-pricing">
-                <h2>₹ ${car.price}</h2>
-              </div>
-              <div class="perfect-fleet-btn">
-                <a href="${car.URL}" class="section-icon-btn">
-                  <img src="../assets/img/icons/arrow-white.svg" alt="Go">
-                </a>
-              </div>
-            </div>
-          </div>
+  <div class="perfect-fleet-item fleets-collection-item wow fadeInUp">
+    <div class="image-box">
+      <!-- New Badge -->
+      <span class="badge-new">NEW</span>
+
+      <a href="${car.image}" class="popup-link" title="${carName}">
+        <img src="${car.image}" alt="${carName}">
+      </a>
+    </div>
+    <div class="perfect-fleet-content">
+      <div class="perfect-fleet-title">
+        <h2 class="text-uppercase text-black">${carName}</h2>
+      </div>
+      <div class="perfect-fleet-body">
+        <ul>
+          <li><i class="fa fa-calendar"></i> ${car.year}</li>
+          <li><i class="fas fa-tachometer-alt"></i> ${car.kmDriven}</li>
+          <li><i class="fa fa-gas-pump"></i> ${car.fuel}</li>
+          <li><i class="fas fa-car-side"></i> ${car.bodyType}</li>
+        </ul>
+      </div>
+      <div class="perfect-fleet-footer">
+        <div class="perfect-fleet-pricing">
+          <h2>₹ ${car.price}</h2>
+        </div>
+        <div class="perfect-fleet-btn">
+          <a href="${car.URL}" class="section-icon-btn">
+            <img src="../assets/img/icons/arrow-white.svg" alt="Go">
+          </a>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
     `;
     container.insertAdjacentHTML("beforeend", carHTML);
     
