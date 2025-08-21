@@ -1,15 +1,11 @@
 // custom.js
 
 // Document Ready
-console.log("index js");
-console.log("hi js");
 
 $(document).ready(function () {
     
   // Exclusive script start 
   if ($("#slider-exclusive-container").length) {
-    console.log("find exclusive");
-
     fetch("/exclusive/assets/json/exclusive.json")
       .then((response) => response.json())
       .then((data) => {
@@ -53,10 +49,8 @@ $(document).ready(function () {
           },
           callbacks: {
             open: function () {
-              console.log("Popup is opened");
             },
             close: function () {
-              console.log("Popup is closed");
             },
           },
         });

@@ -34,9 +34,6 @@ function displayResults(cars) {
     container.innerHTML = "<p>No results found.</p>";
     return;
   }
-
-  console.log('his');
-  
   cars.forEach((car) => {
     const carName = `${car.brand} ${car.model} ${car.variant}`;
     const carHTML = `

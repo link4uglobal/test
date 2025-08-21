@@ -146,10 +146,7 @@ async function init() {
 
         if(filteredCars.length === 0){
             resultsContainer.innerHTML = `<h3 class="text-center text-black py-5"> Sorry No results found From your filiter you can choose belove.</h3>`
-            console.log(carData);
             displayResults(carData)
-            
-            
         }
         else{
             resultsContainer.innerHTML = ""

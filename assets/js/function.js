@@ -653,8 +653,6 @@ if ($("#openFormBtnSell").length) {
         });
 
         form.addEventListener("submit", async function (e) {
-            console.log("called submitted");
-
             e.preventDefault();
             clearErrors();
             message.textContent = "";
@@ -701,16 +699,7 @@ if ($("#openFormBtnSell").length) {
             }
 
             if (hasError) return;
-
-            console.log(form);
-
-
             const formData = new FormData(form);
-
-            console.log("formData1");
-            console.log(formData);
-
-
             try {
                 const response = await fetch(form.action, {
                     method: form.method,
@@ -719,8 +708,6 @@ if ($("#openFormBtnSell").length) {
                         Accept: "application/json",
                     },
                 });
-
-                console.log(response);
 
                 if (response.ok) {
                     form.reset();
