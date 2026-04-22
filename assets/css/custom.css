@@ -833,7 +833,7 @@ header.main-header .header-sticky.active{
 	height: 100%;
 }
 
-.hero-video .hero-bg-video video{
+.hero-video .hero-bg-video img{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
