@@ -26,7 +26,7 @@ window.addEventListener("load", () => {
     document.body.style.overflow = "";
     document.body.style.position = "";
     document.body.style.width = "";
-  }, 3000);
+  }, 100);
 });
 
 const sections = document.querySelectorAll("section");
